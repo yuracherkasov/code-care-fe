@@ -210,6 +210,28 @@ footer {
     font-weight: 600;
 }
 
+.career-search {
+    background: #003fff;
+    color: white;
+    font-size: 0.7em;
+    padding: 4px 45px;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1.5em;
+}
+
+input[type=text]{
+    height:25px;
+}
+
+.career-keywords input {
+    border: none;
+    border-bottom: #ddd solid 1px;
+    padding-right: 7%;
+    margin-right: 9%;
+}
 .blue-header {
     color: #0080ff;
     font-size: 1.7em;
@@ -253,6 +275,28 @@ footer {
     font-weight: 600;
 }
 
+.career-table {
+    width: 100%;
+}
+
+.career-table > tbody > tr:nth-child(even) {background: #e5e5e5}
+.career-table > tbody > tr:nth-child(odd) {background: #FFF}
+
+.career-table td {
+    padding: 28px 25px;
+    font-size: 1.8em;
+}
+
+.career-apply {
+    color: #0065fd;
+    font-size: 1.7em !important;
+    font-weight: 600;
+}
+
+.empty-cell {
+    width: 20%;
+}
+
 .career-text {
     padding-top: 20px;
 }
@@ -262,7 +306,6 @@ footer {
     height: 400px;
     color: white;
     text-align: center;
-    margin-top: 10%;
     background: url("img/weare.jpg") no-repeat center;
 }
 
@@ -290,6 +333,19 @@ footer {
 
 .footer-contact {
     margin-top: 0;
+}
+
+@media screen and (max-device-width: 960px){
+    .empty-cell {
+        display: none;
+    }
+
+    input[type=text] {
+        height: 30px;
+        width: 100%;
+        padding-top: 20px;
+        margin: 25px;
+    }
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------career--------*/
