@@ -5,6 +5,7 @@
 header{
     height: 60px;
     background: url("img/header.png");
+    background-size: cover;
     width: 100%;
 }
 
@@ -166,11 +167,22 @@ footer {
 
 #footer-nav {
     text-align: center;
+    padding-top: 20px;
 }
 
 #footer-nav li {
     display: inline-block;
     padding: 15px 10px;
+}
+
+#footer-nav li > a{
+    color: #B3B3B4;
+    font-size: 24px;
+}
+
+#footer-nav li > a:hover{
+    color: #86ff00;
+    text-decoration: none;
 }
 
 @media screen and (max-device-width: 960px){
@@ -337,7 +349,6 @@ input[type=text]{
     margin: 10% auto;
     font-size: 0.6em;
     font-weight: 100;
-}
 }
 
 .footer-contact {
@@ -836,3 +847,134 @@ input[type=text]{
 }
 
 /*home page end*/
+
+/*post page*/
+
+#post-content {
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+
+#post-content h2 {
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 20px;
+}
+
+#post-content p {
+    line-height: 1.7;
+    margin: 20px 0;
+}
+
+.post-images {
+    position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+}
+
+.post-images img {
+    width: 100%;
+}
+
+#post-head-img {
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+}
+
+#post-head-img img {
+    width: 100%;
+}
+
+#post-head {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: bold;
+    color: #003f85;
+    background: white;
+    display: inline-block;
+    padding: 10px 40px;
+    position: absolute;
+    top: -101px;
+}
+
+#post-author {
+    position: absolute;
+    left: -160px;
+}
+
+#author-img {
+    width: 150px;
+}
+
+#author-img img {
+    width: 100%;
+    border-radius: 70px;
+}
+
+#author-name {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#read-more {
+    width: 940px;
+    margin: 30px auto;
+    display: table;
+}
+
+#read-more img {
+    width: 100%;
+}
+
+#read-more-left {
+    display: inline-block;
+    float: left;
+    width: 58%;
+}
+
+#read-more-right {
+    display: inline-block;
+    float: right;
+    width: 40%;
+}
+
+#read-more h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#read-more p {
+    color: #717171;
+}
+
+@media screen and (max-device-width: 960px){
+    #post-author {
+        position: initial;
+        margin-top: 20px;
+    }
+
+    #author-img {
+        margin: auto;
+    }
+
+    #post-head {
+        top: -100px;
+    }
+
+    #read-more-right {
+        float: initial;
+        width: 100%;
+    }
+
+    #read-more-left {
+        width: 100%;
+    }
+
+}
+
+
+/*post page end*/
