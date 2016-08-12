@@ -239,6 +239,9 @@ footer {
     background: #d3f5d5;
     color: #669cf2;
 }
+.hexagon-block{
+    overflow: hidden;
+}
 .study-list,
 .developers-list{
     width: 48%;
@@ -298,8 +301,8 @@ footer {
 .study-list li img,
 .developers-list li img{
     width: auto; 
-    height:100%;
-    margin:0 auto;
+    height: 100%;
+    margin: 0 auto;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -488,7 +491,156 @@ footer {
     background: #fff;
     cursor: pointer;
 }
-/*********Ch developer end************/
+/*********Ch developer end*************************/
+/**************Our products start******************/
+.page-header{
+    text-align: center;
+    font-size: 30px;
+    padding: 46px;
+}
+
+.products-list{
+    width: 58%;
+    padding-right: 7.8%;
+    margin: 5.4% auto;
+}
+.products-list li{    
+    width: 18.5%;
+    position: relative;
+    visibility: hidden;
+    display: inline-block;
+    overflow: hidden;
+    float: right;
+    margin-left: -3px;
+    margin-top: -5.9%;
+}
+.products-list li:nth-child(9n+6){
+    margin-right: 9.3%;
+}
+
+.products-list .hexagon-transform{
+    position: relative;
+    list-style-type: none;
+    width: 100%;
+    padding-bottom: 110%;
+    overflow: hidden;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg) skewY(30deg);
+    -ms-transform: rotate(-60deg) skewY(30deg);
+    transform: rotate(-60deg) skewY(30deg);
+    display: inline-block;
+    border: 4px solid #6eca12;
+    box-sizing: border-box;
+}
+.hexagon-transform *{
+    position: absolute;
+    cursor: pointer;
+}
+.hexagon-transform > div{
+    width: 107%;
+    width: -moz-calc(100% + 10px);
+    width: -webkit-calc(100% + 10px);
+    width: calc(100% + 10px);
+    height: 102%;
+    height: -moz-calc(100% + 3px);
+    height: -webkit-calc(100% + 3px);
+    height: calc(100% + 3px);
+    overflow: hidden;
+    top: -3px;
+    left: -3px;
+    visibility: visible;
+    -webkit-transform: skewY(-30deg) rotate(60deg);
+    -ms-transform: skewY(-30deg) rotate(60deg);
+    transform: skewY(-30deg) rotate(60deg);
+    -webkit-backface-visibility: hidden;
+    box-sizing: border-box;
+    border-left: 4px solid #6eca12;
+    border-right: 5px solid #6eca12;
+}
+.hexagon-transform img{
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+.hexagon-transform h5{
+    width: 100%;
+    height: 120%;
+    background: rgba(110, 202, 18, .7);
+    color: #fff;
+    font-size: 30px;
+    font-size: 1.7vw;
+    bottom: 100%;
+    padding-bottom: 15%;
+    box-sizing: border-box;
+    text-align: center;
+    -webkit-transition: bottom .15s ease-out, .1s padding-top  ease-out .2s;
+    -ms-transition: bottom .15s ease-out, .1s padding-top  ease-out .2s;
+    transition: bottom .15s ease-out, .1s padding-top  ease-out .2s;
+}
+.hexagon-transform:hover h5{
+    bottom: 0;
+    padding-top: 78%;
+}
+
+.product-article{
+    overflow: hidden;
+    padding: 62px 0 150px;
+}
+.product-article > div{
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    width: 48%;
+}
+.product-article .product-image{
+    width: 51%;
+}
+.product-description div{
+    float: right;
+    width: 60%;
+}
+.product-description h3{
+    font-size: 24px;
+    padding: 48px 0;
+    line-height: 1.25;
+}
+.product-description p{
+    padding-top: 7px;
+    font-size: 14px;
+    line-height: 1.25;
+}
+.desctop{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 76%;
+    overflow: hidden;
+}
+.desctop img:last-child{
+    width: 100%;
+    position: relative;
+    top: 1px;
+    z-index: 99;
+  }
+.desctop .display-image{
+    position: absolute;
+    display: inline-block;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    z-index: 0;
+    width: 77%;
+}
+
+/**************Our products end******************/
 
 @media screen and (max-device-width: 960px){
     .flex-content-change .blog-left-column {
