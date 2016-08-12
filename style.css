@@ -200,13 +200,6 @@ footer {
     text-decoration: none;
 }
 
-.header-big {
-    height: 860px;
-    background-image: url('img/header-big.png');
-    background-repeat: no-repeat;
-    -webkit-filter: blur(5px);
-}
-
 /*********Ch developer start************/
 #filters-block {
     width: 250px;
