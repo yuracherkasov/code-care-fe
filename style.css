@@ -1,5 +1,11 @@
 body {
-    font-family: HelveticaNeue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* высота веб-страницы больше или равна высоте окна браузера */
+    margin: 0;
+}
+.main {
+    flex: 1;  /* если содержимое body меньше высоты окна, то main будет растянут до нужной величины */
 }
 
 header{
@@ -1294,6 +1300,22 @@ input[type=text]{
     margin-top: 5%;
 }
 
+.pp-profile-face {
+    width: 140%;
+    padding-left: 3%;
+    margin: 20% auto 5%;
+}
+
+.pp-second-profile-face {
+    width: 140%;
+    padding-left: 3%;
+    margin: 10% auto 5%;
+}
+
+.pp-margin {
+    margin-top: 70px;
+}
+
 /*------------------------------------------------------------------------------------------------------------------ pp */
 
 @media screen and (max-device-width: 960px){
@@ -1471,3 +1493,15 @@ input[type=text]{
 
 
 /*post page end*/
+
+/*--------------------------------------------------------------------------------------------------social*/
+
+.social-icons-list {
+    margin: 5% 0%;
+    width: 100%;
+}
+
+.social-icons-list li {
+    padding: 0 2%;
+}
+/*--------------------------------------------------------------------------------------------------social*/
