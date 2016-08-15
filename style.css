@@ -202,13 +202,24 @@ footer {
 
 /*********Ch developer start************/
 #filters-block {
-    width: 250px;
     position: absolute;
     left: 6.2%;
     margin-top: 7%;
 }
-
-#filters-block > button {
+/*.categories-btns{
+     transition: all 1s linear;
+}
+.categories-btns.ng-leave{
+    opacity: 0;
+}
+.categories-btns.ng-leave.ng-leave-active{
+    opacity: 1;
+}*/
+#filters-block .categories-btns-wrap{
+    width: 250px;
+    display: inline-block;
+}
+.categories-btns-wrap > button {
     width: 100%;
     background: #7aba00;
     border: none;
@@ -225,7 +236,9 @@ footer {
 .categories-list li {
     padding: 3px 0 4px;
 }
-
+.categories-list li img{
+    vertical-align: top;
+}
 .categories-btns {
     background: #e7ffe8;
     border-radius: 5px;
@@ -251,6 +264,7 @@ footer {
     line-height: 56px;
     text-align: center;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .categories-btns li:first-child,
@@ -265,9 +279,6 @@ footer {
 .categories-btns li.active {
     background: #d3f5d5;
     color: #669cf2;
-}
-.hexagon-block{
-    overflow: hidden;
 }
 .study-list,
 .developers-list {
@@ -301,6 +312,11 @@ footer {
     margin-top: -5.4%;
 }
 
+.study-list li,
+.developers-list li{
+    cursor: pointer;
+}
+
 .study-list li:nth-child(9n+6),
 .developers-list li:nth-child(9n+6) {
     margin-left: 9.23%;
@@ -313,7 +329,7 @@ footer {
 .study-list li:last-child,
 .developers-list li:last-child {
     display: block;
-    /*удалить margin если ячейка не на своем месте*/
+    /*изменить если не на своем месте*/
     margin-left: 9.23%;
 }
 
@@ -347,9 +363,7 @@ footer {
 }
 
 #dev-card {
-    width: 23%;
-    max-width: 302px;
-    min-width: 280px;
+    width: 302px;
     position: fixed;
     left: auto;
     right: 5.6%;
@@ -435,7 +449,6 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
-
 #dev-card .dev-card-btn a {
     display: inline-block;
     padding: 3% 14%;
@@ -443,77 +456,59 @@ footer {
     border: 1px solid #165eff;
     font-size: 24px;
 }
-
-.study-card-wrap {
+.study-card-block {
     position: fixed;
     right: 2.6%;
-    display: table;
-    top: 0;
-    height: 100%;
+    padding-top: 15vh;
+    display: inline-block;
+    width: 344px;
 }
-
-.study-card-wrap2 {
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-}
-
-.study-card-block {
-    padding-top: 60px;
-}
-
 .study-technology-list {
     text-align: center;
     float: right;
-    display: table-cell;
     vertical-align: middle;
-    max-width: 100px;
+    width: 15%;
+    display: inline-block;
 }
-
 .study-technology-list li {
     padding: 1px 0 5px;
+    padding-right: 2px;
+    overflow: hidden;
 }
-
 .study-technology-list img {
     max-width: 100%;
 }
-
 #study-card {
     width: 290px;
+    width: 84%;
     float: right;
+    display: inline-block;
 }
-
 .study-block {
     width: 100%;
-    /*height: 281px;*/
-    line-height: 228px;
     text-align: center;
     -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
     margin: 0;
-    padding: 6% 6% 4%;
+    padding: 13% 6% 4%;
     box-sizing: border-box;
 }
-
 .study-block > div {
     display: inline-block;
     vertical-align: bottom;
     width: 100%;
 }
-
 .study-block figcaption {
     font-size: 14px;
     text-transform: uppercase;
     line-height: 1.5;
 }
-
 .study-block p {
     width: 100%;
     overflow: hidden;
     margin-bottom: 5px;
 }
-
 #study-card img {
     width: auto;
     height: 205px;
@@ -523,28 +518,24 @@ footer {
     -webkit-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
+    display: block;
 }
-
 .study-info-wrapper {
     padding: 15px 3px;
 }
-
 .study-info-wrapper h3 {
     font-size: 21px;
     line-height: 1.25;
     margin-bottom: 48px;
 }
-
 .study-info-wrapper p {
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 28px;
 }
-
 .study-info-wrapper p > span {
     text-transform: uppercase;
 }
-
 .study-btn:active,
 .study-btn {
     outline: none;
@@ -556,13 +547,13 @@ footer {
     cursor: pointer;
 }
 /*********Ch developer end*************************/
+
 /**************Our products start******************/
 .page-header{
     text-align: center;
     font-size: 30px;
     padding: 46px;
 }
-
 .products-list{
     width: 58%;
     padding-right: 7.8%;
@@ -581,7 +572,6 @@ footer {
 .products-list li:nth-child(9n+6){
     margin-right: 9.3%;
 }
-
 .products-list .hexagon-transform{
     position: relative;
     list-style-type: none;
@@ -703,27 +693,8 @@ footer {
     z-index: 0;
     width: 77%;
 }
-
 /**************Our products end******************/
 
-/*********Ch developer end************/
-@media screen and (max-device-width: 960px) {
-    .flex-content-change .blog-left-column {
-        max-width: 100%;
-    }
-
-    header {
-        text-align: center;
-    }
-
-    header img {
-        position: relative;
-    }
-
-    .header-nav {
-        display: none;
-    }
-}
 
 /*---------------------------------------------------------------------------------------------------------------------------career--------*/
 
@@ -892,18 +863,6 @@ input[type=text] {
     margin-top: 0;
 }
 
-@media screen and (max-device-width: 960px) {
-    .empty-cell {
-        display: none;
-    }
-
-    input[type=text] {
-        height: 30px;
-        width: 100%;
-        padding-top: 20px;
-        margin: 25px;
-    }
-}
 
 /*---------------------------------------------------------------------------------------------------------------------------career--------*/
 
@@ -1518,52 +1477,8 @@ input[type=text] {
     margin-top: 70px;
 }
 
-/*------------------------------------------------------------------------------------------------------------------ pp */
 
-@media screen and (max-device-width: 960px){
-    .flex-content-change {
-         flex-direction: column;
-    }
-    .row-flex {
-        display: flex;
-    }
 
-    .blog-right-img-second {
-        padding-top: 0px;
-    }
-
-    .blog-right-img img {
-        width: 460px;
-    }
-
-    .blog-left-big-img img {
-        width: 100%;
-        padding-bottom: 2%;
-    }
-
-    header {
-        text-align: center;
-    }
-    header img {
-        position: relative;
-    }
-
-    .header-nav{
-        display: none;
-    }
-
-    .wrapper {
-        padding: 2%;
-        left: 0;
-    }
-    .career-footer-text {
-        left: 15%;
-    }
-
-    .story-list-imgs li {
-        margin: 4% 1%;
-    }
-}
 
 /*post page*/
 
@@ -1668,30 +1583,7 @@ input[type=text] {
     color: #717171;
 }
 
-@media screen and (max-device-width: 960px) {
-    #post-author {
-        position: initial;
-        margin-top: 20px;
-    }
 
-    #author-img {
-        margin: auto;
-    }
-
-    #post-head {
-        top: -100px;
-    }
-
-    #read-more-right {
-        float: initial;
-        width: 100%;
-    }
-
-    #read-more-left {
-        width: 100%;
-    }
-
-}
 
 /*post page end*/
 
@@ -1861,7 +1753,298 @@ input[type=text] {
     background-repeat: no-repeat;
 }
 
+
+/*Profile page end*/
+/*--------------------------------------------------------------------------------------------------social*/
+
+.social-icons-list {
+    margin: 5% 0%;
+    width: 100%;
+}
+
+.social-icons-list li {
+    padding: 0 2%;
+}
+/*--------------------------------------------------------------------------------------------------social*/
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------ pp */
+@media (max-width: 1600px){
+    .products-list li{
+        margin-top: -6.2%;
+    }
+    .products-list li:nth-child(9n+6) {
+        margin-right: 9.2%;
+    }
+    #dev-card{
+        right: 4%;
+    }
+}
+@media (max-width: 1400px){
+    .products-list{
+        width: 68%;
+    }
+    .product-description div{
+        width: 75%;
+    }
+    .desctop{
+        width: 80%;
+    }
+    .hexagon-transform h5{
+        font-size: 2vw;
+    }
+    #filters-block{
+        width: 72%;
+        position: static;
+        margin-top: 30px;
+        text-align: center;
+    }
+    #filters-block > button,
+    .categories-btns{
+        width: 250px;
+        display: inline-block;
+    }
+    .categories-btns{
+        margin-bottom: 30px;
+    }
+    .categories-list li {
+        padding: 12px 10px;
+        display: inline-block;
+    }
+    .categories-list{
+        padding: 0 6%;
+    }
+    .hexagon-block.study,
+    .hexagon-block.developers{
+        width: 78%;
+    }
+    .study-list, .developers-list{
+        width: 82%;
+        padding-left: 8%;
+        margin: 80px 0 40px 0;
+    }
+}
+@media (max-width: 1150px){
+    .products-list{
+        width: 84%;
+    } 
+    .product-description div{
+        width: 82%;
+    }
+    .desctop {
+        width: 88%;
+    }
+    .hexagon-transform h5{
+        font-size: 2.5vw;
+    }  
+    #filters-block{
+        width: 66%;
+    }
+    .hexagon-block.study,
+    .hexagon-block.developers {
+        width: 73%;
+    }
+    .study-list, .developers-list {
+        width: 82%;
+        padding-left: 6%;
+    }
+}
+@media (max-width: 960px){
+    .products-list{
+        width: 98%;
+        padding-right: 0;
+        margin-left: -3%;
+    } 
+    .product-article .product-image,
+    .product-article > div{
+        float: none;
+        width: 100%;
+    }  
+    .product-article .product-image{
+        text-align: center;
+        padding: 10px 0 20px;
+    }
+    .desctop {
+        width: 64%;
+    }
+    .hexagon-transform h5{
+        font-size: 3vw;
+    }
+    .product-description div{
+        float: none;
+        width: 72%;
+        padding-left: 15%;
+    }
+    #filters-block {
+        width: 100%;
+    }
+    #dev-card{
+        position: static;
+        width: 587px;
+        margin: 0 auto 100px;
+        padding: 30px 46px 25px;
+    }
+     .dev-card-name p{
+        font-size: 58px;
+    }
+    .dev-card-skills p{
+        font-size: 46px;
+    }
+    .hexagon-block.study,
+    .hexagon-block.developers{
+        width: 100%;
+        overflow: hidden;
+    }
+    .study-list, .developers-list{
+        width: 95%;
+    }
+    .dev-card-skills li{
+        line-height: 96px;
+    }
+    .dev-card-skills .skill{
+        width: 187px;
+    }
+    .skill span{
+        width: 20px;
+        height: 20px;
+        margin-left: 3px;
+    }
+    .dev-card-header{
+        padding-bottom: 40px;
+    }
+    #dev-card .dev-card-btn a{
+        font-size: 40px;
+        padding: 5% 14%;
+    }
+    .dev-card-btn{
+        margin: 36px 0 26px;
+    }
+    .study-card-block{
+        position: static;
+        margin: 0 auto 24px;
+        width: 580px;
+        padding-top: 0;
+        padding-right: 9%;
+    }
+    .study-block p{
+        margin-bottom: 11px;
+    }
+    #study-card img{
+        height: 342px;
+    }
+    .study-block figcaption{
+        font-size: 24px;
+    }
+    .study-technology-list img{
+        transform: scale(1.5);
+    }
+    .study-technology-list li{
+        padding: 5px 0 20px;
+    }
+    .study-info-wrapper {
+        padding: 25px 8px;
+    }
+    .study-info-wrapper h3{
+        font-size: 35px;
+        margin-bottom: 84px;
+    }
+    .study-info-wrapper p{
+        font-size: 26px;
+        margin-bottom: 48px;
+    }
+    .study-btn{
+        font-size: 35px;
+        padding: 7px 13% 5px;
+    }
+}
+
 @media screen and (max-device-width: 960px) {
+    .flex-content-change .blog-left-column {
+        max-width: 100%;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header img {
+        position: relative;
+    }
+
+    .header-nav {
+        display: none;
+    }
+/**********************-----------------------***************/
+    .flex-content-change {
+         flex-direction: column;
+    }
+    .row-flex {
+        display: flex;
+    }
+
+    .blog-right-img-second {
+        padding-top: 0px;
+    }
+
+    .blog-right-img img {
+        width: 460px;
+    }
+
+    .blog-left-big-img img {
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+    header {
+        text-align: center;
+    }
+    header img {
+        position: relative;
+    }
+
+    .header-nav{
+        display: none;
+    }
+
+    .wrapper {
+        padding: 2%;
+        left: 0;
+    }
+    .career-footer-text {
+        left: 15%;
+    }
+
+    .story-list-imgs li {
+        margin: 4% 1%;
+    }
+    .categories-list{
+        padding: 0;
+    }
+
+    #post-author {
+        position: initial;
+        margin-top: 20px;
+    }
+
+    #author-img {
+        margin: auto;
+    }
+
+    #post-head {
+        top: -100px;
+    }
+
+    #read-more-right {
+        float: initial;
+        width: 100%;
+    }
+
+    #read-more-left {
+        width: 100%;
+    }
+
     #profile-page {
         width: 940px;
         margin: auto;
@@ -1880,17 +2063,56 @@ input[type=text] {
         overflow-x: initial;
         display: table;
     }
+    /*************-----------------------******************/
+    .empty-cell {
+        display: none;
+    }
+
+    input[type=text] {
+        height: 30px;
+        width: 100%;
+        padding-top: 20px;
+        margin: 25px;
+    }
 }
 
-/*Profile page end*/
-/*--------------------------------------------------------------------------------------------------social*/
+@media (max-width: 767px){
+    .products-list {
+        width: 102%;
+        margin-left: -6%;
+    }
+    .products-list .hexagon-transform{
+        padding-bottom: 107%;
+    }
+    .categories-list{
+        padding: 0;
+    }
+    .study-list, .developers-list{
+        width: 99%;
+        padding-left: 3.6%;
+    }
+     #dev-card{
+        width: 78%;
+        min-width: 480px;
+    }
+    .dev-card-name p {
+        font-size: 45px;
+    }
 
-.social-icons-list {
-    margin: 5% 0%;
-    width: 100%;
+}
+@media (max-width: 660px){
+    .study-card-block{
+        width: 90%;
+        padding-right: 4%;
+    }
+}
+@media (max-width: 560px){
+    .products-list .hexagon-transform{
+        padding-bottom: 104%;
+    }
+    #study-card img{
+        height: 270px;
+    }
 }
 
-.social-icons-list li {
-    padding: 0 2%;
-}
-/*--------------------------------------------------------------------------------------------------social*/
+
