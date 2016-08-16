@@ -1521,7 +1521,7 @@ input[type=text] {
     display: inline-block;
     padding: 10px 40px;
     position: absolute;
-    top: -101px;
+    top: -80px;
 }
 
 #post-author {
@@ -1576,6 +1576,25 @@ input[type=text] {
     color: #717171;
 }
 
+@media screen and (max-device-width: 960px) {
+    #post-author {
+        position: initial;
+        margin-top: 20px;
+    }
+
+    #author-img {
+        margin: auto;
+    }
+
+    #read-more-right {
+        float: initial;
+        width: 100%;
+    }
+
+    #read-more-left {
+        width: 100%;
+    }
+}
 
 
 /*post page end*/
