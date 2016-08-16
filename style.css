@@ -1461,7 +1461,7 @@ input[type=text] {
     display: inline-block;
     padding: 10px 40px;
     position: absolute;
-    top: -101px;
+    top: -80px;
 }
 
 #post-author {
@@ -1524,10 +1524,6 @@ input[type=text] {
 
     #author-img {
         margin: auto;
-    }
-
-    #post-head {
-        top: -100px;
     }
 
     #read-more-right {
