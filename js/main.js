@@ -1,8 +1,9 @@
 var app = angular.module("ccApp", ["ngAnimate"]);
 
-	app.controller("filtersCtrl", function($scope, $timeout){
+	app.controller("mainCtrl", function($scope, $timeout){
 
-		var desktopWidth = window.innerWidth || document.body.clientWidth;
+		var doc = document;
+		var desktopWidth = window.innerWidth || doc.body.clientWidth;
 		var responsiveWidth = 1400;
 		var startHeight = 77;
 		var normalHeight = 236;
@@ -10,7 +11,7 @@ var app = angular.module("ccApp", ["ngAnimate"]);
 		var vm = this;
 
 		$scope.height = startHeight;
-		var	el = angular.element(document.getElementById("filters-block")).children();
+		var	el = angular.element(doc.getElementById("filters-block")).children();
 
 		vm.installHeight = function (){
 			$timeout(function(){
@@ -21,7 +22,6 @@ var app = angular.module("ccApp", ["ngAnimate"]);
 		if (desktopWidth <= responsiveWidth){
 			$scope.showbutton = false;
 			$scope.showList = false;
-			el.find('ul').css('position', 'absolute');
 					
 		} else {
 			$scope.showbutton = true;
@@ -43,12 +43,33 @@ var app = angular.module("ccApp", ["ngAnimate"]);
 			}		
 		};
 
-		$scope.showCategorie = function(name){			
+		$scope.showCategorie = function(name){
+			desktopWidth = window.innerWidth;			
 			if(desktopWidth <= responsiveWidth){
 				$scope.showbutton = false;									
 			}	
 			$scope.showList = name;
 			vm.installHeight();
+		};
+
+		//moble menu 
+
+		var body =  doc.body;
+		var button = doc.getElementById('menu-btn');
+		var navMenu = doc.getElementById('js-menu');
+
+		button.addEventListener("click", showMenu);
+		body.addEventListener("click", hideMenu);
+
+		function showMenu(){
+			navMenu.classList.add("show");
+		}
+
+		function hideMenu(e){
+			var target = e.target;
+			if (!(!navMenu.classList.contains("show") || target === button || target.tagName === "A")){
+				navMenu.classList.remove("show");
+			}
 		};
 
 	})
