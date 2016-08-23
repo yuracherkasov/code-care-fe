@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ccApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/angular.js"></script>
+    <script src="js/main.js"></script>    
+    <script src="https://code.angularjs.org/1.5.8/angular-animate.js"></script>
+</head>
+<body ng-controller="mainCtrl">
+<header>
+  <strong id="menu-btn">Code and Care</strong>
+   <a href="index.html"><img src="img/logWh.png" alt="logo"></a>
+  <div class="nav-content" id="js-menu">
+    <ul class="header-nav">
+      <li> <a href="our_story.html"> Our story </a> </li>
+      <li> <a href="case study.html"> Case study </a> </li>
+      <li> <a href="ch-developer.html"> Pick your developer </a> </li>
+      <li> <a href="our_products.html"> Our products </a> </li>
+      <li> <a href="blog.html"> Blog </a> </li>
+    </ul>
+  </div>
+</header>
+
+<div class="header-big-container">
+    <img src="img/header-big.jpg" alt="header">
+    <div class="header-text-wrap">
+        <div class="header-table">
+            <div class="header-cell">   
+                <div id="header-text">
+                    <h1>Professional web development services.</h1>
+                    <h3>Welcome to the code-care.</h3>
+                    <p id="pick-dev-btn" class="see_more-animation">
+                        <span> Pick your developer</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<span id="black-arrow"></span>
+<ul id="company-list" class="company-list">
+        <li>
+            <img src="img/apple.png">
+        </li>
+        <li>
+            <img src="img/modern.png">
+        </li>
+        <li>
+            <img src="img/foodpanda.png">
+        </li>
+        <li>
+            <img src="img/menhealth.png">
+        </li>
+    </ul>
+<div class="work-example">
+    <div>
+        <div class="work-example-left">    
+            <h3>
+                Men's Health, published by Rodale inc. in Emmaus, Pennsylvania
+            </h3>
+            <p>
+                Although originally started as a men's health magazine, it currently covers various men's lifestyle topics
+                such as men's lifestyle topics such as fitness, nutrition, fashion, and sexuality.
+            </p>
+            <a href="#" class="hvr-bounce-to-right see-more-home">
+                See more
+            </a>
+        </div>
+    </div>
+    <div>
+        <div class="work-example-right">
+            <img class="display-image" src="img/developer.png" alt="img">
+            <img src="img/products/desctop.png">
+        </div>
+    </div>
+</div>
+<div id="contact-us">
+    <div id="contact-us-text">
+        <h3>We are here for you!</h3>
+        <div id="contact-us-btn" ng-click="popup.showpopup = true">
+        <span>
+        Let's start working together
+        </span>
+        </div>
+    </div>
+
+    <div class="pop-up-contacts" ng-if="popup.showpopup">
+        <h3>Contact us</h3>
+        <form action="javascript:;" id="home-page-form" ng-submit="popup.showpopup=false">
+            <div>
+                <div class="left-part">
+                    <label for="name1">name</label>
+                    <input id="name1" type="text">
+                     <label for="phone1">phone</label>
+                    <input id="phone1" type="text">
+                     <label for="email1">email</label>
+                    <input id="email1" type="text">
+                </div>
+            </div>
+            <div>
+                <div class="right-part">
+                    <label for="city1">city</label>
+                    <input id="city1" type="text">
+                    <label for="message1">your message here</label>
+                    <textarea id="message1"></textarea>
+                </div>
+            </div>
+            <button style="display:none"type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+<div id="help-title">
+    <h2>
+        Help title
+    </h2>
+    <h3>
+        Some help you to navigate
+    </h3>
+    <div id="help-title-left-img">
+        <img src="img/case-study.png">
+    </div>
+    <div id="help-title-right-img">
+        <img src="img/developer.png">
+        <img src="img/blog.png">
+    </div>
+    <div id="help-title-big-img">
+        <img src="img/products.png">
+        <img src="img/contact.jpg">
+    </div>
+</div>
+<footer>
+    <ul class="footer-nav" id="footer-nav">
+        <li><a href="career.html"> Career </a></li>
+        <li><a href="social.html"> Social </a></li>
+        <li><a href="#"> Contact us </a></li>
+    </ul>
+</footer>
+</body>
+</html>

@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="ccApp">
 <head>
     <meta charset="UTF-8">
-    <title>Story</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our story</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <script src="js/angular.js"></script>
+    <script src="js/main.js"></script>    
+    <script src="https://code.angularjs.org/1.5.8/angular-animate.js"></script>
 </head>
-<body>
-<div class="main">
-    <header>
-        <strong id="menu-btn">Code and Care</strong>
-        <img src="img/logWh.png" alt="logo">
-        <div class="nav-content" id="js-menu">
-            <ul class="header-nav">
-                <li> <a href="#"> Our story </a> </li>
-                <li> <a href="#"> Case study </a> </li>
-                <li> <a href="#"> Pick your debeloper </a> </li>
-                <li> <a href="#"> Our products </a> </li>
-                <li> <a href="#"> Blog </a> </li>
-            </ul>
-        </div>
-    </header>
+<body ng-controller="mainCtrl">
+<header>
+  <strong id="menu-btn">Code and Care</strong>
+   <a href="index.html"><img src="img/logWh.png" alt="logo"></a>
+  <div class="nav-content" id="js-menu">
+    <ul class="header-nav">
+      <li> <a href="our_story.html"> Our story </a> </li>
+      <li> <a href="case study.html"> Case study </a> </li>
+      <li> <a href="ch-developer.html"> Pick your developer </a> </li>
+      <li> <a href="our_products.html"> Our products </a> </li>
+      <li> <a href="blog.html"> Blog </a> </li>
+    </ul>
+  </div>
+</header>
+
     <div class="career-img-parent">
         <div class="story-header">
         </div>
@@ -32,12 +35,11 @@
             <input type="radio" name="point" id="slide3">
             <div class="slider">
                 <div class="slides slide1">
-                    <h1>How we started</h1>
+                    <h2>How we started</h2>
                     <div class="slider-left-col">
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
-                        <br>
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
@@ -46,19 +48,17 @@
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
-                        <br>
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
                     </div>
                 </div>
                 <div class="slides slide2">
-                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <h2>Lorem ipsum dolor sit amet</h2>
                     <div class="slider-left-col">
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
-                        <br>
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
@@ -67,19 +67,17 @@
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
-                        <br>
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
                     </div>
                 </div>
                 <div class="slides slide3">
-                    <h1>lectus eget elit aliquet</h1>
+                    <h2>lectus eget elit aliquet</h2>
                     <div class="slider-left-col">
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
-                        <br>
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
@@ -88,7 +86,6 @@
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
-                        <br>
                         <p>
                             Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
                         </p>
@@ -102,7 +99,7 @@
             </div>
         </div>
     </div>
-    <div class="content story-content">
+    <div class="story-content">
         <div>
             <button class="blue-button">WHAT WE DO</button>
             <button class="white-button">WHO WE SERVE</button>
@@ -131,7 +128,7 @@
     </div>
 
 
-    <div class="career-img-parent">
+   <!--  <div class="career-img-parent">
         <div class="career-weare">
         </div>
         <div class="career-footer-img-black">
@@ -140,11 +137,46 @@
             <p>We are here for you!</p>
             <p class="career-footer-text-lets-start">Lets start working togethere!</p>
         </div>
+    </div> -->
+    <div id="contact-us">
+    <div id="contact-us-text">
+        <h3>We are here for you!</h3>
+        <div id="contact-us-btn" ng-click="popup.showpopup = true">
+        <span>
+        Let's start working together
+        </span>
+        </div>
     </div>
+
+    <div class="pop-up-contacts" ng-if="popup.showpopup">
+        <h3>Contact us</h3>
+        <form action="javascript:;" id="home-page-form" ng-submit="popup.showpopup=false">
+            <div>
+                <div class="left-part">
+                    <label for="name1">name</label>
+                    <input id="name1" type="text">
+                     <label for="phone1">phone</label>
+                    <input id="phone1" type="text">
+                     <label for="email1">email</label>
+                    <input id="email1" type="text">
+                </div>
+            </div>
+            <div>
+                <div class="right-part">
+                    <label for="city1">city</label>
+                    <input id="city1" type="text">
+                    <label for="message1">your message here</label>
+                    <textarea id="message1"></textarea>
+                </div>
+            </div>
+            <button style="display:none"type="submit">Submit</button>
+        </form>
+    </div>
+</div>
     <footer class="footer-contact">
-        <ul class="header-nav" id="footer-nav">
-            <li><a href="#"> Career </a></li>
-            <li><a href="#"> Social </a></li>
+        <ul id="footer-nav">
+            <li><a href="career.html"> Career </a></li>
+            <li><a href="social.html"> Social </a></li>
             <li><a href="#"> Contact us </a></li>
         </ul>
     </footer>
