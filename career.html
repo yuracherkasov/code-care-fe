@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Career</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
     <script src="js/angular.js"></script>
     <script src="js/main.js"></script>    
     <script src="https://code.angularjs.org/1.5.8/angular-animate.js"></script>
@@ -25,7 +24,8 @@
   </div>
 </header>
 
-    <div class="content">
+<div class="career-wrap">
+    <div>
         <div class="career-content">
             <h1>FIND YOUR JOB</h1>
             <div class="career-keywords">
@@ -178,7 +178,7 @@
             </tr>
         </tbody>
     </table>
-    <div class="career-img-parent">
+    <!-- <div class="career-img-parent">
         <div class="career-weare">
         </div>
         <div class="career-footer-img-black">
@@ -187,14 +187,49 @@
             <p>We are here for you!</p>
             <p class="career-footer-text-lets-start">Lets start working togethere!</p>
         </div>
+    </div> -->
+    <div id="contact-us">
+        <div id="contact-us-text">
+            <h3>We are here for you!</h3>
+            <div id="contact-us-btn" ng-click="popup.showpopup = true">
+            <span>
+            Let's start working together
+            </span>
+            </div>
+        </div>
+
+        <div class="pop-up-contacts" ng-if="popup.showpopup">
+            <h3>Contact us</h3>
+            <form action="javascript:;" id="home-page-form" ng-submit="popup.showpopup=false">
+                <div>
+                    <div class="left-part">
+                        <label for="name1">name</label>
+                        <input id="name1" type="text">
+                         <label for="phone1">phone</label>
+                        <input id="phone1" type="text">
+                         <label for="email1">email</label>
+                        <input id="email1" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div class="right-part">
+                        <label for="city1">city</label>
+                        <input id="city1" type="text">
+                        <label for="message1">your message here</label>
+                        <textarea id="message1"></textarea>
+                    </div>
+                </div>
+                <button style="display:none"type="submit">Submit</button>
+            </form>
+        </div>
     </div>
-    <footer class="footer-contact">
-        <ul id="footer-nav">
-            <li><a href="career.html"> Career </a></li>
-            <li><a href="social.html"> Social </a></li>
-            <li><a href="#"> Contact us </a></li>
-        </ul>
-    </footer>
 </div>
+<footer class="footer-contact">
+    <ul id="footer-nav">
+        <li><a href="career.html"> Career </a></li>
+        <li><a href="social.html"> Social </a></li>
+        <li><a href="#"> Contact us </a></li>
+    </ul>
+</footer>
 </body>
 </html>

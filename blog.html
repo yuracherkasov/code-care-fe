@@ -5,111 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blog</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
     <script src="js/angular.js"></script>
     <script src="js/main.js"></script>    
     <script src="https://code.angularjs.org/1.5.8/angular-animate.js"></script>
 </head>
 <body ng-controller="mainCtrl">
-<header>
-  <strong id="menu-btn">Code and Care</strong>
-  <a href="index.html"><img src="img/logWh.png" alt="logo"></a>
-  <div class="nav-content" id="js-menu">
-    <ul class="header-nav">
-      <li> <a href="our_story.html"> Our story </a> </li>
-      <li> <a href="case study.html"> Case study </a> </li>
-      <li> <a href="ch-developer.html"> Pick your developer </a> </li>
-      <li> <a href="our_products.html"> Our products </a> </li>
-      <li> <a href="blog.html"> Blog </a> </li>
-    </ul>
-  </div>
-</header>
+    <header>
+      <strong id="menu-btn">Code and Care</strong>
+      <a href="index.html"><img src="img/logWh.png" alt="logo"></a>
+      <div class="nav-content" id="js-menu">
+        <ul class="header-nav">
+          <li> <a href="our_story.html"> Our story </a> </li>
+          <li> <a href="case study.html"> Case study </a> </li>
+          <li> <a href="ch-developer.html"> Pick your developer </a> </li>
+          <li> <a href="our_products.html"> Our products </a> </li>
+          <li> <a href="blog.html"> Blog </a> </li>
+        </ul>
+      </div>
+    </header>
 
-        <div class="content">
-            <h1>Code n Care Blog</h1>
-            <h4>Some interested story</h4>
-            <div class="flex-content-change">
-                <div class="block-flex">
-                    <div class="blog-left-big-img">
-                        <img alt="img" src="img/ph1.jpeg">
-                        <div class="text-under-img">
-                            <b>Workspace</b><br>
-                            <b>How do I choose?</b><br>
-                            <p>The best place to work where...</p>
-                            <br>
-                            <p class="text-under-img-read-more">read more</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="block-flex row-flex">
-                    <div class="blog-right-img">
-                        <img alt="img" src="img/p2.jpg">
-                        <div class="block-under-img">
-                            <div>
-                                <b>Creativity for / against?</b>
-                                <p class="text-under-img-read-more">read more</p>
+    <div class="blog-content">
+        <h1>Code n Care Blog</h1>
+        <h3>Some interested story</h3>
+        <div class="row1">
+            <div class="col-one hero">
+                <figure style="background-image:url('img/ph1.jpg')"></figure>
+                <div class="hero-wrap">
+                    <div class="hero-table">
+                        <div class="hero-cell">
+                            <div class="hero-one-text">
+                                <h5>Workspace<br />How do I choose?</h5>
+                                <p class="text-excerpt">The best place to work where...</p>
+                                <p class="r-m-angle">read more<span></span></p>
                             </div>
                         </div>
-                    </div>
-                    <div class="blog-right-img blog-right-img-second">
-                        <img alt="img" src="img/p3.jpeg">
-                        <div class="block-under-img">
-                            <div>
-                                <b>Creativity for / against?</b>
-                                <p class="text-under-img-read-more">read more</p>
-                            </div>
-                        </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
-            <div class="flex-content">
-                <div class="block-flex">
-                    <h1 id="blog-h1-latest-news">Lates news</h1>
-                    <div class="blog-left-img">
-                        <img alt="img" src="img/p4.jpeg">
+            <div class="col-two">
+                <div class="hero-row hero">
+                    <figure style="background-image:url('img/hero2.jpg')"></figure>
+                    <div class="hero-wrap">
+                        <div class="hero-table">
+                            <div class="hero-cell">
+                                <div class="hero-two-text">
+                                    <h5>Creativity for / against?</h5>
+                                    <p class="r-m-angle">read more<span></span></p>
+                                </div>
+                            </div>
+                        </div>                   
                     </div>
-                    <h1 class="blog-h1-bold">Important news</h1>
-                    <p class="short-description"> Lorem ipsum dolor sit amet, fusce quam, nunc fringilla nullam, faucibus sit mi.
-                        Ornare duis eget mattis nunc donec, nulla viverra, a eleifend dui nulla arcu etiam, sed purus.
-                    </p>
-                    <a href="#" class="blog-link">read more</a>
-                    <div class="blog-left-img">
-                        <img alt="img" src="img/p8.jpg">
-                    </div>
-                    <h1 class="blog-h1-bold">The day before the interview</h1>
-                    <p class="short-description"> Lorem ipsum dolor sit amet, fusce quam, nunc fringilla nullam, faucibus sit mi.
-                        Ornare duis eget mattis nunc donec, nulla viverra, a eleifend dui nulla arcu etiam, sed purus.
-                    </p>
-                    <a href="#" class="blog-link">read more</a>
                 </div>
-                <div class="block-flex">
-                    <div class="blog-right-img blog-right-img-third ">
-                        <img alt="img" src="img/p5.jpg">
+                <div class="hero-row hero">
+                    <figure style="background-image:url('img/hero3.jpg')"></figure>
+                    <div class="hero-wrap">
+                        <div class="hero-table">
+                            <div class="hero-cell">
+                                <div class="hero-two-text">
+                                    <h5>New online 2.0</h5>
+                                    <p class="r-m-angle">read more<span></span></p>
+                                </div>
+                            </div>
+                        </div>                    
                     </div>
-                    <h1 class="blog-h1-bold">Designing hew own</h1>
-                    <p class="short-description"> Lorem ipsum dolor sit amet, fusce quam, nunc fringilla nullam, faucibus sit mi.
-                        Ornare duis eget mattis nunc donec, nulla viverra, a eleifend dui nulla arcu etiam, sed purus.
-                    </p>
-                    <a href="#" class="blog-link">read more</a>
-                    <div class="blog-right-img blog-right-img-last">
-                        <img alt="img" src="img/p8.jpg">
-                    </div>
-                    <h1 class="blog-h1-bold">And she did.</h1>
-                    <p class="short-description"> Lorem ipsum dolor sit amet, fusce quam, nunc fringilla nullam, faucibus sit mi.
-                        Ornare duis eget mattis nunc donec, nulla viverra, a eleifend dui nulla arcu etiam, sed purus.
-                    </p>
-                    <a href="#" class="blog-link">read more</a>
                 </div>
             </div>
         </div>
-
-        <footer class="blog-footer">
-            <ul id="footer-nav">
-                <li><a href="career.html"> Career </a></li>
-                <li><a href="social.html"> Social </a></li>
-                <li><a href="#"> Contact us </a></li>
-            </ul>
-        </footer>
+        <h2>Latest news</h2>
+        <div class="row2">
+            <div class="blog-col-left">
+                <figure class="blog-article">
+                    <div>
+                        <p class="bg-article" style="background-image:url('img/hero4.jpg')"></p>
+                    </div>
+                    <figcaption>Important news</figcaption>                
+                    <p>The most important small text about a very important novoti about important news from powdering news</p>
+                    <a href="post.html">read more</a>
+                </figure>
+            </div>
+            <div class="blog-col-right">
+                <figure class="blog-article">
+                    <div>
+                        <p class="bg-article" style="background-image:url('img/hero5.jpg')">
+                        </p>
+                    </div>
+                    <figcaption>Designing her own </figcaption>
+                    <p>In 2010, Vidya Srinivasan canceled Christmas. A computer science graduate student</p>
+                    <a href="post.html">read more</a>
+                </figure>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="blog-col-left">
+                <figure class="blog-article">
+                    <div>
+                        <p class="bg-article" style="background-image:url('img/hero7.jpg')"></p>
+                    </div>
+                    <figcaption>The day before the interview</figcaption>                
+                    <p>“I told her, ‘I don’t want to go, because I don’t want to embarrass myself,’” Vidya said. “And she said, ‘That’s OK</p>
+                    <a href="post.html">read more</a>
+                </figure>
+            </div>
+            <div class="blog-col-right">
+                <figure class="blog-article">
+                    <div>
+                        <p  class="bg-article" style="background-image:url('img/hero6.jpg')"></p>
+                    </div>
+                    <figcaption>And she did. </figcaption>
+                    <p>Three years into her career in tech, Vidya is now a program manager for OneDrive-SharePoint, still on the same team she interned with in 2011.</p>
+                    <a href="post.html">read more</a>
+                </figure>
+            </div>
+        </div>
     </div>
+
+    <footer>
+        <ul id="footer-nav">
+            <li><a href="career.html"> Career </a></li>
+            <li><a href="social.html"> Social </a></li>
+            <li><a href="#"> Contact us </a></li>
+        </ul>
+    </footer>
 </body>
 </html>

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Post</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
     <script src="js/angular.js"></script>
     <script src="js/main.js"></script>    
     <script src="https://code.angularjs.org/1.5.8/angular-animate.js"></script>
@@ -25,22 +24,21 @@
   </div>
 </header>
 
-<div id="post-head-img">
-    <img src="img/south-america-chile-patagonia-mountain-andes-sky-clouds-light-lake.jpg">
+<div id="post-head-img" style="background-image: url('img/south-america-chile-patagonia-mountain-andes-sky-clouds-light-lake.jpg')">
 </div>
-<div id="post-content">
-    <div id="post-head">
-        Workspace<br>How do I choose?
-    </div>
-    <div id="post-author">
-        <div id="author-img">
-            <img src="img/Face-Master-Contour_model.jpg">
-        </div>
-        <div id="author-name">
+<div class="post-content">
+    <h2 class="post-head">
+        <p>Workspace</p>
+        <p>How do I choose?</p>
+    </h2>
+    <figure id="post-author">
+        <p style="background-image: url('img/Face-Master-Contour_model.jpg')">
+        </p>
+        <figcaption id="author-name">
             Igor Letov
-        </div>
-    </div>
-    <h2>Meet the Windows veteran taking the torch for the Windows Insider Program</h2>
+        </figcaption>
+    </figure>
+    <h3>Meet the Windows veteran taking the torch for the Windows Insider Program</h3>
     <p>
         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
         will give you a complete account of the system, and expound the actual teachings of the great explorer of the
@@ -80,9 +78,11 @@
         little world among the stalks, and grow familiar with the countless indescribable forms of the insects and
         flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath
     </p>
-    <div class="post-images">
-        <img src="img/post.png">
-    </div>
+</div>
+<div class="post-images">
+    <img src="img/post.png">
+</div>
+<div class="post-content">
     <p>
         The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox
         whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived
@@ -111,25 +111,29 @@
         faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat,
         leo eget bibendum sodales, augue velit cursus nunc,
     </p>
-</div>
-<div id="read-more">
-    <div id="read-more-left">
-        <img src="img/coffee.png">
-        <h3>Important news</h3>
-        <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et
-        </p>
-        <a href="#">read more</a>
-    </div>
-    <div id="read-more-right">
-        <img src="img/comp.png">
-        <h3>Important news</h3>
-        <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et
-        </p>
-        <a href="#">read more</a>
+
+    <div id="read-more">
+        <div id="read-more-left">
+            <figure class="post-article">
+                <div>
+                    <p class="bg-article" style="background-image:url('img/hero4.jpg')"></p>
+                </div>
+                <figcaption>Important news</figcaption>                
+                <p>The most important small text about a very important novoti about important news from powdering news</p>
+                <a href="post.html">read more</a>
+            </figure>
+        </div>
+        <div id="read-more-right">
+            <figure class="post-article">
+                <div>
+                    <p class="bg-article" style="background-image:url('img/hero5.jpg')">
+                    </p>
+                </div>
+                <figcaption>Designing her own </figcaption>
+                <p>In 2010, Vidya Srinivasan canceled Christmas. A computer science graduate student</p>
+                <a href="post.html">read more</a>
+            </figure>
+        </div>
     </div>
 </div>
 <footer>
