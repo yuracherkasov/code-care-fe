@@ -90,11 +90,25 @@ body {
     margin: 0;
     font-family: 'HelveticaNeueCyrLight';
     position: relative;
+    padding-bottom: 85px;
+    box-sizing: border-box;
 }
 /*.main {
     flex: 1;  
 }*/
-
+.link-block{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 9;
+}
+.mask .link-block{
+    width: 0;
+    height: 0;
+}
 header {
     height: 60px;
     background: url("img/header1.jpg");
@@ -103,7 +117,7 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 99;
+    z-index: 999;
     text-align: center;
 }
 header img {
@@ -152,7 +166,7 @@ header img {
     width: 59%;
     margin: 60px auto 0;
     min-width: 940px;
-    padding-bottom: 120px;
+    padding-bottom: 30px;
 }
 .blog-content h1 {
     font-size: 30px;
@@ -178,7 +192,6 @@ header img {
     width: 57%;
     padding-bottom: 62%;
     overflow: hidden;
-    cursor: pointer;
     display: inline-block;
 }
 .col-two{
@@ -194,7 +207,6 @@ header img {
     width: 100%;
     height: 48.3%;
     left: 0;
-    cursor: pointer;
 }
 .hero-row:first-child{
     top: 0;
@@ -521,14 +533,12 @@ footer {
     margin-left: -2px;
     margin-top: -5.4%;
 }
-.hexagon,
-.study-list li,
-.developers-list li{
+.hexagon{
     cursor: pointer;
 }
 .study-list li:nth-child(9n+6),
 .developers-list li:nth-child(9n+6) {
-    margin-left: 9.23%;
+    margin-left: 9.15%;
 }
 .study-list li:nth-child(10) {
     margin-left: 18.48%;
@@ -592,7 +602,7 @@ footer {
     position: fixed;
     left: auto;
     right: 5.6%;
-    top: 20vh;
+    top: 15vh;
     -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
@@ -780,6 +790,12 @@ footer {
     cursor: pointer;
     font-family: 'HelveticaNeueCyrLight';
 }
+.see_more-animation.study-btn:before{
+    background: #165eff;
+}
+.study-btn:hover{
+    color: #fff;
+}
 /*********Ch developer end*************************/
 
 /**************Our products start******************/
@@ -827,7 +843,6 @@ footer {
 }
 .hexagon-transform *{
     position: absolute;
-    cursor: pointer;
 }
 .hexagon-transform > div{
     width: 107%;
@@ -883,7 +898,7 @@ footer {
 
 .product-article{
     overflow: hidden;
-    padding: 62px 0 150px;
+    padding: 62px 0 60px;
 }
 .product-article > div{
     display: inline-block;
@@ -941,7 +956,6 @@ footer {
 /*---------------------------------------------------------------------------------------------------------------------------career--------*/
 .career-wrap{
     margin-top: 60px;
-    padding-bottom: 85px;
 }
 .career-content {
     text-align: center;
@@ -1719,10 +1733,13 @@ input[type=text] {
 /*------------------------------------------------------------------------------------------------------------------ pp */
 .pp-header {
     position: relative;
-    width: 100%;   
+    width: 100%; 
+    margin-top: 60px; 
+    overflow: hidden; 
 }
 .pp-header img{
     width: 100%;
+    height: auto;
 }
 .pp-header:after{
     content: '';
@@ -1781,6 +1798,7 @@ input[type=text] {
     background: url("img/pp1.jpg") no-repeat center;    
     background-size: cover;
    /* padding: 4% 17% 2%;*/
+   margin-bottom: -20px;
 }
 .pp-technologies:after{
     content:'';
@@ -1795,12 +1813,12 @@ input[type=text] {
     background-size: contain;
 
 }
-.pp-content{
-    padding: 32px 5% 25px 21.2%;
-    overflow: hidden;
+.pp-content-wrap{
+    padding-bottom: 5%;
 }
-.pp-content:last-of-type{
-    padding-bottom: 130px;
+.pp-content{
+    padding: 32px 5% 25px 21%;
+    overflow: hidden;
 }
 .pp-left{
     width: 40%;
@@ -1839,27 +1857,61 @@ input[type=text] {
 .pp-right h3{
     font-size: 36px;
     font-family: 'HelveticaNeueCyrMedium';
-    padding: 50px 0 100px;
+    padding: 34px 0 46px 15px;
 }
 .pp-right img{
     max-width: 90%;
 }
 .involved-devs{
-    padding-bottom: 50px;
+    padding-bottom: 60px;
+    width: 410px;
+    margin-left: 3%;
 }
 .hexagon{
-    width: 132px;
-    padding-bottom: 152px;
+   /* width: 132px;*/
+    width: 128px;
+   /* padding-bottom: 152px;*/
+    padding-bottom: 148px;
+    margin-top: -37px;
+    margin-left: 0;
+}
+.involved-devs .hexagon:nth-child(5n){
+     margin-left: 66px;
 }
 .involved-devs .hexagon:first-child{
     display: block;
     margin-left: 66px;
+    margin-top: 0px;
+    margin-bottom: 3px;
 }
 .hexagon img{
     max-width: 200%;
 }
-.involve-dev .hexagon{
+.involve-dev-info{
+    width: 60%;
+    min-width: 390px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    overflow: hidden;
+}
+.involve-dev-info .hexagon{
     margin-top: 0;
+    display: block;
+    margin-bottom: 15px;
+}
+.involve-dev-info > h4{
+    display: inline-block;
+    font-family: 'HelveticaNeueCyrMedium';
+    font-size: 24px;
+    line-height: 1.2;
+    border-bottom: 2px solid #88c200;
+    padding-bottom: 9px;
+    margin-bottom: 20px;
+}
+.involve-dev-info > p{
+    font-family: 'HelveticaNeueCyrLight';
+    font-size: 24px;
+    line-height: 1.2;
 }
 .pp-icons-list{
     display: inline-block;
@@ -1882,6 +1934,10 @@ input[type=text] {
     max-height: 60px;
     height: 100%;
     width: auto;
+}
+.pp-counter-block{
+    position: relative;
+    z-index: 5;
 }
 .pp-counter-list{
     text-align: justify;
@@ -2032,15 +2088,15 @@ input[type=text] {
 #read-more {
     width: 100%;
     margin-top: 30px;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
     overflow: hidden;
 }
 /*post page end*/
 
 /*Profile page*/
-.profile-page-wrap{
+/*.profile-page-wrap{
     padding-bottom: 85px;
-}
+}*/
 #profile-page {
     position: relative;
     overflow: hidden;
@@ -2329,6 +2385,13 @@ input[type=text] {
         padding-left: 19%;
         margin: 0;
     }
+    .pp-header-text{
+        margin-left: 17%;
+    }
+    .pp-head,
+    .pp-content{
+        padding-left: 10%;
+    }
 }
 @media (max-width: 1150px){
     header{
@@ -2462,8 +2525,25 @@ input[type=text] {
     #post-author{
         margin-left: -160px;
     }
+    .pp-header-text{
+        margin-left: 15%;
+    }
     .post-content{
         width: 74%;
+    }
+    .pp-head,
+    .pp-content {
+        padding-left: 3%;
+        padding-right: 1%;
+    }
+    .pp-left{
+        width: 44%;
+    }
+    .pp-counter-list{
+        width: 80%;
+    }
+    .pp-header{
+        margin-top: 0;
     }
 }    
 @media (max-width: 960px){
@@ -2715,6 +2795,63 @@ input[type=text] {
     .post-content{
         padding-left: 22%;
     }
+    .pp-header-text{
+        margin-left: 6%;
+    }
+    .pp-content{
+        padding: 10px 1% 25px 1%;
+    }
+    .pp-content.pp2{
+        padding-left: 5%;
+    }
+    .pp-head{
+        padding: 45px 1% 5px;
+    }
+    .pp1 .pp-left{
+        width: 65%;
+    }
+    .pp1 .pp-right{
+        padding-left: 6%;
+    }
+    .pp1 .pp-right img{
+        max-width: 900px;
+        width: 512px;
+    }
+    .pp-counter-list{
+        width: 90%;
+        padding-left: 0;
+    }
+    .pp-content-wrap{
+        padding-bottom: 25px;
+    }
+    .pp2 .pp-left{
+        width: 99%;
+        float: none;
+    }
+    .pp2 .pp-right{
+        padding-left: 0;
+    }
+    .involved-devs{
+        margin-left: 0;
+        float: left;
+        width: 280px;
+        padding-bottom: 45px;
+    }
+    .pp-right h3{
+        padding: 60px 0 55px;
+    }
+    .involved-devs .hexagon:nth-child(3n+1){
+        margin-left: 66px;
+    }
+    .involved-devs .hexagon:nth-child(5n){
+        margin-left: 0px;
+    }
+    .involve-dev-info{
+        margin-top: 10px;
+        padding-left: 12%;
+        width: auto;
+        min-width: 0;
+    }
    /* input[type=text] {
         height: 30px;
         width: 100%;
@@ -2836,11 +2973,53 @@ input[type=text] {
         width: 81%;
         padding-left: 17%;
     }
+    .pp-header img {
+        width: auto;
+        height: 446px;
+        margin-top: -60px;
+        margin-left: -30px;        
+    }
+    .pp-header-text{
+        padding-top: 0;
+    }
+    .pp-head{
+        padding-left: 0;
+    }
+    .pp-technologies:after{
+        display: none;
+    }
+    .pp-counter-list{
+        width: 98%;
+        padding: 0;
+    }
+    .pp-counter-list li{
+        width: auto;
+    }
+    .pp-count{
+        width: 122px;
+        height: 122px;
+        line-height: 125px;
+        font-size: 38px;
+    }
+    .name-count{
+        font-size: 26px;
+    }
+    .pp-content.pp2{
+        padding-left: 1%;
+    }
+    .involve-dev-info{
+        padding-left: 8%;
+        min-width: 52%;
+        max-width: 90%;
+    }
 }
 @media (max-width: 660px){
     .study-card-block{
         width: 90%;
         padding-right: 4%;
+    }
+    .pp-icons-list{
+        width: auto;
     }
 }
 @media (max-width: 560px){
