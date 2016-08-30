@@ -2,11 +2,9 @@
 <html lang="en" ng-app="ccApp">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Career</title>
     <link rel="stylesheet" href="style.css">
-    <script src="js/angular.js"></script>
-    <script src="js/main.js"></script>    
+    <script src="js/angular.js"></script>   
     <script src="https://code.angularjs.org/1.5.8/angular-animate.js"></script>
 </head>
 <body ng-controller="mainCtrl">
@@ -25,15 +23,14 @@
 </header>
 
 <div class="career-wrap">
-    <div>
-        <div class="career-content">
-            <h1>FIND YOUR JOB</h1>
-            <div class="career-keywords">
-                <input type="text" placeholder="Keywords">
-                <input type="text" placeholder="Kiev">
-                <button class="career-search">Search</button>
-
-            </div>
+    <h1>FIND YOUR JOB</h1>
+    <div class="career-filter">
+        <div class="career-keywords">
+            <input type="text" placeholder="Keywords">
+            <input type="text" placeholder="Kiev">
+            <button class="career-search">Search</button>
+        </div>
+        <div class="career-icons-block">
             <p class="blue-header">Web</p>
             <ul class="career-icons">
                 <li><img src="img/icons/1l.png" alt="img"></li>
@@ -55,27 +52,25 @@
                 <li><img src="img/icons/3m.png" alt="img"></li>
             </ul>
             <p class="blue-header">Industry</p>
-            <ul class="career-industry">
+            <ul class="career-icons">
                 <li>Frameworks</li>
                 <li>Symphony</li>
                 <li>Angular</li>
                 <li>WP</li>
             </ul>
         </div>
+    </div>       
 
-    </div>
-    <div class="career-grey-line">
-        <div class="content">
-            <div class="career-text">
-                <span>We found 15 job openings for you</span>
-                <span class="career-sort-padding">SORT BY </span>
-                <ul class="career-icons sort-icons">
-                    <li><img src="img/sort1.png" alt="img"></li>
-                    <li><img src="img/sort2.png" alt="img"></li>
-                    <li><img src="img/sort3.png" alt="img"></li>
-                </ul>
-            </div>
-
+    
+    <div class="career-thead">
+        <span>We found 15 job openings for you</span>
+        <div class="career-thead-info">
+            <span class="career-sort">SORT BY:</span>
+            <ul class="sortby-icons">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
     </div>
     <table class="career-table">
@@ -231,5 +226,6 @@
         <li><a href="#"> Contact us </a></li>
     </ul>
 </footer>
+<script src="js/main.js"></script> 
 </body>
 </html>
