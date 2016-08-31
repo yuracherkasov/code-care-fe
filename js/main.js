@@ -60,19 +60,24 @@ var app = angular.module("ccApp", ["ngAnimate"]);
 
 		button.addEventListener("click", showMenu);
 		body.addEventListener("click", hideMenu);
+		navMenu.addEventListener("click", hideMenu);
 
 		function showMenu(){
-			navMenu.classList.add("show");
-		}
-
-		function hideMenu(e){
-			var target = e.target;
-			if (!(!navMenu.classList.contains("show") || target === button || target.tagName === "A")){
-				navMenu.classList.remove("show");
-			}
+			$timeout(function(){
+				navMenu.classList.add("show");
+			},100);
+			
 		};
 
-	})
+		function hideMenu(e){
+			var target = e.target || window.e.target;
+				if (navMenu.classList.contains("show")){
+					if(target.tagName != "A"){
+						navMenu.classList.remove("show");
+					};	
+				};				
+		};
+	});
 
 		 // app.directive('filterList', function(){
 		 // 	return{
