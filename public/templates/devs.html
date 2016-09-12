@@ -1,0 +1,49 @@
+<h1 class="page-header strait">Chouse your developer</h1>
+
+<technologies-list></technologies-list>
+
+<div class="hexagon-block developers">
+  <ul class="developers-list">
+    <li ng-repeat="item in devsModel" 
+        class={{setClass(item)?setClass(item):"mask"}}
+        ng-mouseenter = "showDetailsOnCard(item)">
+      <div>
+        <p class="dev-image-wrap">
+          <img ng-src="{{item.image}}" alt="{{item.firstname}}" />
+        </p>
+        <p class="go-to"><a ui-sref="developer" class="see_more-animation hexagon-btn"><span> Go to <br /> profile</span></a></p>
+        <!-- <p class="go-to"><span> Go to <br /> profile</span></p> -->
+      </div>
+    </li> 
+  </ul>
+</div>
+
+<div id="dev-card">
+  <div class="dev-card-header">
+    <div class="dev-card-image">
+      <div>
+        <img ng-src="{{card.image}}" alt=""/>
+      </div>
+    </div>
+    <h3 class="dev-card-name">
+      <p>{{card.firstname}}</p>
+      <p>{{card.lastname}}</p>
+    </h3>
+  </div>
+  <ul class="dev-card-skills">
+    <li ng-repeat="(skill, val) in card.skills">
+      <!-- <p>{{getSkill(skill)}}</p> -->
+      <p>{{skill}}</p>
+      <p class="skill">
+        <span class="active"></span>
+        <span class="{{(val>=2)?'active':''}}"></span>
+        <span class="{{(val>=3)?'active':''}}"></span>
+        <span class="{{(val>=4)?'active':''}}"></span>
+        <span class="{{(val==5)?'active':''}}"></span>
+      </p>
+    </li>
+  </ul>
+  <p class="dev-card-btn">
+    <a href="javascript:;" class="see_more-animation"><span>Let's start!</span></a>
+  </p>   
+</div>

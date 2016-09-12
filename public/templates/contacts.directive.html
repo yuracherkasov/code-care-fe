@@ -1,0 +1,36 @@
+
+<div id="contact-us">
+    <div id="contact-us-text">
+        <h3>{{header}}</h3>
+        <div id="contact-us-btn" ng-click="showpopup = true">
+        <span>
+            Let's start working together
+        </span>
+        </div>
+    </div>
+
+    <div class="pop-up-contacts" ng-if="showpopup">
+        <h3>Contact us</h3>
+        <form action="javascript:;" id="home-page-form" ng-submit="sendMessage()">
+            <div>
+                <div class="left-part">
+                    <label for="name1">name</label>
+                    <input id="name1" type="text">
+                     <label for="phone1">phone</label>
+                    <input id="phone1" type="text">
+                     <label for="email1">email</label>
+                    <input id="email1" type="text">
+                </div>
+            </div>
+            <div>
+                <div class="right-part">
+                    <label for="city1">city</label>
+                    <input id="city1" type="text">
+                    <label for="message1">your message here</label>
+                    <textarea id="message1"></textarea>
+                    <button id="send-btn" type="submit" class="see_more-animation"><span>Submit</span></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

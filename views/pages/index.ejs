@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="ccApp">
+<head>
+  <title>Code & care</title>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body ng-controller="MainController">
+  <header>
+    <strong id="menu-btn">Code and Care</strong>
+    <a ui-sref="home"><img src="img/logWh.png" alt="logo"></a>
+    <div class="nav-content" id="js-menu">
+      <ul class="header-nav">
+        <li ui-sref-active="active"><a ui-sref="story" href="">Our story</a></li>
+        <li ui-sref-active="active"><a ui-sref="case">Case study</a></li>
+        <li ui-sref-active="active"><a ui-sref="devs">Pick your developer</a></li>
+        <li ui-sref-active="active"><a ui-sref="products"> Our products</a></li>
+        <li ui-sref-active="active"><a ui-sref="blog">Blog</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="main">
+    <div ui-view class={{stateAnimateClassName||"with-bottom"}}>
+      
+    </div>
+  </div>
+  <footer>
+    <ul id="footer-nav">
+        <li ui-sref-active="active"><a ui-sref="career">Career</a></li>
+        <li ui-sref-active="active"><a ui-sref="social">Social</a></li>
+        <li ui-sref-active="active"><a ui-sref="contacts">Contact us</a></li>
+    </ul>
+  </footer>
+</body>
+</html>

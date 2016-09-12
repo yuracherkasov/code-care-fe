@@ -1,0 +1,45 @@
+
+
+<h1 class="page-header strait">Case study</h1>
+
+<technologies-list></technologies-list>
+
+<div class="hexagon-block study">
+  <ul class="study-list">
+    <li ng-repeat="item in caseModel"
+        class={{setClass(item)?setClass(item):"mask"}}
+        ng-mouseenter = "showDetailsOnCard(item)">
+        <div>
+          <p class="dev-image-wrap">
+            <img ng-src="{{item.image}}" alt="{{item.firstname}}" />
+          </p>
+          <p class="go-to"><a ui-sref="project" class="see_more-animation hexagon-btn"><span> Go to <br /> profile</span></a></p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+  <div class="study-card-block">
+    <div id="study-card">
+      <figure class="study-block">
+        <div>
+          <p><img ng-src="{{card.image}}" alt="{{card.name}}" /></p>
+          <figcaption>{{card.name}}</figcaption>
+        </div>
+      </figure>
+      <div class="study-info-wrapper">
+        <h3>Basic information</h3>
+        <p><span>{{card.name}}</span> - {{card.description}}
+        </p>
+        <button class="study-btn see_more-animation">
+          <span>See more</span>
+        </button>
+      </div>        
+    </div>
+    <ul class="study-technology-list">
+      <li ng-repeat="technologie in card.technologies track by $index">
+        <img ng-src="{{technologie}}" alt="icon" />
+      </li>
+    </ul>
+  </div>
