@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="ccApp">
+<head>
+  <title>Code & care</title>
+  <link rel="stylesheet" href="public/css/style.css">
+
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+
+  <script type="text/javascript" src="bower_components/angular-animate/angular-animate.js"></script>
+  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script type="text/javascript" src="bower_components/angular-scroll/angular-scroll.min.js"></script>
+
+  <script type="text/javascript" src="public/core/route.js"></script>
+
+  <script type="text/javascript" src="public/core/services/devsListModel.services.js"></script>
+  <script type="text/javascript" src="public/core/services/projectsModel.services.js"></script>
+
+  <script type="text/javascript" src="public/core/directives/filter.directive.js"></script>
+  <script type="text/javascript" src="public/core/directives/contacts.directive.js"></script>
+
+  <script type="text/javascript" src="public/core/controllers/main.controller.js"></script>
+  <script type="text/javascript" src="public/core/controllers/home.controller.js"></script>
+  <script type="text/javascript" src="public/core/controllers/devs.controller.js"></script>
+  <script type="text/javascript" src="public/core/controllers/case.controller.js"></script>
+  <script type="text/javascript" src="public/core/controllers/story.controller.js"></script>
+</head>
+
+<body ng-controller="MainController">
+  <header>
+    <strong id="menu-btn">Code and Care</strong>
+    <a ui-sref="home"><img src="public/img/logWh.png" alt="logo"></a>
+    <div class="nav-content" id="js-menu">
+      <ul class="header-nav">
+        <li ui-sref-active="active"><a ui-sref="story" href="">Our story</a></li>
+        <li ui-sref-active="active"><a ui-sref="case">Case study</a></li>
+        <li ui-sref-active="active"><a ui-sref="devs">Pick your developer</a></li>
+        <li ui-sref-active="active"><a ui-sref="products"> Our products</a></li>
+        <li ui-sref-active="active"><a ui-sref="blog">Blog</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="main">
+    <div ui-view class={{stateAnimateClassName||"with-bottom"}}>
+      
+    </div>
+  </div>
+  <footer>
+    <ul id="footer-nav">
+        <li ui-sref-active="active"><a ui-sref="career">Career</a></li>
+        <li ui-sref-active="active"><a ui-sref="social">Social</a></li>
+        <li ui-sref-active="active"><a ui-sref="contacts">Contact us</a></li>
+    </ul>
+  </footer>
+</body>
+</html>

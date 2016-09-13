@@ -4,7 +4,7 @@ angular
 		directive('contactForm', function(){
 		 	return{
 		 			restrict: 'E',
-	        templateUrl: '/templates/contacts.directive.html',
+	        templateUrl: 'public/templates/contacts.directive.html',
 	        replace: true,
 	        scope: {},
 	        // controller: function($scope, $timeout, $window){

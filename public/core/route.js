@@ -20,7 +20,7 @@ angular
     $stateProvider
     .state('home', {
         url: '/',
-        templateUrl: '/templates/home.html',
+        templateUrl: 'public/templates/home.html',
         controller: 'HomeController'
     })
 
