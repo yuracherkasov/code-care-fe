@@ -1,26 +1,19 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.1.5",
-  "description": "A sample Node.js app using Express 4",
-  "main": "index.js",
+  "name": "company-site-fe",
+  "version": "1.0.0",
+  "description": "CodeCare company site - Front End\r =================================",
+  "main": "index.html",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "ejs": "2.3.3",
-    "express": "4.13.3"
-  },
-  "engines": {
-    "node": "0.12.7"
+    "start": "serve"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "git+https://gitlab.com/code-care/company-site-fe.git"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT"
+  "author": "Yuriy Cherkasov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/code-care/company-site-fe/issues"
+  },
+  "homepage": "https://gitlab.com/code-care/company-site-fe#README"
 }
