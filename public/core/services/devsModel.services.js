@@ -2,7 +2,9 @@ angular
   .module("ccApp").
 
 service('DevsList', function() {
-  this.devsModel = [{
+  this.devsModel = [
+  {
+    id: 1,
     firstname: "Igor",
     lastname: "firshman",
     image: "public/img/1.jpg",
@@ -16,6 +18,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 2,
     firstname: "Sergey",
     lastname: "Ivanov",
     image: "public/img/2.jpg",
@@ -28,6 +31,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 3,
     firstname: "Ivan",
     lastname: "Petrov",
     image: "public/img/3.jpg",
@@ -39,6 +43,7 @@ service('DevsList', function() {
       SCSS: 5
     }
   }, {
+    id: 4,
     firstname: "Ivan",
     lastname: "Petrov",
     image: "public/img/4.jpg",
@@ -50,6 +55,7 @@ service('DevsList', function() {
       Nodejs: 5
     }
   }, {
+    id: 5,
     firstname: "Yuriy",
     lastname: "Cherkasov",
     image: "public/img/5.jpg",
@@ -63,6 +69,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 6,
     firstname: "Artem",
     lastname: "Sidorov",
     image: "public/img/6.jpg",
@@ -77,6 +84,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 7,
     firstname: "Ivan",
     lastname: "Petrov",
     image: "public/img/7.jpg",
@@ -89,6 +97,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 8,
     firstname: "Igor",
     lastname: "firshman",
     image: "public/img/8.jpg",
@@ -101,6 +110,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 9,
     firstname: "Sergey",
     lastname: "Ivanov",
     image: "public/img/9.jpg",
@@ -113,6 +123,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 10,
     firstname: "Ivan",
     lastname: "Petrov",
     image: "public/img/1.jpg",
@@ -125,6 +136,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 11,
     firstname: "Ivan",
     lastname: "Petrov",
     image: "public/img/2.jpg",
@@ -137,6 +149,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 12,
     firstname: "Igor",
     lastname: "firshman",
     image: "public/img/1.jpg",
@@ -151,6 +164,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 13,
     firstname: "Sergey",
     lastname: "Ivanov",
     image: "public/img/2.jpg",
@@ -163,6 +177,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 14,
     firstname: "Ivan",
     lastname: "Petrov",
     image: "public/img/3.jpg",
@@ -175,6 +190,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 15,
     firstname: "Ivan",
     lastname: "Petrov",
     image: "public/img/4.jpg",
@@ -187,6 +203,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 16,
     firstname: "Yuriy",
     lastname: "Cherkasov",
     image: "public/img/5.jpg",
@@ -199,6 +216,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 17,
     firstname: "Artem",
     lastname: "Sidorov",
     image: "public/img/6.jpg",
@@ -211,6 +229,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 18,
     firstname: "Ivan",
     lastname: "Petrov",
     image: "public/img/7.jpg",
@@ -223,6 +242,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 19,
     firstname: "Igor",
     lastname: "firshman",
     image: "public/img/8.jpg",
@@ -235,6 +255,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 20,
     firstname: "Sergey",
     lastname: "Ivanov",
     image: "public/img/9.jpg",
@@ -247,6 +268,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 21,
     firstname: "Ivan",
     lastname: "Petrov",
     image: "public/img/3.jpg",
@@ -259,6 +281,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 22,
     firstname: "Ivan",
     lastname: "Petrov",
     image: "public/img/4.jpg",
@@ -271,6 +294,7 @@ service('DevsList', function() {
     }
 
   }, {
+    id: 23,
     firstname: "Yuriy",
     lastname: "Cherkasov",
     image: "public/img/5.jpg",

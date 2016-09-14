@@ -2,7 +2,9 @@ angular
   .module("ccApp").
 
   controller('DevsPageController', DevsPageController);
-  function DevsPageController($scope, DevsList){
+  function DevsPageController($scope, DevsList, API){
+    API.getDevs();
+
 
     var filterParams,
         flage;

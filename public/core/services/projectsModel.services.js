@@ -2,8 +2,9 @@ angular
   .module("ccApp").
 
 service('CaseList', function() {
-  this.caseModel = [{
-    id: 01,
+  this.caseModel = [
+  {
+    id: 1,
     name: "Honda",
     image: "public/img/study/study1.jpg",
     description: "Shops in which there is nothing superfluous",
@@ -15,7 +16,7 @@ service('CaseList', function() {
       React: "public/img/icons-min/react.png"
     }
   }, {
-    id: 02,
+    id: 2,
     name: "Skatee",
     image: "public/img/study/study2.jpg",
     description: "Shops in which there is nothing superfluous",
@@ -26,7 +27,7 @@ service('CaseList', function() {
       Angularjs: "public/img/icons-min/angular.png"
     }
   }, {
-    id: 03,
+    id: 3,
     name: "Toyota",
     image: "public/img/study/study3.jpg",
     description: "Shops in which there is nothing superfluous",
@@ -36,7 +37,7 @@ service('CaseList', function() {
       Wordpress: "public/img/icons-min/wp.png"
     }
   }, {
-    id: 04,
+    id: 4,
     name: "Porshe",
     image: "public/img/study/study4.jpg",
     description: "Shops in which there is nothing superfluous",
@@ -47,7 +48,7 @@ service('CaseList', function() {
       Angularjs: "public/img/icons-min/angular.png"
     }
   }, {
-    id: 05,
+    id: 5,
     name: "Nissan",
     image: "public/img/study/study5.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, ad.",
@@ -60,7 +61,7 @@ service('CaseList', function() {
       Cordova: "public/img/icons-min/js.png"
     }
   }, {
-    id: 06,
+    id: 6,
     name: "Mazda",
     image: "public/img/study/study6.jpg",
     description: "Shops in which there is consectetur adipisicing nothing superfluous",
@@ -71,7 +72,7 @@ service('CaseList', function() {
       Angularjs: "public/img/icons-min/php.png"
     }
   }, {
-    id: 07,
+    id: 7,
     name: "Skatee",
     image: "public/img/study/study7.jpg",
     description: "Shops in which there ipsum dolor sit amet, consectetur adipisicing elit. Officiis, ad",
@@ -84,7 +85,7 @@ service('CaseList', function() {
       Cordova: "public/img/icons-min/js.png"
     }
   }, {
-    id: 08,
+    id: 8,
     name: "Ford",
     image: "public/img/study/study8.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
@@ -97,7 +98,7 @@ service('CaseList', function() {
       Cordova: "public/img/icons-min/js.png"
     }
   }, {
-    id: 09,
+    id: 9,
     name: "Snickers",
     image: "public/img/study/study9.jpg",
     description: "Sorem ipsum dolor sit amet, consectetur superfluous",
@@ -144,6 +145,8 @@ service('CaseList', function() {
       Yii: "public/img/icons-min/js.png",
       PHP: "public/img/icons-min/php.png"
     }
-  }]
+  }
+  
+  ]
 
 });
