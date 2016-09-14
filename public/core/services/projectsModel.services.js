@@ -8,11 +8,11 @@ service('CaseList', function() {
     image: "public/img/study/study1.jpg",
     description: "Shops in which there is nothing superfluous",
     technologies: {
-      PHP: "public/img/icon/php-min.png",
-      HTML: "public/img/icon/html.png",
-      Laravel: "public/img/icon/laravel-min.png",
-      jQuery: "public/img/icon/jq-min.png",
-      React: "public/img/icon/react-min.png"
+      PHP: "public/img/icons-min/php.png",
+      HTML: "public/img/icons-min/html.png",
+      Laravel: "public/img/icons-min/laravel.png",
+      jQuery: "public/img/icons-min/jquery.png",
+      React: "public/img/icons-min/react.png"
     }
   }, {
     id: 02,
@@ -20,10 +20,10 @@ service('CaseList', function() {
     image: "public/img/study/study2.jpg",
     description: "Shops in which there is nothing superfluous",
     technologies: {
-      Yii: "public/img/icon/yii-min.png",
-      PHP: "public/img/icon/php-min.png",
-      HTML: "public/img/icon/html.png",
-      Angularjs: "public/img/icon/angular-min.png"
+      Yii: "public/img/icons-min/yii.png",
+      PHP: "public/img/icons-min/php.png",
+      HTML: "public/img/icons-min/html.png",
+      Angularjs: "public/img/icons-min/angular.png"
     }
   }, {
     id: 03,
@@ -31,9 +31,9 @@ service('CaseList', function() {
     image: "public/img/study/study3.jpg",
     description: "Shops in which there is nothing superfluous",
     technologies: {
-      Nodejs: "public/img/icon/node.png",
-      MySQL: "public/img/icon/sql.png",
-      Wordpress: "public/img/icon/wp-min.png"
+      Nodejs: "public/img/icons-min/node.png",
+      MySQL: "public/img/icons-min/sql.png",
+      Wordpress: "public/img/icons-min/wp.png"
     }
   }, {
     id: 04,
@@ -41,10 +41,10 @@ service('CaseList', function() {
     image: "public/img/study/study4.jpg",
     description: "Shops in which there is nothing superfluous",
     technologies: {
-      JS: "public/img/icon/js-min.png",
-      React: "public/img/icon/react-min.png",
-      Cordova: "public/img/icon/cordova-min.png",
-      Angularjs: "public/img/icon/angular-min.png"
+      JS: "public/img/icons-min/js.png",
+      React: "public/img/icons-min/react.png",
+      Cordova: "public/img/icons-min/cordova.png",
+      Angularjs: "public/img/icons-min/angular.png"
     }
   }, {
     id: 05,
@@ -52,12 +52,12 @@ service('CaseList', function() {
     image: "public/img/study/study5.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, ad.",
     technologies: {
-      Angularjs: "public/img/icon/angular-min.png",
-      Wordpress: "public/img/icon/html.png",
-      HTML: "public/img/icon/js-min.png",
-      Ionic: "public/img/icon/ionic-min.png",
-      React: "public/img/icon/html.png",
-      Cordova: "public/img/icon/js-min.png"
+      Angularjs: "public/img/icons-min/angular.png",
+      Wordpress: "public/img/icons-min/html.png",
+      HTML: "public/img/icons-min/js.png",
+      Ionic: "public/img/icons-min/ionic.png",
+      React: "public/img/icons-min/html.png",
+      Cordova: "public/img/icons-min/js.png"
     }
   }, {
     id: 06,
@@ -65,10 +65,10 @@ service('CaseList', function() {
     image: "public/img/study/study6.jpg",
     description: "Shops in which there is consectetur adipisicing nothing superfluous",
     technologies: {
-      jQuery: "public/img/icon/php-min.png",
-      Laravel: "public/img/icon/html.png",
-      PHP: "public/img/icon/js-min.png",
-      Angularjs: "public/img/icon/php-min.png"
+      jQuery: "public/img/icons-min/php.png",
+      Laravel: "public/img/icons-min/html.png",
+      PHP: "public/img/icons-min/js.png",
+      Angularjs: "public/img/icons-min/php.png"
     }
   }, {
     id: 07,
@@ -76,12 +76,12 @@ service('CaseList', function() {
     image: "public/img/study/study7.jpg",
     description: "Shops in which there ipsum dolor sit amet, consectetur adipisicing elit. Officiis, ad",
     technologies: {
-      Yii: "public/img/icon/php.png",
-      PHP: "public/img/icon/html.png",
-      Ionic: "public/img/icon/ionic-min.png",
-      Nodejs: "public/img/icon/php.png",
-      React: "public/img/icon/html.png",
-      Cordova: "public/img/icon/js.png"
+      Yii: "public/img/icons-min/php.png",
+      PHP: "public/img/icons-min/html.png",
+      Ionic: "public/img/icons-min/ionic.png",
+      Nodejs: "public/img/icons-min/php.png",
+      React: "public/img/icons-min/html.png",
+      Cordova: "public/img/icons-min/js.png"
     }
   }, {
     id: 08,
@@ -89,12 +89,12 @@ service('CaseList', function() {
     image: "public/img/study/study8.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     technologies: {
-      Angularjs: "public/img/icon/angular-min.png",
-      Wordpress: "public/img/icon/html.png",
-      HTML: "public/img/icon/js-min.png",
-      Ionic: "public/img/icon/ionic-min.png",
-      React: "public/img/icon/html.png",
-      Cordova: "public/img/icon/js-min.png"
+      Angularjs: "public/img/icons-min/angular.png",
+      Wordpress: "public/img/icons-min/html.png",
+      HTML: "public/img/icons-min/js.png",
+      Ionic: "public/img/icons-min/ionic.png",
+      React: "public/img/icons-min/html.png",
+      Cordova: "public/img/icons-min/js.png"
     }
   }, {
     id: 09,
@@ -102,10 +102,10 @@ service('CaseList', function() {
     image: "public/img/study/study9.jpg",
     description: "Sorem ipsum dolor sit amet, consectetur superfluous",
     technologies: {
-      Nodejs: "public/img/icon/php-min.png",
-      Wordpress: "public/img/icon/html.png",
-      HTML: "public/img/icon/js-min.png",
-      Angularjs: "public/img/icon/php-min.png"
+      Nodejs: "public/img/icons-min/php.png",
+      Wordpress: "public/img/icons-min/html.png",
+      HTML: "public/img/icons-min/js.png",
+      Angularjs: "public/img/icons-min/php.png"
     }
   }, {
     id: 10,
@@ -113,12 +113,12 @@ service('CaseList', function() {
     image: "public/img/study/study10.jpg",
     description: "orem ipsum dolor sit amet, consectetur there is nothing superfluous",
     technologies: {
-      Yii: "public/img/icon/php-min.png",
-      PHP: "public/img/icon/html.png",
-      Wordpress: "public/img/icon/js-min.png",
-      Angularjs: "public/img/icon/php-min.png",
-      React: "public/img/icon/react-min.png",
-      Cordova: "public/img/icon/js-min.png"
+      Yii: "public/img/icons-min/php.png",
+      PHP: "public/img/icons-min/html.png",
+      Wordpress: "public/img/icons-min/js.png",
+      Angularjs: "public/img/icons-min/php.png",
+      React: "public/img/icons-min/react.png",
+      Cordova: "public/img/icons-min/js.png"
     }
   }, {
     id: 11,
@@ -126,12 +126,12 @@ service('CaseList', function() {
     image: "public/img/study/study11.jpg",
     description: "Shops in which there is nothing superfluous",
     technologies: {
-      Angularjs: "public/img/icon/angular-min.png",
-      Wordpress: "public/img/icon/html.png",
-      HTML: "public/img/icon/js-min.png",
-      Ionic: "public/img/icon/ionic-min.png",
-      React: "public/img/icon/html.png",
-      Cordova: "public/img/icon/js-min.png"
+      Angularjs: "public/img/icons-min/angular.png",
+      Wordpress: "public/img/icons-min/html.png",
+      HTML: "public/img/icons-min/js.png",
+      Ionic: "public/img/icons-min/ionic.png",
+      React: "public/img/icons-min/html.png",
+      Cordova: "public/img/icons-min/js.png"
     }
   }, {
     id: 12,
@@ -139,10 +139,10 @@ service('CaseList', function() {
     image: "public/img/study/study12.jpg",
     description: "Shops in which there is nothing superfluous consectetur there is. Lorem ipsum dolor sit amet, consectetur adipisicing.",
     technologies: {
-      Laravel: "public/img/icon/php.png",
-      jQuery: "public/img/icon/html.png",
-      Yii: "public/img/icon/js.png",
-      PHP: "public/img/icon/php.png"
+      Laravel: "public/img/icons-min/php.png",
+      jQuery: "public/img/icons-min/html.png",
+      Yii: "public/img/icons-min/js.png",
+      PHP: "public/img/icons-min/php.png"
     }
   }]
 
