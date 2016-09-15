@@ -1,7 +1,8 @@
 {
-  "dependencies": {
-    "angular-ui-router": "^0.2.18",
-    "angular-animate": "^1.5.8",
-    "angular-scroll": "^1.0.0"
-  }
+	"name": "code-care",
+	"dependencies": {
+		"angular-ui-router": "^0.2.18",
+		"angular-animate": "^1.5.8",
+		"angular-scroll": "^1.0.0"
+	}
 }

@@ -4,7 +4,9 @@
   "description": "CodeCare company site - Front End\r =================================",
   "main": "index.html",
   "scripts": {
-    "start": "serve"
+    "start": "serve",
+    "install": "npm run build",
+    "build": "bower install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://gitlab.com/code-care/company-site-fe/issues"
   },
-  "homepage": "https://gitlab.com/code-care/company-site-fe#README"
+  "homepage": "https://gitlab.com/code-care/company-site-fe#README",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "serve": "^1.4.0"
+  }
 }

@@ -57,7 +57,8 @@ angular
 
   .state('developer', {
     url: '/developer/:id',
-    templateUrl: 'public/templates/developer.html'
+    templateUrl: 'public/templates/developer.html',
+    controller: 'DevPageController'
   })
 
   .state('post', {

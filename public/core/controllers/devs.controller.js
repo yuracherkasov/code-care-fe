@@ -1,33 +1,39 @@
 angular
   .module("ccApp").
 
-  controller('DevsPageController', DevsPageController);
-  function DevsPageController($scope, DevsList){
+controller('DevsPageController', DevsPageController);
 
-    var filterParams,
-        flage;
-    
-    $scope.devsModel = DevsList.devsModel;
+function DevsPageController($scope, API) {
 
-    $scope.card = $scope.devsModel[0];
+  var filterParams,
+      flage;
 
-    $scope.fixFilterParams = function(position, flag){
-      filterParams = position;
-      flage = flag;
-    };
+  $scope.devsModel = [];
 
-    $scope.setClass = function(item){
-      var className;
-      if (flage) {
-        className = "black-mask";
-      }
-      if(item.skills.hasOwnProperty(filterParams)){
-        className = "green-mask";       
-      }
-      return className;
-    };
+  (function getDevs() {
+    API.getDevs().then(function(response) {
+      $scope.devsModel = response.data;
+      $scope.card = response.data[0]
+    })
+  })();
 
-    $scope.showDetailsOnCard = function(item){
+  $scope.fixFilterParams = function(position, flag) {
+    filterParams = position;
+    flage = flag;
+  };
+
+  $scope.setClass = function(item) {
+    var className;
+    if (flage) {
+      className = "black-mask";
+    }
+    if (item.skills.hasOwnProperty(filterParams)) {
+      className = "green-mask";
+    }
+    return className;
+  };
+
+  $scope.showDetailsOnCard = function(item) {
       $scope.card = item;
     }
     // $scope.getSkill = function(skill){
@@ -36,4 +42,4 @@ angular
     //   return b;
     // }
 
-  }
+}

@@ -1,35 +1,42 @@
 angular
   .module("ccApp").
 
-  controller('CaseStudyController', CaseStudyController);
-  function CaseStudyController($scope, CaseList){
+controller('CaseStudyController', CaseStudyController);
 
-    var filterParams;
-    var flage = false;
+function CaseStudyController($scope, API) {
 
-    $scope.stateAnimateClassName = "with-right";
-    $scope.caseModel = CaseList.caseModel;
+  var filterParams;
+  var flage = false;
 
-    $scope.card = $scope.caseModel[0];
+  $scope.caseModel = [];
+  $scope.stateAnimateClassName = "with-right";
 
-    $scope.showDetailsOnCard = function(item){
-      $scope.card = item;
-    }
+  
+  (function getCase() {
+    API.getProjects().then(function(response) {
+      $scope.caseModel = response.data;
+      $scope.card = response.data[0];
+    })
+  })();
 
-    $scope.fixFilterParams = function(position, flag){
-      filterParams = position;
-      flage = flag;
-    };
-
-    $scope.setClass = function(item){
-      var className;
-      if (flage) {
-        className = "black-mask";
-      }
-        if(item.technologies.hasOwnProperty(filterParams)){
-          className = "green-mask";   
-      }
-      return className;
-    };
-
+  $scope.showDetailsOnCard = function(item) {
+    $scope.card = item;
   }
+
+  $scope.fixFilterParams = function(position, flag) {
+    filterParams = position;
+    flage = flag;
+  };
+
+  $scope.setClass = function(item) {
+    var className;
+    if (flage) {
+      className = "black-mask";
+    }
+    if (item.technologies.hasOwnProperty(filterParams)) {
+      className = "green-mask";
+    }
+    return className;
+  };
+
+}

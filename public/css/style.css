@@ -99,9 +99,6 @@ body {
     margin-top: 60px;
 }
 /******state animation************/
-/*.ng-scope{
-    border: 13px solid red;
-}*/
 .with-bottom.ng-enter{
   position: relative;
   animation: upfrombottom .4s ease-out both;
@@ -200,10 +197,6 @@ body {
     display: block;
     z-index: 9;
 }
-/*.black-mask .link-block{
-    width: 0;
-    height: 0;
-}*/
 header {
     height: 60px;
     background: url("../img/header1.jpg");
@@ -591,12 +584,6 @@ footer {
     opacity: 0;
     height: 0;
 }
-.categories-list li {
-   /* position: relative;
-    z-index: 9;*/
-   /* height: 36px;*/
-   /* padding: 3px 0 4px;*/
-}
 .categories-list li img{
     padding: 3px 0 4px;
     cursor: pointer;
@@ -634,9 +621,6 @@ footer {
     vertical-align: middle;
     display: inline-block;
 }
-/*.developers-list .mask p{
-    transition: all .3s linear .2s; 
-}*/
 .black-mask .go-to{
     background: rgba(0, 0, 0, .7);   
 }
@@ -668,7 +652,6 @@ footer {
 .go-to .hexagon-btn:before{
     background: #7aba00;
 }
-
 .hexagon,
 .study-list li,
 .developers-list li, .developer-profile-photo {
@@ -685,7 +668,6 @@ footer {
     margin-left: -2px;
     margin-top: -5.4%;
 }
-
 .study-list li,
 .developers-list li{
     border-left: 5px solid transparent;
@@ -754,38 +736,20 @@ footer {
     -o-transform: scale(1.15);
     -moz-transform: scale(1.15);
     transition: all .6s ease-out;
-    /*transition: all .6s cubic-bezier(.12,1.3,.84,1.33);*/
 }
-/*.study-list .mask:hover img,*/
 .mask:hover img{
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -o-transform: scale(1.1);
     -moz-transform: scale(1.1);
 }
-/*.study-list .mask img,
-.study-list .black-mask img,*/
 .mask img,
 .black-mask img{
     transform: scale(1);
     -webkit-transform: scale(1);
     -o-transform: scale(1);
     -moz-transform: scale(1);
-    /*transition: all .2s ease-out;*/
 }
-/*.developers-list li:hover img{
-    transform: translateX(-50%) scale(1.04);
-    -webkit-transform: translateX(-50%) scale(1.04);
-    -o-transform: translateX(-50%) scale(1.04);
-    -moz-transform: translateX(-50%) scale(1.04);
-    transition: all .3s ease-out .2s;
-}*/
-/*.developers-list .mask:hover img{
-     transform: translateX(-50%) scale(1);
-    -webkit-transform: translateX(-50%) scale(1);
-    -o-transform: translateX(-50%) scale(1);
-    -moz-transform: translateX(-50%) scale(1);
-}*/
 #dev-card {
     width: 302px;
     position: fixed;
@@ -812,7 +776,6 @@ footer {
     word-break: break-all;
     width: 58%;
 }
-
 .dev-card-name p {
     font-size: 30px;
     line-height: 1.2;
@@ -900,9 +863,6 @@ footer {
 .ng-enter .study-card-block{
     right: -50%;
 }
-
-
-
 .study-technology-list {
     text-align: center;
     float: right;
@@ -919,6 +879,7 @@ footer {
 .project-technology li img,
 .study-technology-list img {
     max-width: 100%;
+    max-height: 23px;
 }
 #study-card {
     width: 290px;
@@ -1137,6 +1098,48 @@ footer {
     top: 1px;
     z-index: 99;
   }
+.exemple-img{
+    position: absolute;
+    display: inline-block;
+    top: 100%;
+    left: 150%;
+    transform: translateX(-150%);
+    -webkit-transform: translateX(-150%);
+    -o-transform: translateX(-150%);
+    -moz-transform: translateX(-150%);
+    z-index: 0;
+    width: 77%;
+    z-index: 0;
+    opacity: 0;
+}
+.exemple-img.active,
+.exemple-img.active1,
+.exemple-img.active2,
+.exemple-img.active3{
+    top: 6%;
+    z-index: 9;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+.exemple-img.active{
+    transition: opacity .5s ease-out;
+}
+.exemple-img.active1{
+    transition: top .3s ease-out;
+}
+.exemple-img.active2{
+    transition: left .35s ease-out;
+}
+.exemple-img.active3{
+    transition: transform .35s ease-out;
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    -moz-transition: -moz-transform .3s ease-out;
+}
 .display-image{
     position: absolute;
     display: inline-block;
@@ -1167,7 +1170,6 @@ footer {
     width: 100%;
     display: inline-block;
 }
-
 .career-filter{
     width: 59%;
     min-width: 940px;
@@ -1361,24 +1363,11 @@ footer {
     outline: 1px solid #0061fe;
     transition: all .2s linear;
 }
-
 .we-do-btn > .active,
 .we-do-btn > button:hover{
     background: #0061fe;
     color: #fff;   
-   /* border: #fff solid 1px;*/
 }
-
-/*.blue-button {
-    background: #0061fe;
-    color: #fff;   
-    border: #fff solid 1px;
-}*/
-/*.white-button {
-    background: #fff;
-    color: #0061fe;
-    border: #0061fe solid 1px;
-}*/
 .story-list-imgs{
     position: relative;
     text-align: justify;
@@ -1400,7 +1389,6 @@ footer {
 }
 .story-list-imgs li > p {
     font-size: 24px;
-    /*max-width: 150px;*/
     text-align: left;
     line-height: 1.2;
     margin-top: 20px;
@@ -1439,7 +1427,6 @@ footer {
 }
 .slide1, .slide2, .slide3 {
     color: white;
-
 }
 .wrapper .controls {
     margin-top: 20px;
@@ -1565,7 +1552,6 @@ footer {
     width: 100%;
     height: auto;
 }
-
 #header-text {
     text-align: center;
     color: #fff;
@@ -1682,7 +1668,7 @@ footer {
     float: left;
 }
 .company-list {
-    padding: 30px 18.5% 45px;
+    padding: 30px 17% 45px;
     text-align: justify;    
 }
 .story-list-imgs:after,
@@ -1694,6 +1680,8 @@ footer {
 .company-list li {
     height: 40px;
     display: inline-block;
+}
+.company-list li img{
     padding: 7px 5px;
     cursor: pointer;
 }
@@ -2017,7 +2005,6 @@ footer {
     background: url("../img/pp-left.png") no-repeat left top,
                 url("../img/pp-right.png") no-repeat right top;
     background-size: contain;
-
 }
 .pp-content-wrap{
     padding-bottom: 5%;
@@ -2532,9 +2519,6 @@ footer {
         padding-left: 8%;
         margin: 80px 0 40px 0;
     }
-    /*.go-to > span{
-        font-size: 3vw;
-    }*/
     #project-h2{
         width: 100%;
     }
@@ -2666,7 +2650,6 @@ footer {
     }  
     #filters-block{
         width: 66%;
-       /* margin-top: 65px;*/
     }
     .hexagon-block.study,
     .hexagon-block.developers {
@@ -2708,9 +2691,6 @@ footer {
         margin-top: 0;
         min-width: 900px;
         width: 83%;
-    }
-    .career-wrap{
-        margin-top: 0;
     }
     #post-head-img{
         margin-top: 0;
@@ -2856,9 +2836,6 @@ footer {
     .study-list, .developers-list{
         width: 95%;
     }
-   /* .go-to > span {
-        font-size: 4vw;
-    }*/
     .dev-card-skills li{
         line-height: 96px;
     }
@@ -2898,11 +2875,11 @@ footer {
     .study-block figcaption{
         font-size: 24px;
     }
-    .study-technology-list img{
-        transform: scale(1.5);
-    }
     .study-technology-list li{
-        padding: 5px 0 20px;
+        padding-bottom: 8px;
+    }
+    .study-technology-list img{
+        max-height: 38px;
     }
     .study-info-wrapper {
         padding: 25px 8px;
@@ -3106,7 +3083,6 @@ footer {
         padding-left: 10%;
     }
 }
-
 @media (max-width: 767px){
     .products-list {
         width: 102%;

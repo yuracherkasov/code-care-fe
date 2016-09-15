@@ -1,0 +1,1827 @@
+[
+  {
+    "//<<": {
+      "_id": 0,
+      "index": "57daf70bb3503adafedc359a",
+      "image": "public/img/3.jpg",
+      "background": "full-height_image",
+      "name": "Kidd Hardin",
+      "position": "Full-Stack Web Developer",
+      "about": "Non qui excepteur veniam magna dolor duis laborum ex aliquip labore Lorem eiusmod. Aute enim aute ipsum sit laborum eu esse commodo anim sunt adipisicing fugiat. Culpa dolore officia culpa eiusmod adipisicing eiusmod pariatur irure Lorem cillum ut. Ex laboris tempor et sunt nostrud excepteur ex reprehenderit cillum labore non. Deserunt cillum do velit quis sit eu proident nostrud consequat do. Cupidatat ipsum cillum in officia ullamco dolor nisi fugiat ut.\r\nCupidatat esse ad incididunt aute anim magna nulla nostrud esse nisi aliquip mollit non elit. Nostrud nostrud veniam culpa consequat cupidatat esse. Cupidatat magna non dolor consectetur nulla quis culpa. Qui eu do reprehenderit aliquip cillum sit eu ipsum voluptate occaecat aliqua. Anim amet aliquip ullamco excepteur. Pariatur cupidatat non proident cillum minim aliquip ex elit esse labore aliquip. Aliquip deserunt eiusmod laborum laborum nisi sunt ex.\r\n",
+      "skills": {
+        "PHP": 2,
+        "JS": 5,
+        "Analys": 2,
+        "GulpJs": 4,
+        "SCSS": 2,
+        "React": 3
+      },
+      "projects": [
+        {
+          "id": 3,
+          "name": "Joyce",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "html",
+            "react",
+            "html",
+            "node",
+            "js"
+          ],
+          "about": "reprehenderit aliquip voluptate adipisicing minim sint ut nulla minim dolor quis culpa exercitation laborum sit Lorem cupidatat deserunt proident non"
+        },
+        {
+          "id": 7,
+          "name": "Patterson",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "angular",
+            "html",
+            "yii",
+            "jquery",
+            "node"
+          ],
+          "about": "et est aliqua enim commodo ad qui commodo laboris Lorem qui eu sit cillum fugiat aliqua ullamco commodo excepteur amet"
+        },
+        {
+          "id": 7,
+          "name": "Mcintosh",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "yii",
+            "wp",
+            "ionic",
+            "cordova",
+            "js"
+          ],
+          "about": "eiusmod ullamco occaecat cillum esse mollit labore eiusmod ea reprehenderit do eiusmod sit ad magna sit culpa excepteur dolor irure"
+        },
+        {
+          "id": 10,
+          "name": "Barrett",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "ionic",
+            "laravel",
+            "sql",
+            "yii",
+            "jquery"
+          ],
+          "about": "consequat aliqua aute minim aliquip sunt cillum elit incididunt exercitation amet enim Lorem eu voluptate non nostrud eu officia culpa"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 1,
+      "index": "57daf70b8addf611a3eefa8e",
+      "image": "public/img/8.jpg",
+      "background": "full-height_image",
+      "name": "Ramirez Hobbs",
+      "position": "Back-end Developer",
+      "about": "Amet proident adipisicing nisi id officia sint. Est id incididunt fugiat culpa nostrud ullamco qui nisi. Magna Lorem nulla nulla officia pariatur fugiat aliqua officia voluptate magna adipisicing ea esse. Culpa do incididunt sit esse.\r\nCulpa qui eiusmod nulla incididunt nostrud enim eu dolor officia mollit. Ex proident ullamco amet occaecat ut mollit qui ut aliquip. Nisi occaecat laborum sint quis excepteur. Deserunt incididunt dolor excepteur enim irure consectetur labore aute consequat. Officia amet enim ut cupidatat ut consequat. In et commodo tempor sit pariatur Lorem ut Lorem voluptate qui esse. Magna aute nisi nulla deserunt veniam Lorem laborum deserunt cupidatat elit voluptate do ut.\r\n",
+      "skills": {
+        "PHP": 2,
+        "JS": 5,
+        "Analys": 5,
+        "GulpJs": 4,
+        "SCSS": 3,
+        "React": 4
+      },
+      "projects": [
+        {
+          "id": 10,
+          "name": "Pierce",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "ionic",
+            "yii",
+            "jquery",
+            "yii",
+            "angular"
+          ],
+          "about": "officia do eiusmod culpa cillum culpa veniam in nisi esse eu minim elit incididunt sunt est laboris qui consequat magna"
+        },
+        {
+          "id": 4,
+          "name": "Joyner",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "angular",
+            "wp",
+            "yii",
+            "react",
+            "sql"
+          ],
+          "about": "sunt elit sint ullamco nulla qui non ut magna non ut irure in proident adipisicing dolore nulla eu sunt eiusmod"
+        },
+        {
+          "id": 10,
+          "name": "Casandra",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "laravel",
+            "react",
+            "html",
+            "angular",
+            "ionic"
+          ],
+          "about": "quis nulla sint duis amet pariatur laborum occaecat duis mollit esse dolore consectetur duis ea anim officia Lorem elit reprehenderit"
+        },
+        {
+          "id": 5,
+          "name": "Adkins",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "yii",
+            "laravel",
+            "js",
+            "ionic",
+            "cordova"
+          ],
+          "about": "elit dolor sunt aute quis ad nulla excepteur reprehenderit sunt exercitation velit tempor culpa dolor ex nulla commodo amet sint"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 2,
+      "index": "57daf70bc073f6b7ba3af964",
+      "image": "public/img/1.jpg",
+      "background": "full-height_image",
+      "name": "Isabel Collier",
+      "position": "Back-end Developer",
+      "about": "Reprehenderit consectetur irure non sint nulla excepteur exercitation Lorem minim exercitation est ullamco. In Lorem in elit eu ad. Enim cillum qui Lorem nisi occaecat mollit ea sunt aute minim eiusmod eu quis proident. Cupidatat do qui ipsum ex dolore quis mollit dolore labore anim minim incididunt ipsum qui.\r\nLaboris labore esse magna non irure dolore enim excepteur. Do consectetur ad pariatur quis velit non. Deserunt proident id voluptate id laborum nulla sit consequat nulla aute ullamco elit. Ullamco cillum consequat sunt mollit culpa. Adipisicing qui consectetur cillum enim nulla exercitation cillum fugiat incididunt minim velit ad.\r\n",
+      "skills": {
+        "PHP": 4,
+        "JS": 3,
+        "Analys": 4,
+        "GulpJs": 3,
+        "SCSS": 3,
+        "React": 5
+      },
+      "projects": [
+        {
+          "id": 1,
+          "name": "Janelle",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "angular",
+            "react",
+            "angular",
+            "sql",
+            "node"
+          ],
+          "about": "voluptate eu excepteur dolore do qui enim magna incididunt incididunt nulla irure irure laboris cupidatat consequat adipisicing occaecat enim ex"
+        },
+        {
+          "id": 4,
+          "name": "Bailey",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "cordova",
+            "react",
+            "js",
+            "laravel",
+            "sql"
+          ],
+          "about": "ipsum elit aliquip deserunt cillum exercitation do adipisicing esse dolor tempor ea aute excepteur eiusmod sunt voluptate nulla irure do"
+        },
+        {
+          "id": 3,
+          "name": "Hawkins",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "react",
+            "yii",
+            "angular",
+            "react",
+            "js"
+          ],
+          "about": "sit nostrud consequat aliquip laborum adipisicing veniam consequat minim enim duis anim veniam sit aliqua sint commodo culpa mollit ipsum"
+        },
+        {
+          "id": 9,
+          "name": "Patel",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "html",
+            "yii",
+            "html",
+            "html",
+            "html"
+          ],
+          "about": "voluptate sit ut officia enim quis ea eiusmod adipisicing nostrud excepteur eiusmod Lorem labore velit veniam amet commodo cupidatat et"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 3,
+      "index": "57daf70bbea169fc63e51222",
+      "image": "public/img/6.jpg",
+      "background": "full-height_image",
+      "name": "Lessie Potter",
+      "position": "Full-Stack Web Developer",
+      "about": "In esse laborum laborum nostrud irure est elit esse. Esse enim consequat esse culpa ullamco in proident excepteur labore. Et anim sit incididunt ad est proident. Adipisicing ad pariatur do sit consequat. Excepteur consectetur duis ullamco dolore ipsum et sint laborum esse. Occaecat eiusmod aute officia ullamco pariatur fugiat nostrud tempor duis. Incididunt qui irure sunt duis mollit esse nisi exercitation.\r\nExercitation aliqua adipisicing eu Lorem nostrud dolor officia quis amet consequat veniam anim. Nostrud aliqua Lorem laboris minim id sunt velit minim Lorem enim fugiat sit aute. Dolor consequat proident incididunt ipsum esse occaecat excepteur cillum magna. Laborum consequat et aliquip et ea enim minim culpa non dolore veniam non pariatur. Exercitation magna esse irure reprehenderit eiusmod ipsum sunt incididunt cupidatat est ipsum elit ad. Occaecat excepteur amet in pariatur consequat est eu enim reprehenderit sunt ex quis sint.\r\n",
+      "skills": {
+        "PHP": 5,
+        "JS": 2,
+        "Analys": 5,
+        "GulpJs": 5,
+        "SCSS": 5,
+        "React": 5
+      },
+      "projects": [
+        {
+          "id": 9,
+          "name": "Luella",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "html",
+            "node",
+            "js",
+            "cordova",
+            "html"
+          ],
+          "about": "adipisicing id occaecat adipisicing ut aute sit labore do cupidatat cillum ad exercitation dolore proident sunt magna Lorem ad ea"
+        },
+        {
+          "id": 8,
+          "name": "Fuller",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "wp",
+            "jquery",
+            "react",
+            "yii",
+            "wp"
+          ],
+          "about": "aliquip ex ad ad ullamco magna sint nulla laborum enim est ea ex anim aute do est proident consectetur proident"
+        },
+        {
+          "id": 10,
+          "name": "Bolton",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "cordova",
+            "yii",
+            "html",
+            "wp",
+            "html"
+          ],
+          "about": "fugiat labore dolore proident esse est est dolor incididunt eu ipsum occaecat laborum culpa eiusmod magna dolore consequat tempor id"
+        },
+        {
+          "id": 4,
+          "name": "Liza",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "sql",
+            "jquery",
+            "jquery",
+            "node",
+            "laravel"
+          ],
+          "about": "eu anim incididunt enim enim aute mollit sit pariatur id reprehenderit est velit eiusmod Lorem ex dolore ut laboris culpa"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 4,
+      "index": "57daf70b5c592ebed10dbb91",
+      "image": "public/img/4.jpg",
+      "background": "full-height_image",
+      "name": "Ramsey Ramirez",
+      "position": "CMS Web Developer",
+      "about": "Dolore sunt duis ut consequat elit voluptate. Occaecat consequat cillum fugiat nisi veniam qui commodo. Adipisicing est amet elit aute officia proident duis excepteur amet aute minim elit. Qui nisi quis voluptate proident. Minim magna cillum reprehenderit est laboris anim tempor labore eu nisi laboris enim. Incididunt reprehenderit deserunt laborum excepteur sint laboris voluptate labore qui proident sunt commodo magna est.\r\nAnim cupidatat in adipisicing aliquip occaecat. Nulla pariatur incididunt minim exercitation ullamco ad qui deserunt velit minim pariatur. Eu occaecat velit aute consequat commodo ipsum anim Lorem consectetur sint labore ipsum consectetur.\r\n",
+      "skills": {
+        "PHP": 4,
+        "JS": 3,
+        "Analys": 3,
+        "GulpJs": 2,
+        "SCSS": 2,
+        "React": 2
+      },
+      "projects": [
+        {
+          "id": 2,
+          "name": "Mccall",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "js",
+            "angular",
+            "wp",
+            "node",
+            "angular"
+          ],
+          "about": "nulla cillum enim adipisicing ullamco eu nisi reprehenderit officia eu pariatur aliqua culpa mollit anim veniam laborum pariatur sunt sint"
+        },
+        {
+          "id": 4,
+          "name": "Horton",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "wp",
+            "html",
+            "ionic",
+            "yii",
+            "angular"
+          ],
+          "about": "sint nisi amet adipisicing aute nulla id sit culpa nulla culpa eiusmod quis qui et exercitation sint Lorem incididunt nostrud"
+        },
+        {
+          "id": 6,
+          "name": "Dollie",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "js",
+            "laravel",
+            "angular",
+            "sql",
+            "angular"
+          ],
+          "about": "elit sit aliqua aliqua duis deserunt adipisicing et ipsum ea voluptate non cupidatat voluptate officia consequat qui exercitation ea nulla"
+        },
+        {
+          "id": 3,
+          "name": "Elsie",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "angular",
+            "ionic",
+            "jquery",
+            "cordova",
+            "react"
+          ],
+          "about": "proident Lorem Lorem velit consectetur ea aliqua reprehenderit ullamco nostrud sit ad enim magna non minim velit sunt enim deserunt"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 5,
+      "index": "57daf70b3da284764a3b28a1",
+      "image": "public/img/5.jpg",
+      "background": "full-height_image",
+      "name": "Ware Mayo",
+      "position": "Front-end Web Developer",
+      "about": "Commodo labore et occaecat amet id officia eu aliqua nulla consectetur esse. Qui fugiat aliquip nisi ut elit magna amet non aute ea amet consectetur et ex. Ut excepteur consectetur adipisicing laboris fugiat nulla laborum reprehenderit dolor esse aute sunt. Ex duis in elit consequat elit quis qui ex est. Ea tempor do eiusmod exercitation voluptate culpa amet do nulla ad anim. Veniam elit excepteur occaecat non tempor consequat dolore sint.\r\nUt veniam labore ullamco aute ipsum proident pariatur consectetur elit fugiat ad officia. Exercitation aliquip commodo aute quis. Voluptate magna dolor qui aliquip. Consequat fugiat deserunt anim occaecat ullamco consequat nostrud consequat voluptate ut nisi pariatur. Proident et id dolore commodo irure fugiat qui consequat nulla. Ea aliquip ad enim mollit nulla dolor officia nostrud quis aliquip consectetur dolore dolore deserunt. Aliquip cillum non id commodo nisi occaecat qui fugiat cillum commodo cupidatat.\r\n",
+      "skills": {
+        "PHP": 5,
+        "JS": 2,
+        "Analys": 4,
+        "GulpJs": 2,
+        "SCSS": 2,
+        "React": 5
+      },
+      "projects": [
+        {
+          "id": 7,
+          "name": "Yvonne",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "node",
+            "yii",
+            "wp",
+            "js",
+            "node"
+          ],
+          "about": "qui adipisicing cillum veniam ullamco exercitation laborum veniam aliqua ipsum ad consectetur aliqua labore sint sint dolore qui ut consectetur"
+        },
+        {
+          "id": 4,
+          "name": "Peggy",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "jquery",
+            "wp",
+            "js",
+            "yii",
+            "angular"
+          ],
+          "about": "aliquip eiusmod est velit nulla nulla Lorem minim do irure excepteur reprehenderit labore voluptate elit dolore duis eiusmod ex elit"
+        },
+        {
+          "id": 8,
+          "name": "Glenda",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "wp",
+            "sql",
+            "yii",
+            "node",
+            "wp"
+          ],
+          "about": "anim consequat eu occaecat proident fugiat sunt occaecat incididunt deserunt anim commodo ullamco esse aliquip anim excepteur cillum et eiusmod"
+        },
+        {
+          "id": 2,
+          "name": "Head",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "wp",
+            "node",
+            "sql",
+            "yii",
+            "react"
+          ],
+          "about": "consectetur sint duis cillum ullamco et commodo ex eiusmod esse reprehenderit consectetur anim anim quis ad quis ut sint minim"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 6,
+      "index": "57daf70b0618f052f7075152",
+      "image": "public/img/2.jpg",
+      "background": "full-height_image",
+      "name": "Jewell Lara",
+      "position": "Back-end Developer",
+      "about": "Mollit Lorem aute do ullamco fugiat non nisi in minim nulla consequat quis nostrud. Enim laborum mollit adipisicing culpa cillum do nostrud. Lorem amet deserunt pariatur cupidatat reprehenderit commodo officia reprehenderit. Lorem proident mollit adipisicing qui magna sunt ullamco qui sit labore enim voluptate culpa dolor. Anim est irure est in exercitation ut esse.\r\nSit amet culpa quis eiusmod cillum veniam aliquip. Et laboris laboris et proident commodo veniam irure veniam irure quis proident et consequat. Velit reprehenderit nulla ad ut. Cillum nisi excepteur veniam magna ex commodo esse.\r\n",
+      "skills": {
+        "PHP": 4,
+        "JS": 2,
+        "Analys": 2,
+        "GulpJs": 4,
+        "SCSS": 2,
+        "React": 2
+      },
+      "projects": [
+        {
+          "id": 10,
+          "name": "Merritt",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "node",
+            "cordova",
+            "wp",
+            "wp",
+            "node"
+          ],
+          "about": "culpa est nisi nulla velit tempor Lorem ad labore et ullamco exercitation minim commodo mollit eiusmod irure in id dolore"
+        },
+        {
+          "id": 8,
+          "name": "Acevedo",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "ionic",
+            "yii",
+            "laravel",
+            "laravel",
+            "ionic"
+          ],
+          "about": "reprehenderit qui officia velit ipsum dolore incididunt quis sint veniam excepteur ex qui ad labore fugiat ullamco eu Lorem enim"
+        },
+        {
+          "id": 4,
+          "name": "Edwina",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "laravel",
+            "react",
+            "node",
+            "node",
+            "cordova"
+          ],
+          "about": "ad in eiusmod excepteur Lorem pariatur minim aliquip veniam aute in ipsum amet dolor enim elit tempor labore veniam enim"
+        },
+        {
+          "id": 9,
+          "name": "Castaneda",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "node",
+            "node",
+            "laravel",
+            "sql",
+            "wp"
+          ],
+          "about": "esse laborum aliqua id labore incididunt Lorem pariatur mollit adipisicing enim adipisicing ut ex tempor magna sunt dolore adipisicing aliquip"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 7,
+      "index": "57daf70be8d39c1f7f7346c4",
+      "image": "public/img/4.jpg",
+      "background": "full-height_image",
+      "name": "Chasity Tanner",
+      "position": "Back-end Developer",
+      "about": "Deserunt incididunt laborum officia magna pariatur cillum ea. Magna Lorem eu fugiat consequat et proident officia consequat ex exercitation aliquip sint. Do consequat qui labore nostrud velit irure magna eiusmod. Dolor voluptate aliquip sit Lorem incididunt nostrud. Nisi laboris quis voluptate aute non.\r\nNulla et ex proident amet fugiat nisi sit deserunt aute consequat cupidatat ea. Duis magna labore sit ullamco. Ad aute fugiat aute exercitation ullamco exercitation aliqua enim est id amet ea.\r\n",
+      "skills": {
+        "PHP": 3,
+        "JS": 4,
+        "Analys": 2,
+        "GulpJs": 5,
+        "SCSS": 2,
+        "React": 5
+      },
+      "projects": [
+        {
+          "id": 2,
+          "name": "Neva",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "react",
+            "laravel",
+            "yii",
+            "js",
+            "ionic"
+          ],
+          "about": "ea sit nulla irure incididunt elit Lorem officia ex exercitation culpa ea ea excepteur voluptate fugiat exercitation deserunt qui exercitation"
+        },
+        {
+          "id": 1,
+          "name": "Nelda",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "node",
+            "node",
+            "ionic",
+            "react",
+            "js"
+          ],
+          "about": "qui et fugiat consequat irure ipsum voluptate aliquip laboris cupidatat anim incididunt Lorem adipisicing ipsum nisi commodo aliqua culpa ullamco"
+        },
+        {
+          "id": 7,
+          "name": "Morgan",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "laravel",
+            "ionic",
+            "cordova",
+            "jquery",
+            "sql"
+          ],
+          "about": "veniam commodo ad laboris laboris labore amet ut qui in sunt sit et pariatur proident id amet eiusmod laboris nisi"
+        },
+        {
+          "id": 4,
+          "name": "Mack",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "node",
+            "html",
+            "yii",
+            "html",
+            "angular"
+          ],
+          "about": "Lorem velit laborum velit quis officia mollit sit irure ut aute quis anim eiusmod laborum sint eu nulla aute esse"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 8,
+      "index": "57daf70ba1e5bf25324b34aa",
+      "image": "public/img/6.jpg",
+      "background": "full-height_image",
+      "name": "Rosalinda Humphrey",
+      "position": "Full-Stack Web Developer",
+      "about": "Culpa consequat enim cillum ea esse esse. Ea enim veniam mollit elit id consectetur proident culpa occaecat ad labore. Anim velit et id incididunt in. Occaecat Lorem mollit enim duis eu aute officia.\r\nEt qui occaecat commodo duis deserunt ex cupidatat reprehenderit amet mollit ullamco minim. Magna duis non id nostrud exercitation duis nostrud non. Tempor culpa dolore occaecat sunt sit sunt. Velit Lorem consectetur ad aute dolore incididunt commodo aliquip minim id enim. Aliqua Lorem aliqua esse proident amet proident et cillum dolor veniam deserunt.\r\n",
+      "skills": {
+        "PHP": 4,
+        "JS": 2,
+        "Analys": 2,
+        "GulpJs": 2,
+        "SCSS": 3,
+        "React": 5
+      },
+      "projects": [
+        {
+          "id": 4,
+          "name": "Bernice",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "html",
+            "react",
+            "angular",
+            "js",
+            "laravel"
+          ],
+          "about": "amet pariatur cupidatat esse Lorem occaecat aliqua eu cupidatat duis et aliqua sit laboris ipsum do commodo laboris amet do"
+        },
+        {
+          "id": 3,
+          "name": "Deloris",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "wp",
+            "js",
+            "node",
+            "react",
+            "js"
+          ],
+          "about": "nisi in culpa cupidatat officia labore ullamco nulla laborum dolor incididunt amet consectetur mollit laborum dolore qui esse mollit quis"
+        },
+        {
+          "id": 5,
+          "name": "Nona",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "yii",
+            "html",
+            "laravel",
+            "html",
+            "ionic"
+          ],
+          "about": "est cupidatat officia aute excepteur in ipsum dolore irure nulla non velit magna dolor ad qui consectetur laboris nulla reprehenderit"
+        },
+        {
+          "id": 8,
+          "name": "Parrish",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "react",
+            "wp",
+            "node",
+            "node",
+            "yii"
+          ],
+          "about": "commodo ea dolor tempor ad non do proident mollit cillum aliquip laborum mollit ea magna deserunt dolor mollit eiusmod occaecat"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 9,
+      "index": "57daf70b1b9cb90433e0bc98",
+      "image": "public/img/3.jpg",
+      "background": "full-height_image",
+      "name": "Stone Dillard",
+      "position": "CMS Web Developer",
+      "about": "Ex enim quis Lorem mollit est enim aute occaecat tempor esse cupidatat in labore labore. Aliqua culpa cupidatat irure nulla consectetur quis ea nulla sit. Culpa velit aute elit exercitation commodo commodo exercitation minim ullamco. Consectetur fugiat velit velit exercitation enim labore sint officia fugiat ad id adipisicing.\r\nCillum fugiat quis aute nisi quis adipisicing fugiat Lorem commodo ut. Commodo dolore dolor magna nostrud laborum exercitation est qui ea reprehenderit labore ullamco. Commodo laborum est veniam magna cillum veniam amet et exercitation pariatur duis. Magna est ut qui enim enim labore elit officia commodo duis duis consectetur velit ea. Labore officia esse proident laboris irure irure officia consectetur minim esse aliquip quis dolor enim.\r\n",
+      "skills": {
+        "PHP": 2,
+        "JS": 5,
+        "Analys": 3,
+        "GulpJs": 5,
+        "SCSS": 5,
+        "React": 3
+      },
+      "projects": [
+        {
+          "id": 2,
+          "name": "Hester",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "js",
+            "cordova",
+            "angular",
+            "ionic",
+            "yii"
+          ],
+          "about": "fugiat exercitation deserunt aliquip nulla duis esse enim amet officia Lorem sint incididunt et fugiat veniam et nisi sunt laborum"
+        },
+        {
+          "id": 3,
+          "name": "Shawn",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "laravel",
+            "cordova",
+            "html",
+            "react",
+            "ionic"
+          ],
+          "about": "adipisicing magna enim qui ex commodo qui pariatur cillum reprehenderit est amet incididunt commodo incididunt tempor laborum ex adipisicing ad"
+        },
+        {
+          "id": 4,
+          "name": "Gracie",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "laravel",
+            "cordova",
+            "jquery",
+            "yii",
+            "cordova"
+          ],
+          "about": "nostrud aliqua qui fugiat ut laboris pariatur anim occaecat ex fugiat cupidatat pariatur non qui cillum laboris ullamco aliquip laboris"
+        },
+        {
+          "id": 5,
+          "name": "Cervantes",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "cordova",
+            "wp",
+            "ionic",
+            "jquery",
+            "js"
+          ],
+          "about": "elit aute nisi eiusmod aute consectetur do quis veniam ipsum velit eu incididunt amet amet anim laboris reprehenderit dolor duis"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 10,
+      "index": "57daf70bb24bf15c3bae6747",
+      "image": "public/img/1.jpg",
+      "background": "full-height_image",
+      "name": "Schwartz Ross",
+      "position": "Full-Stack Web Developer",
+      "about": "Velit ullamco consequat id et ea irure occaecat consectetur minim. Mollit et non anim ipsum voluptate. Enim ut voluptate voluptate voluptate magna occaecat consectetur nostrud irure amet. Cupidatat minim tempor nisi reprehenderit sit aliquip nulla non.\r\nDeserunt cillum et aute fugiat. Excepteur non Lorem labore id laborum in eu. Amet ullamco anim cillum dolor do aute ipsum do commodo. Irure irure velit sunt est officia velit voluptate tempor. Ut incididunt reprehenderit sunt magna sit velit eu irure occaecat minim fugiat aute eiusmod.\r\n",
+      "skills": {
+        "PHP": 5,
+        "JS": 5,
+        "Analys": 5,
+        "GulpJs": 3,
+        "SCSS": 5,
+        "React": 2
+      },
+      "projects": [
+        {
+          "id": 2,
+          "name": "Mclean",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "wp",
+            "js",
+            "html",
+            "node",
+            "js"
+          ],
+          "about": "sunt consectetur magna laborum mollit elit cillum ad sunt eu minim occaecat velit aliquip excepteur enim dolor eiusmod eiusmod sit"
+        },
+        {
+          "id": 7,
+          "name": "Barber",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "react",
+            "sql",
+            "node",
+            "html",
+            "cordova"
+          ],
+          "about": "ad pariatur tempor cillum Lorem minim consectetur quis ea velit ullamco magna ex velit sit nisi fugiat ipsum culpa id"
+        },
+        {
+          "id": 5,
+          "name": "Annmarie",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "angular",
+            "jquery",
+            "react",
+            "wp",
+            "node"
+          ],
+          "about": "ea labore tempor officia excepteur eu eiusmod est cupidatat tempor cupidatat incididunt duis anim esse sunt cillum ipsum amet esse"
+        },
+        {
+          "id": 8,
+          "name": "Erica",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "laravel",
+            "jquery",
+            "angular",
+            "js",
+            "sql"
+          ],
+          "about": "cillum adipisicing adipisicing in exercitation pariatur id laboris consectetur tempor occaecat nostrud non dolor Lorem quis magna exercitation excepteur magna"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 11,
+      "index": "57daf70b3ebad4a9e2ec0df1",
+      "image": "public/img/1.jpg",
+      "background": "full-height_image",
+      "name": "Rodriguez Weaver",
+      "position": "Back-end Developer",
+      "about": "Do voluptate nulla magna eiusmod qui adipisicing non labore ad in culpa. Incididunt in aliqua pariatur ipsum amet exercitation esse occaecat. Id aliqua incididunt fugiat sunt veniam culpa excepteur consequat tempor voluptate. Consequat nulla do in Lorem.\r\nId ex sint pariatur in ex ipsum proident voluptate ea adipisicing. Ex sunt ex sunt irure. Ex ipsum pariatur minim esse. Veniam proident ullamco do aliquip non sit Lorem cillum tempor aliqua aliquip culpa laboris.\r\n",
+      "skills": {
+        "PHP": 5,
+        "JS": 5,
+        "Analys": 5,
+        "GulpJs": 3,
+        "SCSS": 4,
+        "React": 3
+      },
+      "projects": [
+        {
+          "id": 2,
+          "name": "Conner",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "angular",
+            "sql",
+            "jquery",
+            "html",
+            "laravel"
+          ],
+          "about": "ad incididunt consequat aliqua ea enim aute sit elit magna in dolore excepteur id ipsum fugiat incididunt non incididunt reprehenderit"
+        },
+        {
+          "id": 7,
+          "name": "Lacy",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "yii",
+            "ionic",
+            "cordova",
+            "yii",
+            "yii"
+          ],
+          "about": "voluptate in commodo qui anim qui in duis aute laborum elit nulla est in nulla enim ea officia aute nostrud"
+        },
+        {
+          "id": 1,
+          "name": "Nina",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "react",
+            "node",
+            "react",
+            "jquery",
+            "react"
+          ],
+          "about": "fugiat eu dolor veniam commodo in non sunt eu officia proident sit nulla aute amet elit aliqua aute tempor aute"
+        },
+        {
+          "id": 9,
+          "name": "Felicia",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "cordova",
+            "jquery",
+            "cordova",
+            "wp",
+            "angular"
+          ],
+          "about": "aliquip irure sunt do ullamco ipsum excepteur et id eu id exercitation cillum aliquip reprehenderit reprehenderit elit commodo consectetur fugiat"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 12,
+      "index": "57daf70b1cf5e2e2b5340557",
+      "image": "public/img/5.jpg",
+      "background": "full-height_image",
+      "name": "Jamie Rowe",
+      "position": "Front-end Web Developer",
+      "about": "Velit velit enim culpa irure nulla magna elit. Do est enim incididunt sunt sit magna cupidatat ipsum. Eu minim eu ut amet incididunt eiusmod nostrud Lorem enim eu. Dolore fugiat deserunt nostrud duis anim cupidatat dolore ullamco velit enim commodo culpa culpa cupidatat. Labore nostrud sunt nulla labore dolore labore culpa sint sint.\r\nDolore excepteur pariatur id amet nostrud nulla amet sint aliqua id reprehenderit pariatur. Laboris sunt nostrud ut minim. Officia adipisicing veniam sunt nisi. Velit officia ex quis occaecat commodo ad cillum sint ullamco.\r\n",
+      "skills": {
+        "PHP": 3,
+        "JS": 3,
+        "Analys": 5,
+        "GulpJs": 2,
+        "SCSS": 2,
+        "React": 2
+      },
+      "projects": [
+        {
+          "id": 4,
+          "name": "Kristina",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "html",
+            "js",
+            "angular",
+            "react",
+            "wp"
+          ],
+          "about": "veniam anim sit duis consectetur enim anim id aliqua eu adipisicing anim nulla et elit non enim nulla consectetur eu"
+        },
+        {
+          "id": 1,
+          "name": "Brady",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "yii",
+            "ionic",
+            "laravel",
+            "js",
+            "wp"
+          ],
+          "about": "ut enim proident nisi adipisicing ullamco tempor incididunt proident occaecat ea ex ad Lorem sint in fugiat incididunt excepteur adipisicing"
+        },
+        {
+          "id": 4,
+          "name": "Stacie",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "node",
+            "sql",
+            "html",
+            "yii",
+            "ionic"
+          ],
+          "about": "sint laborum cupidatat dolore consectetur excepteur incididunt laboris enim anim fugiat Lorem sint fugiat nostrud aliqua dolor deserunt id sit"
+        },
+        {
+          "id": 4,
+          "name": "Thelma",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "cordova",
+            "angular",
+            "cordova",
+            "jquery",
+            "html"
+          ],
+          "about": "laboris quis magna cillum cupidatat tempor aliqua quis in labore pariatur fugiat tempor eu ex dolor adipisicing irure qui tempor"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 13,
+      "index": "57daf70bf0792eb8c51ec9c9",
+      "image": "public/img/7.jpg",
+      "background": "full-height_image",
+      "name": "Queen Berg",
+      "position": "Front-end Web Developer",
+      "about": "Pariatur cupidatat est ad in duis aliquip est laborum commodo aute. Culpa deserunt eu sunt cillum ad excepteur irure sit magna ea quis officia anim. In ea dolore aliqua occaecat irure elit nostrud aliquip nulla. Do proident qui aliqua quis culpa ullamco cupidatat consequat sit pariatur officia. Laboris duis magna laboris exercitation elit labore officia nostrud cupidatat. Cillum excepteur incididunt occaecat laborum quis exercitation proident incididunt nisi consequat voluptate irure anim ea. Consequat ullamco adipisicing proident sit occaecat enim.\r\nSint qui in culpa laborum magna nulla sit cupidatat laboris incididunt reprehenderit aute. Laborum ut excepteur commodo exercitation id est ullamco ea sit non labore exercitation labore. Fugiat ullamco fugiat culpa commodo id enim velit pariatur aute dolore fugiat pariatur ullamco.\r\n",
+      "skills": {
+        "PHP": 5,
+        "JS": 3,
+        "Analys": 5,
+        "GulpJs": 3,
+        "SCSS": 3,
+        "React": 2
+      },
+      "projects": [
+        {
+          "id": 5,
+          "name": "Dianne",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "yii",
+            "yii",
+            "yii",
+            "wp",
+            "laravel"
+          ],
+          "about": "eiusmod dolore ullamco dolore in nisi mollit veniam amet sint duis velit duis mollit sit ea excepteur aliqua eiusmod mollit"
+        },
+        {
+          "id": 6,
+          "name": "Waters",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "sql",
+            "cordova",
+            "laravel",
+            "js",
+            "html"
+          ],
+          "about": "sunt laboris sit minim non eu magna veniam veniam et ad nostrud culpa culpa veniam sunt et duis veniam ipsum"
+        },
+        {
+          "id": 2,
+          "name": "Kara",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "cordova",
+            "cordova",
+            "cordova",
+            "react",
+            "ionic"
+          ],
+          "about": "eiusmod reprehenderit anim laborum proident enim velit aliquip dolore in laborum quis dolor qui sint veniam irure non consequat qui"
+        },
+        {
+          "id": 10,
+          "name": "Claudine",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "jquery",
+            "node",
+            "react",
+            "angular",
+            "ionic"
+          ],
+          "about": "laboris consectetur in id elit consectetur esse adipisicing culpa in tempor ut sint minim et elit eu veniam consectetur esse"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 14,
+      "index": "57daf70bfd9bc359f72ce948",
+      "image": "public/img/6.jpg",
+      "background": "full-height_image",
+      "name": "Ewing Figueroa",
+      "position": "Back-end Developer",
+      "about": "Quis minim nostrud sint ea mollit et pariatur commodo enim aliquip quis. Nostrud culpa tempor dolor duis proident sunt occaecat do proident adipisicing. Duis eiusmod excepteur et adipisicing et magna fugiat commodo consectetur mollit.\r\nNostrud consectetur commodo ad anim exercitation do amet nulla veniam nisi id velit occaecat. Ea irure ullamco ex aliquip aliquip enim anim do. Proident duis officia voluptate reprehenderit veniam ullamco irure officia aliqua incididunt do enim aliquip labore. Pariatur amet sit officia qui culpa veniam veniam ut sunt nulla commodo est sit. Lorem fugiat aute aliquip in deserunt ea reprehenderit irure eiusmod ea nisi magna duis. Laboris quis consequat qui est proident ut exercitation nisi cupidatat quis nostrud culpa incididunt. Anim aute in sint voluptate Lorem reprehenderit laborum dolor laboris aliquip.\r\n",
+      "skills": {
+        "PHP": 2,
+        "JS": 5,
+        "Analys": 4,
+        "GulpJs": 3,
+        "SCSS": 4,
+        "React": 4
+      },
+      "projects": [
+        {
+          "id": 1,
+          "name": "Roslyn",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "angular",
+            "node",
+            "react",
+            "react",
+            "cordova"
+          ],
+          "about": "dolore velit duis ut exercitation irure voluptate laborum ex est aliqua ipsum ipsum consectetur esse cupidatat dolore nisi cupidatat sint"
+        },
+        {
+          "id": 10,
+          "name": "Angelita",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "yii",
+            "react",
+            "react",
+            "node",
+            "angular"
+          ],
+          "about": "incididunt pariatur sit consequat nisi excepteur consectetur aliqua cupidatat et eu quis cupidatat ut velit ut sunt in mollit amet"
+        },
+        {
+          "id": 3,
+          "name": "Valerie",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "react",
+            "ionic",
+            "sql",
+            "cordova",
+            "cordova"
+          ],
+          "about": "non sunt consequat ad proident ut labore aliqua occaecat laborum in officia aute occaecat consequat reprehenderit aliquip in tempor consectetur"
+        },
+        {
+          "id": 3,
+          "name": "Marta",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "html",
+            "jquery",
+            "react",
+            "jquery",
+            "jquery"
+          ],
+          "about": "commodo id officia eu laborum ex amet ut excepteur deserunt occaecat officia Lorem cupidatat cupidatat adipisicing in eiusmod sit proident"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 15,
+      "index": "57daf70b8bfdc70cd6aa50d8",
+      "image": "public/img/4.jpg",
+      "background": "full-height_image",
+      "name": "Buckner Michael",
+      "position": "Full-Stack Web Developer",
+      "about": "Nostrud nisi sint duis minim laboris velit aute culpa. Sunt amet Lorem dolor laboris Lorem proident consequat velit ullamco. Irure magna eu laborum voluptate nostrud voluptate duis aute aliquip occaecat. Aliqua do cupidatat esse consequat sint. Id duis culpa laborum culpa cupidatat laboris pariatur et quis et. Aliqua do non sunt pariatur Lorem qui consectetur.\r\nAliqua ipsum aute est sit anim dolore culpa et quis. Adipisicing ad enim sit dolor sint fugiat sint. Sit exercitation officia proident ut do dolore non in labore voluptate reprehenderit id.\r\n",
+      "skills": {
+        "PHP": 2,
+        "JS": 5,
+        "Analys": 4,
+        "GulpJs": 5,
+        "SCSS": 5,
+        "React": 2
+      },
+      "projects": [
+        {
+          "id": 7,
+          "name": "Craig",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "react",
+            "js",
+            "wp",
+            "node",
+            "laravel"
+          ],
+          "about": "voluptate ad voluptate eu dolore exercitation do ea sint do commodo ad eiusmod esse aliqua aliqua enim nisi irure ipsum"
+        },
+        {
+          "id": 3,
+          "name": "Traci",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "angular",
+            "js",
+            "js",
+            "angular",
+            "js"
+          ],
+          "about": "adipisicing sint ea labore aliqua eu id voluptate amet ut in consectetur labore labore fugiat cillum non nostrud sint ea"
+        },
+        {
+          "id": 2,
+          "name": "Lela",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "sql",
+            "laravel",
+            "cordova",
+            "ionic",
+            "sql"
+          ],
+          "about": "nulla deserunt nisi commodo dolore elit in dolore nisi ad enim in id sint ex adipisicing adipisicing elit commodo voluptate"
+        },
+        {
+          "id": 7,
+          "name": "Chambers",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "js",
+            "angular",
+            "node",
+            "js",
+            "wp"
+          ],
+          "about": "duis occaecat ipsum irure in mollit Lorem cupidatat laboris excepteur reprehenderit nostrud incididunt non nisi labore aute ipsum est minim"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 16,
+      "index": "57daf70b72292b43187a76c5",
+      "image": "public/img/8.jpg",
+      "background": "full-height_image",
+      "name": "Vang Wooten",
+      "position": "Back-end Developer",
+      "about": "Quis duis et dolor reprehenderit laborum occaecat ex est. Et voluptate labore ullamco mollit fugiat ex in voluptate in adipisicing ex. Ut pariatur laborum adipisicing qui nisi. Esse exercitation Lorem fugiat adipisicing. Esse ad mollit ex ea cillum voluptate amet ullamco aliqua qui sint et. Et duis adipisicing labore in. Aliquip culpa est commodo magna esse consequat dolor sit quis eiusmod exercitation occaecat non.\r\nDolore ullamco enim duis qui incididunt magna enim anim ad deserunt sint. Velit tempor minim voluptate anim cillum proident commodo aliqua nisi veniam. Ipsum dolor consectetur deserunt amet Lorem ea laborum labore magna cillum officia ad. Aute consequat enim id magna magna irure.\r\n",
+      "skills": {
+        "PHP": 4,
+        "JS": 2,
+        "Analys": 5,
+        "GulpJs": 5,
+        "SCSS": 2,
+        "React": 5
+      },
+      "projects": [
+        {
+          "id": 9,
+          "name": "Schroeder",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "cordova",
+            "sql",
+            "wp",
+            "wp",
+            "wp"
+          ],
+          "about": "dolore ad ad minim duis deserunt in nulla tempor consequat ex excepteur laborum excepteur laborum ut ullamco cupidatat ut consectetur"
+        },
+        {
+          "id": 7,
+          "name": "Compton",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "cordova",
+            "wp",
+            "sql",
+            "sql",
+            "laravel"
+          ],
+          "about": "ullamco minim qui do voluptate id ipsum dolore culpa occaecat sit labore est proident magna ut non dolore culpa aute"
+        },
+        {
+          "id": 8,
+          "name": "Laura",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "yii",
+            "laravel",
+            "laravel",
+            "cordova",
+            "js"
+          ],
+          "about": "elit esse non nulla reprehenderit ut dolor officia labore sint labore magna laboris deserunt reprehenderit ut magna aute sint consequat"
+        },
+        {
+          "id": 10,
+          "name": "Stevens",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "sql",
+            "wp",
+            "yii",
+            "yii",
+            "jquery"
+          ],
+          "about": "est anim veniam nostrud ex minim et eu sint ut ut non sint consectetur nulla ipsum ipsum incididunt duis adipisicing"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 17,
+      "index": "57daf70b6ac5f0a12d200bee",
+      "image": "public/img/8.jpg",
+      "background": "full-height_image",
+      "name": "Mccarty Clements",
+      "position": "Full-Stack Web Developer",
+      "about": "Elit est voluptate sit anim veniam do laborum aliquip. Reprehenderit quis incididunt Lorem ullamco ex non est non fugiat ipsum reprehenderit irure consectetur. Aliqua sint eu est pariatur sit duis laboris aute ullamco nostrud in commodo. Reprehenderit sint eu enim ut. Sint non pariatur qui sit occaecat excepteur do occaecat id duis nisi exercitation ad occaecat.\r\nSint voluptate pariatur quis nulla magna. Pariatur est labore voluptate excepteur dolore elit deserunt dolore. Dolor cillum labore tempor duis eiusmod culpa. Nostrud laboris consectetur aliquip laboris est commodo ad. Proident est reprehenderit laboris esse fugiat enim. Amet esse laborum do sint nulla cillum et velit labore sint.\r\n",
+      "skills": {
+        "PHP": 5,
+        "JS": 5,
+        "Analys": 5,
+        "GulpJs": 3,
+        "SCSS": 5,
+        "React": 3
+      },
+      "projects": [
+        {
+          "id": 7,
+          "name": "Castillo",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "react",
+            "cordova",
+            "js",
+            "sql",
+            "ionic"
+          ],
+          "about": "proident et ex ad proident aliquip consectetur laborum anim est Lorem elit labore ipsum veniam enim sunt irure nostrud sit"
+        },
+        {
+          "id": 5,
+          "name": "Susana",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "angular",
+            "yii",
+            "cordova",
+            "angular",
+            "cordova"
+          ],
+          "about": "nisi aliquip occaecat ea fugiat do ad amet eiusmod cupidatat proident proident cupidatat anim magna velit ut minim dolor ipsum"
+        },
+        {
+          "id": 9,
+          "name": "Perry",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "react",
+            "cordova",
+            "angular",
+            "html",
+            "ionic"
+          ],
+          "about": "amet eu amet velit laborum ex duis commodo officia officia do adipisicing aliqua commodo consequat ipsum esse ea ut esse"
+        },
+        {
+          "id": 9,
+          "name": "Carmen",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "laravel",
+            "cordova",
+            "ionic",
+            "sql",
+            "node"
+          ],
+          "about": "pariatur eu fugiat sunt veniam amet commodo magna minim anim ex elit dolore laborum dolor enim do aliquip ex officia"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 18,
+      "index": "57daf70b60b2902103e0a352",
+      "image": "public/img/9.jpg",
+      "background": "full-height_image",
+      "name": "Barnes Benjamin",
+      "position": "Front-end Web Developer",
+      "about": "Reprehenderit est ad esse incididunt nulla enim nulla magna voluptate tempor cillum ullamco voluptate deserunt. Sit amet ut reprehenderit amet ut ut aliqua incididunt nisi sunt consectetur consequat. Consequat dolor laborum laboris anim laboris ut qui duis aute minim ut amet ipsum ut.\r\nQuis irure eu laboris nulla exercitation labore labore consectetur irure non reprehenderit. Eu est commodo dolor id do consequat enim. Laboris Lorem consectetur Lorem fugiat proident fugiat sunt irure tempor laboris proident tempor pariatur non. Commodo eiusmod sit adipisicing ex ut aliquip ad. Sunt sint mollit exercitation velit duis voluptate dolore occaecat enim exercitation anim consectetur. Cupidatat velit culpa ex veniam.\r\n",
+      "skills": {
+        "PHP": 3,
+        "JS": 3,
+        "Analys": 5,
+        "GulpJs": 5,
+        "SCSS": 4,
+        "React": 3
+      },
+      "projects": [
+        {
+          "id": 8,
+          "name": "Le",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "ionic",
+            "yii",
+            "jquery",
+            "html",
+            "angular"
+          ],
+          "about": "mollit duis officia ipsum consectetur et ea consequat fugiat culpa qui aliqua exercitation magna excepteur Lorem deserunt et in nostrud"
+        },
+        {
+          "id": 7,
+          "name": "Warren",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "jquery",
+            "yii",
+            "sql",
+            "laravel",
+            "sql"
+          ],
+          "about": "voluptate occaecat excepteur occaecat sint excepteur aliqua duis sunt in laboris occaecat fugiat irure veniam tempor enim ad culpa consectetur"
+        },
+        {
+          "id": 9,
+          "name": "Ola",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "yii",
+            "react",
+            "wp",
+            "jquery",
+            "cordova"
+          ],
+          "about": "aute laborum minim cillum in esse in sint tempor dolor Lorem sint elit magna deserunt et in proident esse elit"
+        },
+        {
+          "id": 6,
+          "name": "Herminia",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "ionic",
+            "yii",
+            "wp",
+            "ionic",
+            "cordova"
+          ],
+          "about": "proident fugiat cupidatat labore esse deserunt incididunt magna et ea aliqua fugiat elit magna ex consequat nisi duis anim minim"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 19,
+      "index": "57daf70be84a2c2274f9fe29",
+      "image": "public/img/2.jpg",
+      "background": "full-height_image",
+      "name": "Bradley Cruz",
+      "position": "CMS Web Developer",
+      "about": "Occaecat anim proident pariatur deserunt eu laborum consectetur et ea enim. Ex occaecat do consectetur duis non. Nostrud ipsum laborum esse proident ea elit commodo officia cillum consectetur deserunt. Eu commodo aliqua amet minim Lorem non Lorem pariatur irure consectetur enim enim eiusmod.\r\nMagna ullamco culpa et dolor aliquip tempor ipsum Lorem incididunt nisi commodo reprehenderit minim. Nostrud nulla proident irure do duis laborum officia ut est. Nulla mollit voluptate minim reprehenderit consequat consectetur fugiat dolore ad excepteur reprehenderit.\r\n",
+      "skills": {
+        "PHP": 2,
+        "JS": 4,
+        "Analys": 5,
+        "GulpJs": 5,
+        "SCSS": 3,
+        "React": 5
+      },
+      "projects": [
+        {
+          "id": 7,
+          "name": "Freeman",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "laravel",
+            "ionic",
+            "node",
+            "jquery",
+            "react"
+          ],
+          "about": "nulla exercitation laboris eiusmod labore velit tempor in id cupidatat labore consequat ut ad ex aute ex eu culpa consequat"
+        },
+        {
+          "id": 10,
+          "name": "Wade",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "jquery",
+            "html",
+            "yii",
+            "yii",
+            "sql"
+          ],
+          "about": "cupidatat proident nisi fugiat commodo id fugiat pariatur et velit excepteur dolor consequat quis ad aliquip nostrud eu cupidatat officia"
+        },
+        {
+          "id": 1,
+          "name": "Kathleen",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "node",
+            "angular",
+            "ionic",
+            "cordova",
+            "wp"
+          ],
+          "about": "nostrud deserunt ullamco nisi ullamco reprehenderit laborum sunt fugiat ea id magna reprehenderit minim id ex est dolore magna elit"
+        },
+        {
+          "id": 9,
+          "name": "Roberson",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "jquery",
+            "js",
+            "angular",
+            "cordova",
+            "cordova"
+          ],
+          "about": "veniam esse anim sit laborum amet velit non sunt proident ipsum proident eu adipisicing qui ea occaecat dolore pariatur aliqua"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 20,
+      "index": "57daf70baa47ca80c0ac848d",
+      "image": "public/img/5.jpg",
+      "background": "full-height_image",
+      "name": "Saunders Parrish",
+      "position": "Full-Stack Web Developer",
+      "about": "Excepteur mollit non do duis consequat cupidatat enim dolore id adipisicing irure pariatur. Dolore ex aute enim et ea deserunt cillum commodo laborum dolore excepteur. Sit deserunt sint enim velit ad reprehenderit in est eu fugiat laborum excepteur consequat ea.\r\nEt commodo sit nisi tempor. Adipisicing aute elit Lorem nisi quis in ut. Amet cupidatat nulla nostrud deserunt et.\r\n",
+      "skills": {
+        "PHP": 3,
+        "JS": 5,
+        "Analys": 4,
+        "GulpJs": 2,
+        "SCSS": 5,
+        "React": 3
+      },
+      "projects": [
+        {
+          "id": 5,
+          "name": "Savannah",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "html",
+            "js",
+            "laravel",
+            "jquery",
+            "js"
+          ],
+          "about": "proident incididunt consequat laboris incididunt labore in laborum laborum deserunt aliqua laborum sunt laborum aliquip aliqua esse et in commodo"
+        },
+        {
+          "id": 2,
+          "name": "Yvette",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "ionic",
+            "react",
+            "ionic",
+            "laravel",
+            "js"
+          ],
+          "about": "nisi occaecat dolore velit fugiat sint eu sunt nostrud sit anim sit Lorem tempor nulla est aliqua elit ea Lorem"
+        },
+        {
+          "id": 3,
+          "name": "Arlene",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "yii",
+            "wp",
+            "jquery",
+            "node",
+            "sql"
+          ],
+          "about": "aliquip reprehenderit occaecat est excepteur aliqua elit eu nostrud reprehenderit cupidatat consectetur et qui nulla cillum laborum laboris ea est"
+        },
+        {
+          "id": 4,
+          "name": "Hardy",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "html",
+            "laravel",
+            "yii",
+            "react",
+            "node"
+          ],
+          "about": "laborum minim aliquip non magna adipisicing dolor qui incididunt proident est ex pariatur officia nostrud non tempor ipsum ad ea"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 21,
+      "index": "57daf70bb403b28a7cd80fb9",
+      "image": "public/img/4.jpg",
+      "background": "full-height_image",
+      "name": "Lorrie Espinoza",
+      "position": "Front-end Web Developer",
+      "about": "Aute non id ea incididunt. Reprehenderit do sint ut dolore. Aliquip labore voluptate ipsum exercitation magna nulla ad labore irure aute sit cillum reprehenderit. Occaecat pariatur laborum consequat veniam voluptate aute Lorem id enim fugiat in do amet Lorem. Laboris qui enim laborum occaecat in. Eiusmod aliquip labore consectetur reprehenderit aute in.\r\nConsectetur magna nisi elit anim ea nisi duis laboris officia mollit consectetur est sit. Quis quis duis voluptate sint do non laborum voluptate esse magna duis qui aliqua dolor. Ea eiusmod laborum ut tempor consectetur laboris aute. Ipsum dolor culpa sit pariatur mollit velit eu sunt nostrud. Nulla et qui laboris nisi fugiat aliquip commodo fugiat anim adipisicing minim.\r\n",
+      "skills": {
+        "PHP": 3,
+        "JS": 5,
+        "Analys": 5,
+        "GulpJs": 5,
+        "SCSS": 5,
+        "React": 2
+      },
+      "projects": [
+        {
+          "id": 3,
+          "name": "Janis",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "angular",
+            "jquery",
+            "ionic",
+            "angular",
+            "node"
+          ],
+          "about": "duis et consectetur irure id non aliqua commodo velit fugiat tempor et ex irure duis reprehenderit dolore laboris est ea"
+        },
+        {
+          "id": 9,
+          "name": "Berger",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "wp",
+            "node",
+            "sql",
+            "yii",
+            "react"
+          ],
+          "about": "et laboris dolor eu eiusmod esse Lorem sunt labore veniam est eiusmod deserunt amet mollit commodo veniam ullamco nulla minim"
+        },
+        {
+          "id": 2,
+          "name": "Trujillo",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "node",
+            "angular",
+            "sql",
+            "ionic",
+            "laravel"
+          ],
+          "about": "ut proident exercitation dolor esse excepteur ex sit anim consequat consequat dolore consequat ea voluptate ex non enim qui commodo"
+        },
+        {
+          "id": 2,
+          "name": "Christian",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "html",
+            "jquery",
+            "node",
+            "react",
+            "yii"
+          ],
+          "about": "sunt exercitation proident minim nulla ex occaecat culpa ipsum amet amet cillum cupidatat amet sunt nulla labore labore nostrud et"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 22,
+      "index": "57daf70be765ede3d8cc4fdf",
+      "image": "public/img/8.jpg",
+      "background": "full-height_image",
+      "name": "Henson Hopper",
+      "position": "Full-Stack Web Developer",
+      "about": "Et aliquip quis aliquip excepteur eiusmod ea laborum amet minim commodo. Enim do ullamco adipisicing fugiat incididunt id tempor ex. Sint incididunt quis dolor officia nisi esse eu. Proident quis fugiat adipisicing veniam fugiat proident nulla nulla occaecat.\r\nExcepteur cupidatat labore eu et laborum ipsum elit eu exercitation quis tempor enim anim. Aliqua occaecat ullamco minim duis excepteur ullamco nisi nulla irure nisi laborum anim dolor. Anim officia ut dolor commodo ipsum Lorem enim mollit cillum elit.\r\n",
+      "skills": {
+        "PHP": 4,
+        "JS": 3,
+        "Analys": 3,
+        "GulpJs": 4,
+        "SCSS": 4,
+        "React": 2
+      },
+      "projects": [
+        {
+          "id": 3,
+          "name": "Shari",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "ionic",
+            "node",
+            "yii",
+            "wp",
+            "laravel"
+          ],
+          "about": "quis occaecat do mollit cillum magna consequat ut do veniam ipsum elit nisi laboris dolore mollit do mollit in nostrud"
+        },
+        {
+          "id": 2,
+          "name": "Tara",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "laravel",
+            "wp",
+            "ionic",
+            "js",
+            "sql"
+          ],
+          "about": "commodo ex mollit anim dolor amet reprehenderit pariatur voluptate laborum sit quis nisi qui reprehenderit quis ut qui duis velit"
+        },
+        {
+          "id": 7,
+          "name": "Kathrine",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "ionic",
+            "wp",
+            "yii",
+            "jquery",
+            "ionic"
+          ],
+          "about": "do laboris adipisicing aliqua nisi qui aliquip non adipisicing veniam sunt reprehenderit eu laborum esse sit qui eu veniam eu"
+        },
+        {
+          "id": 5,
+          "name": "Nieves",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "html",
+            "html",
+            "jquery",
+            "node",
+            "node"
+          ],
+          "about": "voluptate incididunt aliquip et sunt sit occaecat ea proident incididunt fugiat et non amet sunt quis fugiat incididunt nulla cupidatat"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 23,
+      "index": "57daf70bbaff37d9495acf29",
+      "image": "public/img/3.jpg",
+      "background": "full-height_image",
+      "name": "Brown Thornton",
+      "position": "Full-Stack Web Developer",
+      "about": "Tempor eu enim ut nostrud. Nulla sit pariatur enim aute adipisicing sit minim nisi commodo dolore aliqua nulla consequat. Est sint adipisicing exercitation exercitation incididunt et nulla aliqua adipisicing adipisicing ipsum. Laborum proident nisi quis consectetur veniam et pariatur id in aliquip culpa reprehenderit sint consectetur. Laboris commodo officia enim pariatur. Enim in officia reprehenderit esse eiusmod ut eiusmod labore eu duis velit esse veniam Lorem. Reprehenderit aute consequat ipsum cillum do nisi magna nostrud enim.\r\nUllamco cillum ex incididunt ad duis incididunt est dolor. Ut ex aliqua veniam culpa dolor Lorem ad laborum. Duis id magna eiusmod occaecat minim minim elit labore aliqua. Sit consequat ullamco qui ullamco id. Deserunt id sit esse sint consectetur irure. Amet laborum eu ullamco reprehenderit.\r\n",
+      "skills": {
+        "PHP": 3,
+        "JS": 4,
+        "Analys": 3,
+        "GulpJs": 4,
+        "SCSS": 4,
+        "React": 5
+      },
+      "projects": [
+        {
+          "id": 1,
+          "name": "Meyers",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "sql",
+            "html",
+            "ionic",
+            "node",
+            "jquery"
+          ],
+          "about": "excepteur tempor exercitation velit commodo dolore id dolore adipisicing exercitation aliquip reprehenderit ullamco fugiat id aliqua ipsum qui sit veniam"
+        },
+        {
+          "id": 5,
+          "name": "Lloyd",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "laravel",
+            "js",
+            "jquery",
+            "html",
+            "html"
+          ],
+          "about": "elit labore exercitation commodo incididunt aute reprehenderit Lorem in pariatur nulla anim cillum est eiusmod magna velit commodo duis fugiat"
+        },
+        {
+          "id": 6,
+          "name": "Hodges",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "html",
+            "cordova",
+            "react",
+            "cordova",
+            "node"
+          ],
+          "about": "voluptate nostrud commodo dolor exercitation aliquip ipsum in do Lorem non aute ut voluptate id incididunt excepteur quis ut irure"
+        },
+        {
+          "id": 1,
+          "name": "Fisher",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "html",
+            "js",
+            "angular",
+            "ionic",
+            "wp"
+          ],
+          "about": "non laborum quis ad ipsum reprehenderit esse laboris non proident fugiat do commodo pariatur duis ullamco labore laborum aliqua labore"
+        }
+      ]
+    }
+  },
+  {
+    "//<<": {
+      "_id": 24,
+      "index": "57daf70b5b3dc37fc44f9449",
+      "image": "public/img/8.jpg",
+      "background": "full-height_image",
+      "name": "Cantrell Morales",
+      "position": "CMS Web Developer",
+      "about": "Est est laborum qui do consequat laborum voluptate qui ex eu sunt eiusmod Lorem labore. Labore officia aliqua in tempor aliquip exercitation ex veniam eiusmod est ullamco. Anim consequat fugiat do nulla aliqua veniam nulla occaecat dolor consequat. Voluptate duis reprehenderit aliquip exercitation ea in. Excepteur aute veniam adipisicing quis sunt excepteur commodo commodo eiusmod nostrud ex. Mollit excepteur minim elit pariatur pariatur Lorem veniam ea. Do ea occaecat occaecat excepteur incididunt ex minim est proident exercitation adipisicing.\r\nReprehenderit nisi elit sit aute ullamco aute aute anim excepteur quis exercitation quis pariatur ipsum. Incididunt dolore est nisi eiusmod veniam. Incididunt duis Lorem cupidatat magna enim proident exercitation amet pariatur est occaecat officia magna nostrud. Occaecat minim cillum aliqua elit occaecat consequat. Et minim eiusmod sint magna duis eu minim id aliqua qui duis officia ad. Nisi mollit voluptate anim eiusmod do dolore excepteur nisi qui voluptate sunt aliqua. Esse id amet excepteur aliquip cupidatat excepteur eu Lorem sit excepteur laborum qui enim nisi.\r\n",
+      "skills": {
+        "PHP": 5,
+        "JS": 2,
+        "Analys": 3,
+        "GulpJs": 5,
+        "SCSS": 3,
+        "React": 3
+      },
+      "projects": [
+        {
+          "id": 8,
+          "name": "Lora",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "node",
+            "wp",
+            "cordova",
+            "sql",
+            "laravel"
+          ],
+          "about": "sit reprehenderit labore do ullamco commodo nostrud voluptate proident adipisicing ut culpa ut est velit occaecat cillum sit dolor reprehenderit"
+        },
+        {
+          "id": 9,
+          "name": "Susie",
+          "image": "public/img/proj-exemp2.png",
+          "technologies": [
+            "node",
+            "html",
+            "js",
+            "node",
+            "ionic"
+          ],
+          "about": "aliqua magna dolor proident excepteur cupidatat incididunt nisi consequat consectetur do cillum minim amet proident fugiat pariatur mollit ut excepteur"
+        },
+        {
+          "id": 8,
+          "name": "Susanne",
+          "image": "public/img/proj-exemp3.png",
+          "technologies": [
+            "yii",
+            "js",
+            "laravel",
+            "ionic",
+            "jquery"
+          ],
+          "about": "veniam anim sint fugiat cillum eiusmod magna minim sunt duis et consequat sit ea cupidatat qui dolor ad esse ea"
+        },
+        {
+          "id": 4,
+          "name": "Pitts",
+          "image": "public/img/proj-exemp1.png",
+          "technologies": [
+            "html",
+            "html",
+            "ionic",
+            "ionic",
+            "wp"
+          ],
+          "about": "duis excepteur non enim excepteur labore reprehenderit cillum nulla labore qui aliquip sunt est mollit dolore ad dolore ipsum quis"
+        }
+      ]
+    }
+  }
+]
