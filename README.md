@@ -7,12 +7,7 @@ Installation
 ------------
 
 ```
-Install npm serve:
-npm install -g serve
-
 npm install
-bower install
-
 ```
 
 
