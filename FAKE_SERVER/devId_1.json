@@ -1,0 +1,66 @@
+{
+  "_id": 1,
+  "index": "57daf70b8addf611a3eefa8e",
+  "image": "public/img/8.jpg",
+  "background": "full-height_image",
+  "name": "Ramirez Hobbs",
+  "position": "Back-end Developer",
+  "about": "Amet proident adipisicing nisi id officia sint. Est id incididunt fugiat culpa nostrud ullamco qui nisi. Magna Lorem nulla nulla officia pariatur fugiat aliqua officia voluptate magna adipisicing ea esse. Culpa do incididunt sit esse.\r\nCulpa qui eiusmod nulla incididunt nostrud enim eu dolor officia mollit. Ex proident ullamco amet occaecat ut mollit qui ut aliquip. Nisi occaecat laborum sint quis excepteur. Deserunt incididunt dolor excepteur enim irure consectetur labore aute consequat. Officia amet enim ut cupidatat ut consequat. In et commodo tempor sit pariatur Lorem ut Lorem voluptate qui esse. Magna aute nisi nulla deserunt veniam Lorem laborum deserunt cupidatat elit voluptate do ut.\r\n",
+  "skills": {
+    "PHP": 2,
+    "JS": 5,
+    "Analys": 5,
+    "GulpJs": 4,
+    "SCSS": 3,
+    "React": 4
+  },
+  "projects": [{
+    "id": 10,
+    "name": "Pierce",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "ionic",
+      "yii",
+      "jquery",
+      "yii",
+      "angular"
+    ],
+    "about": "officia do eiusmod culpa cillum culpa veniam in nisi esse eu minim elit incididunt sunt est laboris qui consequat magna"
+  }, {
+    "id": 4,
+    "name": "Joyner",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "angular",
+      "wp",
+      "yii",
+      "react",
+      "sql"
+    ],
+    "about": "sunt elit sint ullamco nulla qui non ut magna non ut irure in proident adipisicing dolore nulla eu sunt eiusmod"
+  }, {
+    "id": 10,
+    "name": "Casandra",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "laravel",
+      "react",
+      "html",
+      "angular",
+      "ionic"
+    ],
+    "about": "quis nulla sint duis amet pariatur laborum occaecat duis mollit esse dolore consectetur duis ea anim officia Lorem elit reprehenderit"
+  }, {
+    "id": 5,
+    "name": "Adkins",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "yii",
+      "laravel",
+      "js",
+      "ionic",
+      "cordova"
+    ],
+    "about": "elit dolor sunt aute quis ad nulla excepteur reprehenderit sunt exercitation velit tempor culpa dolor ex nulla commodo amet sint"
+  }]
+}

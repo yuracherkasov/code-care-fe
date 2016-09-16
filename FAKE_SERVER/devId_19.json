@@ -1,0 +1,66 @@
+{
+  "_id": 19,
+  "index": "57daf70be84a2c2274f9fe29",
+  "image": "public/img/2.jpg",
+  "background": "full-height_image",
+  "name": "Bradley Cruz",
+  "position": "CMS Web Developer",
+  "about": "Occaecat anim proident pariatur deserunt eu laborum consectetur et ea enim. Ex occaecat do consectetur duis non. Nostrud ipsum laborum esse proident ea elit commodo officia cillum consectetur deserunt. Eu commodo aliqua amet minim Lorem non Lorem pariatur irure consectetur enim enim eiusmod.\r\nMagna ullamco culpa et dolor aliquip tempor ipsum Lorem incididunt nisi commodo reprehenderit minim. Nostrud nulla proident irure do duis laborum officia ut est. Nulla mollit voluptate minim reprehenderit consequat consectetur fugiat dolore ad excepteur reprehenderit.\r\n",
+  "skills": {
+    "PHP": 2,
+    "JS": 4,
+    "Analys": 5,
+    "GulpJs": 5,
+    "SCSS": 3,
+    "React": 5
+  },
+  "projects": [{
+    "id": 7,
+    "name": "Freeman",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "laravel",
+      "ionic",
+      "node",
+      "jquery",
+      "react"
+    ],
+    "about": "nulla exercitation laboris eiusmod labore velit tempor in id cupidatat labore consequat ut ad ex aute ex eu culpa consequat"
+  }, {
+    "id": 10,
+    "name": "Wade",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "jquery",
+      "html",
+      "yii",
+      "yii",
+      "sql"
+    ],
+    "about": "cupidatat proident nisi fugiat commodo id fugiat pariatur et velit excepteur dolor consequat quis ad aliquip nostrud eu cupidatat officia"
+  }, {
+    "id": 1,
+    "name": "Kathleen",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "node",
+      "angular",
+      "ionic",
+      "cordova",
+      "wp"
+    ],
+    "about": "nostrud deserunt ullamco nisi ullamco reprehenderit laborum sunt fugiat ea id magna reprehenderit minim id ex est dolore magna elit"
+  }, {
+    "id": 9,
+    "name": "Roberson",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "jquery",
+      "js",
+      "angular",
+      "cordova",
+      "cordova"
+    ],
+    "about": "veniam esse anim sit laborum amet velit non sunt proident ipsum proident eu adipisicing qui ea occaecat dolore pariatur aliqua"
+  }]
+}

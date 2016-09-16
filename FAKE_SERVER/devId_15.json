@@ -1,0 +1,66 @@
+{
+  "_id": 15,
+  "index": "57daf70b8bfdc70cd6aa50d8",
+  "image": "public/img/4.jpg",
+  "background": "full-height_image",
+  "name": "Buckner Michael",
+  "position": "Full-Stack Web Developer",
+  "about": "Nostrud nisi sint duis minim laboris velit aute culpa. Sunt amet Lorem dolor laboris Lorem proident consequat velit ullamco. Irure magna eu laborum voluptate nostrud voluptate duis aute aliquip occaecat. Aliqua do cupidatat esse consequat sint. Id duis culpa laborum culpa cupidatat laboris pariatur et quis et. Aliqua do non sunt pariatur Lorem qui consectetur.\r\nAliqua ipsum aute est sit anim dolore culpa et quis. Adipisicing ad enim sit dolor sint fugiat sint. Sit exercitation officia proident ut do dolore non in labore voluptate reprehenderit id.\r\n",
+  "skills": {
+    "PHP": 2,
+    "JS": 5,
+    "Analys": 4,
+    "GulpJs": 5,
+    "SCSS": 5,
+    "React": 2
+  },
+  "projects": [{
+    "id": 7,
+    "name": "Craig",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "react",
+      "js",
+      "wp",
+      "node",
+      "laravel"
+    ],
+    "about": "voluptate ad voluptate eu dolore exercitation do ea sint do commodo ad eiusmod esse aliqua aliqua enim nisi irure ipsum"
+  }, {
+    "id": 3,
+    "name": "Traci",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "angular",
+      "js",
+      "js",
+      "angular",
+      "js"
+    ],
+    "about": "adipisicing sint ea labore aliqua eu id voluptate amet ut in consectetur labore labore fugiat cillum non nostrud sint ea"
+  }, {
+    "id": 2,
+    "name": "Lela",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "sql",
+      "laravel",
+      "cordova",
+      "ionic",
+      "sql"
+    ],
+    "about": "nulla deserunt nisi commodo dolore elit in dolore nisi ad enim in id sint ex adipisicing adipisicing elit commodo voluptate"
+  }, {
+    "id": 7,
+    "name": "Chambers",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "js",
+      "angular",
+      "node",
+      "js",
+      "wp"
+    ],
+    "about": "duis occaecat ipsum irure in mollit Lorem cupidatat laboris excepteur reprehenderit nostrud incididunt non nisi labore aute ipsum est minim"
+  }]
+}

@@ -666,7 +666,7 @@ footer {
     transform: rotate(-60deg) skewY(30deg);
     display: inline-block;
     margin-left: -2px;
-    margin-top: -5.4%;
+    margin-top: -5.45%;
 }
 .study-list li,
 .developers-list li{
@@ -716,7 +716,8 @@ footer {
     -moz-transform: translateX(-50%) scale(1);
     transition: all .2s ease-out;
 }
-.dev-image-wrap{
+.study-list .dev-image-wrap{
+    min-width: 100%;
     height: 100%;
     position: absolute;
     left: 50%;
@@ -725,6 +726,10 @@ footer {
     -webkit-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
+}
+.developers-list .dev-image-wrap{
+    height: 100%;
+    margin-left: -8%;
 }
 .study-list  img,
 .developers-list  img{
@@ -804,6 +809,7 @@ footer {
     border-bottom: 2px solid #e8e8e8;
     line-height: 51px;
 }
+.dev-skills li:last-child,
 .dev-card-skills li:last-child {
     border-bottom: none;
 }

@@ -1,0 +1,66 @@
+{
+  "_id": 13,
+  "index": "57daf70bf0792eb8c51ec9c9",
+  "image": "public/img/7.jpg",
+  "background": "full-height_image",
+  "name": "Queen Berg",
+  "position": "Front-end Web Developer",
+  "about": "Pariatur cupidatat est ad in duis aliquip est laborum commodo aute. Culpa deserunt eu sunt cillum ad excepteur irure sit magna ea quis officia anim. In ea dolore aliqua occaecat irure elit nostrud aliquip nulla. Do proident qui aliqua quis culpa ullamco cupidatat consequat sit pariatur officia. Laboris duis magna laboris exercitation elit labore officia nostrud cupidatat. Cillum excepteur incididunt occaecat laborum quis exercitation proident incididunt nisi consequat voluptate irure anim ea. Consequat ullamco adipisicing proident sit occaecat enim.\r\nSint qui in culpa laborum magna nulla sit cupidatat laboris incididunt reprehenderit aute. Laborum ut excepteur commodo exercitation id est ullamco ea sit non labore exercitation labore. Fugiat ullamco fugiat culpa commodo id enim velit pariatur aute dolore fugiat pariatur ullamco.\r\n",
+  "skills": {
+    "PHP": 5,
+    "JS": 3,
+    "Analys": 5,
+    "GulpJs": 3,
+    "SCSS": 3,
+    "React": 2
+  },
+  "projects": [{
+    "id": 5,
+    "name": "Dianne",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "yii",
+      "yii",
+      "yii",
+      "wp",
+      "laravel"
+    ],
+    "about": "eiusmod dolore ullamco dolore in nisi mollit veniam amet sint duis velit duis mollit sit ea excepteur aliqua eiusmod mollit"
+  }, {
+    "id": 6,
+    "name": "Waters",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "sql",
+      "cordova",
+      "laravel",
+      "js",
+      "html"
+    ],
+    "about": "sunt laboris sit minim non eu magna veniam veniam et ad nostrud culpa culpa veniam sunt et duis veniam ipsum"
+  }, {
+    "id": 2,
+    "name": "Kara",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "cordova",
+      "cordova",
+      "cordova",
+      "react",
+      "ionic"
+    ],
+    "about": "eiusmod reprehenderit anim laborum proident enim velit aliquip dolore in laborum quis dolor qui sint veniam irure non consequat qui"
+  }, {
+    "id": 10,
+    "name": "Claudine",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "jquery",
+      "node",
+      "react",
+      "angular",
+      "ionic"
+    ],
+    "about": "laboris consectetur in id elit consectetur esse adipisicing culpa in tempor ut sint minim et elit eu veniam consectetur esse"
+  }]
+}

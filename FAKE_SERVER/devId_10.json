@@ -1,0 +1,66 @@
+{
+  "_id": 10,
+  "index": "57daf70bb24bf15c3bae6747",
+  "image": "public/img/1.jpg",
+  "background": "full-height_image",
+  "name": "Schwartz Ross",
+  "position": "Full-Stack Web Developer",
+  "about": "Velit ullamco consequat id et ea irure occaecat consectetur minim. Mollit et non anim ipsum voluptate. Enim ut voluptate voluptate voluptate magna occaecat consectetur nostrud irure amet. Cupidatat minim tempor nisi reprehenderit sit aliquip nulla non.\r\nDeserunt cillum et aute fugiat. Excepteur non Lorem labore id laborum in eu. Amet ullamco anim cillum dolor do aute ipsum do commodo. Irure irure velit sunt est officia velit voluptate tempor. Ut incididunt reprehenderit sunt magna sit velit eu irure occaecat minim fugiat aute eiusmod.\r\n",
+  "skills": {
+    "PHP": 5,
+    "JS": 5,
+    "Analys": 5,
+    "GulpJs": 3,
+    "SCSS": 5,
+    "React": 2
+  },
+  "projects": [{
+    "id": 2,
+    "name": "Mclean",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "wp",
+      "js",
+      "html",
+      "node",
+      "js"
+    ],
+    "about": "sunt consectetur magna laborum mollit elit cillum ad sunt eu minim occaecat velit aliquip excepteur enim dolor eiusmod eiusmod sit"
+  }, {
+    "id": 7,
+    "name": "Barber",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "react",
+      "sql",
+      "node",
+      "html",
+      "cordova"
+    ],
+    "about": "ad pariatur tempor cillum Lorem minim consectetur quis ea velit ullamco magna ex velit sit nisi fugiat ipsum culpa id"
+  }, {
+    "id": 5,
+    "name": "Annmarie",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "angular",
+      "jquery",
+      "react",
+      "wp",
+      "node"
+    ],
+    "about": "ea labore tempor officia excepteur eu eiusmod est cupidatat tempor cupidatat incididunt duis anim esse sunt cillum ipsum amet esse"
+  }, {
+    "id": 8,
+    "name": "Erica",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "laravel",
+      "jquery",
+      "angular",
+      "js",
+      "sql"
+    ],
+    "about": "cillum adipisicing adipisicing in exercitation pariatur id laboris consectetur tempor occaecat nostrud non dolor Lorem quis magna exercitation excepteur magna"
+  }]
+}

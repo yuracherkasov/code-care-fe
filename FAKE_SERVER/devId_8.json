@@ -1,0 +1,66 @@
+{
+  "_id": 8,
+  "index": "57daf70ba1e5bf25324b34aa",
+  "image": "public/img/6.jpg",
+  "background": "full-height_image",
+  "name": "Rosalinda Humphrey",
+  "position": "Full-Stack Web Developer",
+  "about": "Culpa consequat enim cillum ea esse esse. Ea enim veniam mollit elit id consectetur proident culpa occaecat ad labore. Anim velit et id incididunt in. Occaecat Lorem mollit enim duis eu aute officia.\r\nEt qui occaecat commodo duis deserunt ex cupidatat reprehenderit amet mollit ullamco minim. Magna duis non id nostrud exercitation duis nostrud non. Tempor culpa dolore occaecat sunt sit sunt. Velit Lorem consectetur ad aute dolore incididunt commodo aliquip minim id enim. Aliqua Lorem aliqua esse proident amet proident et cillum dolor veniam deserunt.\r\n",
+  "skills": {
+    "PHP": 4,
+    "JS": 2,
+    "Analys": 2,
+    "GulpJs": 2,
+    "SCSS": 3,
+    "React": 5
+  },
+  "projects": [{
+    "id": 4,
+    "name": "Bernice",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "html",
+      "react",
+      "angular",
+      "js",
+      "laravel"
+    ],
+    "about": "amet pariatur cupidatat esse Lorem occaecat aliqua eu cupidatat duis et aliqua sit laboris ipsum do commodo laboris amet do"
+  }, {
+    "id": 3,
+    "name": "Deloris",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "wp",
+      "js",
+      "node",
+      "react",
+      "js"
+    ],
+    "about": "nisi in culpa cupidatat officia labore ullamco nulla laborum dolor incididunt amet consectetur mollit laborum dolore qui esse mollit quis"
+  }, {
+    "id": 5,
+    "name": "Nona",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "yii",
+      "html",
+      "laravel",
+      "html",
+      "ionic"
+    ],
+    "about": "est cupidatat officia aute excepteur in ipsum dolore irure nulla non velit magna dolor ad qui consectetur laboris nulla reprehenderit"
+  }, {
+    "id": 8,
+    "name": "Parrish",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "react",
+      "wp",
+      "node",
+      "node",
+      "yii"
+    ],
+    "about": "commodo ea dolor tempor ad non do proident mollit cillum aliquip laborum mollit ea magna deserunt dolor mollit eiusmod occaecat"
+  }]
+}

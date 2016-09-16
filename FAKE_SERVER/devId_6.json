@@ -1,0 +1,66 @@
+{
+  "_id": 6,
+  "index": "57daf70b0618f052f7075152",
+  "image": "public/img/2.jpg",
+  "background": "full-height_image",
+  "name": "Jewell Lara",
+  "position": "Back-end Developer",
+  "about": "Mollit Lorem aute do ullamco fugiat non nisi in minim nulla consequat quis nostrud. Enim laborum mollit adipisicing culpa cillum do nostrud. Lorem amet deserunt pariatur cupidatat reprehenderit commodo officia reprehenderit. Lorem proident mollit adipisicing qui magna sunt ullamco qui sit labore enim voluptate culpa dolor. Anim est irure est in exercitation ut esse.\r\nSit amet culpa quis eiusmod cillum veniam aliquip. Et laboris laboris et proident commodo veniam irure veniam irure quis proident et consequat. Velit reprehenderit nulla ad ut. Cillum nisi excepteur veniam magna ex commodo esse.\r\n",
+  "skills": {
+    "PHP": 4,
+    "JS": 2,
+    "Analys": 2,
+    "GulpJs": 4,
+    "SCSS": 2,
+    "React": 2
+  },
+  "projects": [{
+    "id": 10,
+    "name": "Merritt",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "node",
+      "cordova",
+      "wp",
+      "wp",
+      "node"
+    ],
+    "about": "culpa est nisi nulla velit tempor Lorem ad labore et ullamco exercitation minim commodo mollit eiusmod irure in id dolore"
+  }, {
+    "id": 8,
+    "name": "Acevedo",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "ionic",
+      "yii",
+      "laravel",
+      "laravel",
+      "ionic"
+    ],
+    "about": "reprehenderit qui officia velit ipsum dolore incididunt quis sint veniam excepteur ex qui ad labore fugiat ullamco eu Lorem enim"
+  }, {
+    "id": 4,
+    "name": "Edwina",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "laravel",
+      "react",
+      "node",
+      "node",
+      "cordova"
+    ],
+    "about": "ad in eiusmod excepteur Lorem pariatur minim aliquip veniam aute in ipsum amet dolor enim elit tempor labore veniam enim"
+  }, {
+    "id": 9,
+    "name": "Castaneda",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "node",
+      "node",
+      "laravel",
+      "sql",
+      "wp"
+    ],
+    "about": "esse laborum aliqua id labore incididunt Lorem pariatur mollit adipisicing enim adipisicing ut ex tempor magna sunt dolore adipisicing aliquip"
+  }]
+}

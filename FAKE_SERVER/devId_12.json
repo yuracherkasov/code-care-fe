@@ -1,0 +1,66 @@
+{
+  "_id": 12,
+  "index": "57daf70b1cf5e2e2b5340557",
+  "image": "public/img/5.jpg",
+  "background": "full-height_image",
+  "name": "Jamie Rowe",
+  "position": "Front-end Web Developer",
+  "about": "Velit velit enim culpa irure nulla magna elit. Do est enim incididunt sunt sit magna cupidatat ipsum. Eu minim eu ut amet incididunt eiusmod nostrud Lorem enim eu. Dolore fugiat deserunt nostrud duis anim cupidatat dolore ullamco velit enim commodo culpa culpa cupidatat. Labore nostrud sunt nulla labore dolore labore culpa sint sint.\r\nDolore excepteur pariatur id amet nostrud nulla amet sint aliqua id reprehenderit pariatur. Laboris sunt nostrud ut minim. Officia adipisicing veniam sunt nisi. Velit officia ex quis occaecat commodo ad cillum sint ullamco.\r\n",
+  "skills": {
+    "PHP": 3,
+    "JS": 3,
+    "Analys": 5,
+    "GulpJs": 2,
+    "SCSS": 2,
+    "React": 2
+  },
+  "projects": [{
+    "id": 4,
+    "name": "Kristina",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "html",
+      "js",
+      "angular",
+      "react",
+      "wp"
+    ],
+    "about": "veniam anim sit duis consectetur enim anim id aliqua eu adipisicing anim nulla et elit non enim nulla consectetur eu"
+  }, {
+    "id": 1,
+    "name": "Brady",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "yii",
+      "ionic",
+      "laravel",
+      "js",
+      "wp"
+    ],
+    "about": "ut enim proident nisi adipisicing ullamco tempor incididunt proident occaecat ea ex ad Lorem sint in fugiat incididunt excepteur adipisicing"
+  }, {
+    "id": 4,
+    "name": "Stacie",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "node",
+      "sql",
+      "html",
+      "yii",
+      "ionic"
+    ],
+    "about": "sint laborum cupidatat dolore consectetur excepteur incididunt laboris enim anim fugiat Lorem sint fugiat nostrud aliqua dolor deserunt id sit"
+  }, {
+    "id": 4,
+    "name": "Thelma",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "cordova",
+      "angular",
+      "cordova",
+      "jquery",
+      "html"
+    ],
+    "about": "laboris quis magna cillum cupidatat tempor aliqua quis in labore pariatur fugiat tempor eu ex dolor adipisicing irure qui tempor"
+  }]
+}

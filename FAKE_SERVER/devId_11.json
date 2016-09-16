@@ -1,0 +1,66 @@
+{
+  "_id": 5,
+  "index": "57daf70b3da284764a3b28a1",
+  "image": "public/img/5.jpg",
+  "background": "full-height_image",
+  "name": "Ware Mayo",
+  "position": "Front-end Web Developer",
+  "about": "Commodo labore et occaecat amet id officia eu aliqua nulla consectetur esse. Qui fugiat aliquip nisi ut elit magna amet non aute ea amet consectetur et ex. Ut excepteur consectetur adipisicing laboris fugiat nulla laborum reprehenderit dolor esse aute sunt. Ex duis in elit consequat elit quis qui ex est. Ea tempor do eiusmod exercitation voluptate culpa amet do nulla ad anim. Veniam elit excepteur occaecat non tempor consequat dolore sint.\r\nUt veniam labore ullamco aute ipsum proident pariatur consectetur elit fugiat ad officia. Exercitation aliquip commodo aute quis. Voluptate magna dolor qui aliquip. Consequat fugiat deserunt anim occaecat ullamco consequat nostrud consequat voluptate ut nisi pariatur. Proident et id dolore commodo irure fugiat qui consequat nulla. Ea aliquip ad enim mollit nulla dolor officia nostrud quis aliquip consectetur dolore dolore deserunt. Aliquip cillum non id commodo nisi occaecat qui fugiat cillum commodo cupidatat.\r\n",
+  "skills": {
+    "PHP": 5,
+    "JS": 2,
+    "Analys": 4,
+    "GulpJs": 2,
+    "SCSS": 2,
+    "React": 5
+  },
+  "projects": [{
+    "id": 7,
+    "name": "Yvonne",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "node",
+      "yii",
+      "wp",
+      "js",
+      "node"
+    ],
+    "about": "qui adipisicing cillum veniam ullamco exercitation laborum veniam aliqua ipsum ad consectetur aliqua labore sint sint dolore qui ut consectetur"
+  }, {
+    "id": 4,
+    "name": "Peggy",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "jquery",
+      "wp",
+      "js",
+      "yii",
+      "angular"
+    ],
+    "about": "aliquip eiusmod est velit nulla nulla Lorem minim do irure excepteur reprehenderit labore voluptate elit dolore duis eiusmod ex elit"
+  }, {
+    "id": 8,
+    "name": "Glenda",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "wp",
+      "sql",
+      "yii",
+      "node",
+      "wp"
+    ],
+    "about": "anim consequat eu occaecat proident fugiat sunt occaecat incididunt deserunt anim commodo ullamco esse aliquip anim excepteur cillum et eiusmod"
+  }, {
+    "id": 2,
+    "name": "Head",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "wp",
+      "node",
+      "sql",
+      "yii",
+      "react"
+    ],
+    "about": "consectetur sint duis cillum ullamco et commodo ex eiusmod esse reprehenderit consectetur anim anim quis ad quis ut sint minim"
+  }]
+}

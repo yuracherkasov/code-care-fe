@@ -11,7 +11,7 @@
         <p class="dev-image-wrap">
           <img ng-src="{{item.image}}" alt="{{item.firstname}}" />
         </p>
-        <p class="go-to"><a ui-sref="developer" class="see_more-animation hexagon-btn"><span> Go to <br /> profile</span></a></p>
+        <p class="go-to"><a ui-sref="developer({id: item.id})" class="see_more-animation hexagon-btn"><span> Go to <br /> profile</span></a></p>
         <!-- <p class="go-to"><span> Go to <br /> profile</span></p> -->
       </div>
     </li> 

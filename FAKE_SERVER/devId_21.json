@@ -1,0 +1,66 @@
+{
+  "_id": 21,
+  "index": "57daf70bb403b28a7cd80fb9",
+  "image": "public/img/4.jpg",
+  "background": "full-height_image",
+  "name": "Lorrie Espinoza",
+  "position": "Front-end Web Developer",
+  "about": "Aute non id ea incididunt. Reprehenderit do sint ut dolore. Aliquip labore voluptate ipsum exercitation magna nulla ad labore irure aute sit cillum reprehenderit. Occaecat pariatur laborum consequat veniam voluptate aute Lorem id enim fugiat in do amet Lorem. Laboris qui enim laborum occaecat in. Eiusmod aliquip labore consectetur reprehenderit aute in.\r\nConsectetur magna nisi elit anim ea nisi duis laboris officia mollit consectetur est sit. Quis quis duis voluptate sint do non laborum voluptate esse magna duis qui aliqua dolor. Ea eiusmod laborum ut tempor consectetur laboris aute. Ipsum dolor culpa sit pariatur mollit velit eu sunt nostrud. Nulla et qui laboris nisi fugiat aliquip commodo fugiat anim adipisicing minim.\r\n",
+  "skills": {
+    "PHP": 3,
+    "JS": 5,
+    "Analys": 5,
+    "GulpJs": 5,
+    "SCSS": 5,
+    "React": 2
+  },
+  "projects": [{
+    "id": 3,
+    "name": "Janis",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "angular",
+      "jquery",
+      "ionic",
+      "angular",
+      "node"
+    ],
+    "about": "duis et consectetur irure id non aliqua commodo velit fugiat tempor et ex irure duis reprehenderit dolore laboris est ea"
+  }, {
+    "id": 9,
+    "name": "Berger",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "wp",
+      "node",
+      "sql",
+      "yii",
+      "react"
+    ],
+    "about": "et laboris dolor eu eiusmod esse Lorem sunt labore veniam est eiusmod deserunt amet mollit commodo veniam ullamco nulla minim"
+  }, {
+    "id": 2,
+    "name": "Trujillo",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "node",
+      "angular",
+      "sql",
+      "ionic",
+      "laravel"
+    ],
+    "about": "ut proident exercitation dolor esse excepteur ex sit anim consequat consequat dolore consequat ea voluptate ex non enim qui commodo"
+  }, {
+    "id": 2,
+    "name": "Christian",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "html",
+      "jquery",
+      "node",
+      "react",
+      "yii"
+    ],
+    "about": "sunt exercitation proident minim nulla ex occaecat culpa ipsum amet amet cillum cupidatat amet sunt nulla labore labore nostrud et"
+  }]
+}

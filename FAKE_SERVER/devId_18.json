@@ -1,0 +1,66 @@
+{
+  "_id": 18,
+  "index": "57daf70b60b2902103e0a352",
+  "image": "public/img/9.jpg",
+  "background": "full-height_image",
+  "name": "Barnes Benjamin",
+  "position": "Front-end Web Developer",
+  "about": "Reprehenderit est ad esse incididunt nulla enim nulla magna voluptate tempor cillum ullamco voluptate deserunt. Sit amet ut reprehenderit amet ut ut aliqua incididunt nisi sunt consectetur consequat. Consequat dolor laborum laboris anim laboris ut qui duis aute minim ut amet ipsum ut.\r\nQuis irure eu laboris nulla exercitation labore labore consectetur irure non reprehenderit. Eu est commodo dolor id do consequat enim. Laboris Lorem consectetur Lorem fugiat proident fugiat sunt irure tempor laboris proident tempor pariatur non. Commodo eiusmod sit adipisicing ex ut aliquip ad. Sunt sint mollit exercitation velit duis voluptate dolore occaecat enim exercitation anim consectetur. Cupidatat velit culpa ex veniam.\r\n",
+  "skills": {
+    "PHP": 3,
+    "JS": 3,
+    "Analys": 5,
+    "GulpJs": 5,
+    "SCSS": 4,
+    "React": 3
+  },
+  "projects": [{
+    "id": 8,
+    "name": "Le",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "ionic",
+      "yii",
+      "jquery",
+      "html",
+      "angular"
+    ],
+    "about": "mollit duis officia ipsum consectetur et ea consequat fugiat culpa qui aliqua exercitation magna excepteur Lorem deserunt et in nostrud"
+  }, {
+    "id": 7,
+    "name": "Warren",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "jquery",
+      "yii",
+      "sql",
+      "laravel",
+      "sql"
+    ],
+    "about": "voluptate occaecat excepteur occaecat sint excepteur aliqua duis sunt in laboris occaecat fugiat irure veniam tempor enim ad culpa consectetur"
+  }, {
+    "id": 9,
+    "name": "Ola",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "yii",
+      "react",
+      "wp",
+      "jquery",
+      "cordova"
+    ],
+    "about": "aute laborum minim cillum in esse in sint tempor dolor Lorem sint elit magna deserunt et in proident esse elit"
+  }, {
+    "id": 6,
+    "name": "Herminia",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "ionic",
+      "yii",
+      "wp",
+      "ionic",
+      "cordova"
+    ],
+    "about": "proident fugiat cupidatat labore esse deserunt incididunt magna et ea aliqua fugiat elit magna ex consequat nisi duis anim minim"
+  }]
+}

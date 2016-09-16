@@ -1,0 +1,66 @@
+{
+  "_id": 7,
+  "index": "57daf70be8d39c1f7f7346c4",
+  "image": "public/img/4.jpg",
+  "background": "full-height_image",
+  "name": "Chasity Tanner",
+  "position": "Back-end Developer",
+  "about": "Deserunt incididunt laborum officia magna pariatur cillum ea. Magna Lorem eu fugiat consequat et proident officia consequat ex exercitation aliquip sint. Do consequat qui labore nostrud velit irure magna eiusmod. Dolor voluptate aliquip sit Lorem incididunt nostrud. Nisi laboris quis voluptate aute non.\r\nNulla et ex proident amet fugiat nisi sit deserunt aute consequat cupidatat ea. Duis magna labore sit ullamco. Ad aute fugiat aute exercitation ullamco exercitation aliqua enim est id amet ea.\r\n",
+  "skills": {
+    "PHP": 3,
+    "JS": 4,
+    "Analys": 2,
+    "GulpJs": 5,
+    "SCSS": 2,
+    "React": 5
+  },
+  "projects": [{
+    "id": 2,
+    "name": "Neva",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "react",
+      "laravel",
+      "yii",
+      "js",
+      "ionic"
+    ],
+    "about": "ea sit nulla irure incididunt elit Lorem officia ex exercitation culpa ea ea excepteur voluptate fugiat exercitation deserunt qui exercitation"
+  }, {
+    "id": 1,
+    "name": "Nelda",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "node",
+      "node",
+      "ionic",
+      "react",
+      "js"
+    ],
+    "about": "qui et fugiat consequat irure ipsum voluptate aliquip laboris cupidatat anim incididunt Lorem adipisicing ipsum nisi commodo aliqua culpa ullamco"
+  }, {
+    "id": 7,
+    "name": "Morgan",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "laravel",
+      "ionic",
+      "cordova",
+      "jquery",
+      "sql"
+    ],
+    "about": "veniam commodo ad laboris laboris labore amet ut qui in sunt sit et pariatur proident id amet eiusmod laboris nisi"
+  }, {
+    "id": 4,
+    "name": "Mack",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "node",
+      "html",
+      "yii",
+      "html",
+      "angular"
+    ],
+    "about": "Lorem velit laborum velit quis officia mollit sit irure ut aute quis anim eiusmod laborum sint eu nulla aute esse"
+  }]
+}

@@ -1,0 +1,66 @@
+{
+  "_id": 22,
+  "index": "57daf70be765ede3d8cc4fdf",
+  "image": "public/img/8.jpg",
+  "background": "full-height_image",
+  "name": "Henson Hopper",
+  "position": "Full-Stack Web Developer",
+  "about": "Et aliquip quis aliquip excepteur eiusmod ea laborum amet minim commodo. Enim do ullamco adipisicing fugiat incididunt id tempor ex. Sint incididunt quis dolor officia nisi esse eu. Proident quis fugiat adipisicing veniam fugiat proident nulla nulla occaecat.\r\nExcepteur cupidatat labore eu et laborum ipsum elit eu exercitation quis tempor enim anim. Aliqua occaecat ullamco minim duis excepteur ullamco nisi nulla irure nisi laborum anim dolor. Anim officia ut dolor commodo ipsum Lorem enim mollit cillum elit.\r\n",
+  "skills": {
+    "PHP": 4,
+    "JS": 3,
+    "Analys": 3,
+    "GulpJs": 4,
+    "SCSS": 4,
+    "React": 2
+  },
+  "projects": [{
+    "id": 3,
+    "name": "Shari",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "ionic",
+      "node",
+      "yii",
+      "wp",
+      "laravel"
+    ],
+    "about": "quis occaecat do mollit cillum magna consequat ut do veniam ipsum elit nisi laboris dolore mollit do mollit in nostrud"
+  }, {
+    "id": 2,
+    "name": "Tara",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "laravel",
+      "wp",
+      "ionic",
+      "js",
+      "sql"
+    ],
+    "about": "commodo ex mollit anim dolor amet reprehenderit pariatur voluptate laborum sit quis nisi qui reprehenderit quis ut qui duis velit"
+  }, {
+    "id": 7,
+    "name": "Kathrine",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "ionic",
+      "wp",
+      "yii",
+      "jquery",
+      "ionic"
+    ],
+    "about": "do laboris adipisicing aliqua nisi qui aliquip non adipisicing veniam sunt reprehenderit eu laborum esse sit qui eu veniam eu"
+  }, {
+    "id": 5,
+    "name": "Nieves",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "html",
+      "html",
+      "jquery",
+      "node",
+      "node"
+    ],
+    "about": "voluptate incididunt aliquip et sunt sit occaecat ea proident incididunt fugiat et non amet sunt quis fugiat incididunt nulla cupidatat"
+  }]
+}

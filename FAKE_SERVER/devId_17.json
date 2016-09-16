@@ -1,0 +1,66 @@
+{
+  "_id": 17,
+  "index": "57daf70b6ac5f0a12d200bee",
+  "image": "public/img/8.jpg",
+  "background": "full-height_image",
+  "name": "Mccarty Clements",
+  "position": "Full-Stack Web Developer",
+  "about": "Elit est voluptate sit anim veniam do laborum aliquip. Reprehenderit quis incididunt Lorem ullamco ex non est non fugiat ipsum reprehenderit irure consectetur. Aliqua sint eu est pariatur sit duis laboris aute ullamco nostrud in commodo. Reprehenderit sint eu enim ut. Sint non pariatur qui sit occaecat excepteur do occaecat id duis nisi exercitation ad occaecat.\r\nSint voluptate pariatur quis nulla magna. Pariatur est labore voluptate excepteur dolore elit deserunt dolore. Dolor cillum labore tempor duis eiusmod culpa. Nostrud laboris consectetur aliquip laboris est commodo ad. Proident est reprehenderit laboris esse fugiat enim. Amet esse laborum do sint nulla cillum et velit labore sint.\r\n",
+  "skills": {
+    "PHP": 5,
+    "JS": 5,
+    "Analys": 5,
+    "GulpJs": 3,
+    "SCSS": 5,
+    "React": 3
+  },
+  "projects": [{
+    "id": 7,
+    "name": "Castillo",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "react",
+      "cordova",
+      "js",
+      "sql",
+      "ionic"
+    ],
+    "about": "proident et ex ad proident aliquip consectetur laborum anim est Lorem elit labore ipsum veniam enim sunt irure nostrud sit"
+  }, {
+    "id": 5,
+    "name": "Susana",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "angular",
+      "yii",
+      "cordova",
+      "angular",
+      "cordova"
+    ],
+    "about": "nisi aliquip occaecat ea fugiat do ad amet eiusmod cupidatat proident proident cupidatat anim magna velit ut minim dolor ipsum"
+  }, {
+    "id": 9,
+    "name": "Perry",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "react",
+      "cordova",
+      "angular",
+      "html",
+      "ionic"
+    ],
+    "about": "amet eu amet velit laborum ex duis commodo officia officia do adipisicing aliqua commodo consequat ipsum esse ea ut esse"
+  }, {
+    "id": 9,
+    "name": "Carmen",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "laravel",
+      "cordova",
+      "ionic",
+      "sql",
+      "node"
+    ],
+    "about": "pariatur eu fugiat sunt veniam amet commodo magna minim anim ex elit dolore laborum dolor enim do aliquip ex officia"
+  }]
+}

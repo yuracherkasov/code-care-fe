@@ -1,0 +1,66 @@
+{
+  "_id": 2,
+  "index": "57daf70bc073f6b7ba3af964",
+  "image": "public/img/1.jpg",
+  "background": "full-height_image",
+  "name": "Isabel Collier",
+  "position": "Back-end Developer",
+  "about": "Reprehenderit consectetur irure non sint nulla excepteur exercitation Lorem minim exercitation est ullamco. In Lorem in elit eu ad. Enim cillum qui Lorem nisi occaecat mollit ea sunt aute minim eiusmod eu quis proident. Cupidatat do qui ipsum ex dolore quis mollit dolore labore anim minim incididunt ipsum qui.\r\nLaboris labore esse magna non irure dolore enim excepteur. Do consectetur ad pariatur quis velit non. Deserunt proident id voluptate id laborum nulla sit consequat nulla aute ullamco elit. Ullamco cillum consequat sunt mollit culpa. Adipisicing qui consectetur cillum enim nulla exercitation cillum fugiat incididunt minim velit ad.\r\n",
+  "skills": {
+    "PHP": 4,
+    "JS": 3,
+    "Analys": 4,
+    "GulpJs": 3,
+    "SCSS": 3,
+    "React": 5
+  },
+  "projects": [{
+    "id": 1,
+    "name": "Janelle",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "angular",
+      "react",
+      "angular",
+      "sql",
+      "node"
+    ],
+    "about": "voluptate eu excepteur dolore do qui enim magna incididunt incididunt nulla irure irure laboris cupidatat consequat adipisicing occaecat enim ex"
+  }, {
+    "id": 4,
+    "name": "Bailey",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "cordova",
+      "react",
+      "js",
+      "laravel",
+      "sql"
+    ],
+    "about": "ipsum elit aliquip deserunt cillum exercitation do adipisicing esse dolor tempor ea aute excepteur eiusmod sunt voluptate nulla irure do"
+  }, {
+    "id": 3,
+    "name": "Hawkins",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "react",
+      "yii",
+      "angular",
+      "react",
+      "js"
+    ],
+    "about": "sit nostrud consequat aliquip laborum adipisicing veniam consequat minim enim duis anim veniam sit aliqua sint commodo culpa mollit ipsum"
+  }, {
+    "id": 9,
+    "name": "Patel",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "html",
+      "yii",
+      "html",
+      "html",
+      "html"
+    ],
+    "about": "voluptate sit ut officia enim quis ea eiusmod adipisicing nostrud excepteur eiusmod Lorem labore velit veniam amet commodo cupidatat et"
+  }]
+}

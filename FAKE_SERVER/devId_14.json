@@ -1,0 +1,66 @@
+{
+  "_id": 14,
+  "index": "57daf70bfd9bc359f72ce948",
+  "image": "public/img/6.jpg",
+  "background": "full-height_image",
+  "name": "Ewing Figueroa",
+  "position": "Back-end Developer",
+  "about": "Quis minim nostrud sint ea mollit et pariatur commodo enim aliquip quis. Nostrud culpa tempor dolor duis proident sunt occaecat do proident adipisicing. Duis eiusmod excepteur et adipisicing et magna fugiat commodo consectetur mollit.\r\nNostrud consectetur commodo ad anim exercitation do amet nulla veniam nisi id velit occaecat. Ea irure ullamco ex aliquip aliquip enim anim do. Proident duis officia voluptate reprehenderit veniam ullamco irure officia aliqua incididunt do enim aliquip labore. Pariatur amet sit officia qui culpa veniam veniam ut sunt nulla commodo est sit. Lorem fugiat aute aliquip in deserunt ea reprehenderit irure eiusmod ea nisi magna duis. Laboris quis consequat qui est proident ut exercitation nisi cupidatat quis nostrud culpa incididunt. Anim aute in sint voluptate Lorem reprehenderit laborum dolor laboris aliquip.\r\n",
+  "skills": {
+    "PHP": 2,
+    "JS": 5,
+    "Analys": 4,
+    "GulpJs": 3,
+    "SCSS": 4,
+    "React": 4
+  },
+  "projects": [{
+    "id": 1,
+    "name": "Roslyn",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "angular",
+      "node",
+      "react",
+      "react",
+      "cordova"
+    ],
+    "about": "dolore velit duis ut exercitation irure voluptate laborum ex est aliqua ipsum ipsum consectetur esse cupidatat dolore nisi cupidatat sint"
+  }, {
+    "id": 10,
+    "name": "Angelita",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "yii",
+      "react",
+      "react",
+      "node",
+      "angular"
+    ],
+    "about": "incididunt pariatur sit consequat nisi excepteur consectetur aliqua cupidatat et eu quis cupidatat ut velit ut sunt in mollit amet"
+  }, {
+    "id": 3,
+    "name": "Valerie",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "react",
+      "ionic",
+      "sql",
+      "cordova",
+      "cordova"
+    ],
+    "about": "non sunt consequat ad proident ut labore aliqua occaecat laborum in officia aute occaecat consequat reprehenderit aliquip in tempor consectetur"
+  }, {
+    "id": 3,
+    "name": "Marta",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "html",
+      "jquery",
+      "react",
+      "jquery",
+      "jquery"
+    ],
+    "about": "commodo id officia eu laborum ex amet ut excepteur deserunt occaecat officia Lorem cupidatat cupidatat adipisicing in eiusmod sit proident"
+  }]
+}

@@ -1,0 +1,66 @@
+{
+  "_id": 23,
+  "index": "57daf70bbaff37d9495acf29",
+  "image": "public/img/3.jpg",
+  "background": "full-height_image",
+  "name": "Brown Thornton",
+  "position": "Full-Stack Web Developer",
+  "about": "Tempor eu enim ut nostrud. Nulla sit pariatur enim aute adipisicing sit minim nisi commodo dolore aliqua nulla consequat. Est sint adipisicing exercitation exercitation incididunt et nulla aliqua adipisicing adipisicing ipsum. Laborum proident nisi quis consectetur veniam et pariatur id in aliquip culpa reprehenderit sint consectetur. Laboris commodo officia enim pariatur. Enim in officia reprehenderit esse eiusmod ut eiusmod labore eu duis velit esse veniam Lorem. Reprehenderit aute consequat ipsum cillum do nisi magna nostrud enim.\r\nUllamco cillum ex incididunt ad duis incididunt est dolor. Ut ex aliqua veniam culpa dolor Lorem ad laborum. Duis id magna eiusmod occaecat minim minim elit labore aliqua. Sit consequat ullamco qui ullamco id. Deserunt id sit esse sint consectetur irure. Amet laborum eu ullamco reprehenderit.\r\n",
+  "skills": {
+    "PHP": 3,
+    "JS": 4,
+    "Analys": 3,
+    "GulpJs": 4,
+    "SCSS": 4,
+    "React": 5
+  },
+  "projects": [{
+    "id": 1,
+    "name": "Meyers",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "sql",
+      "html",
+      "ionic",
+      "node",
+      "jquery"
+    ],
+    "about": "excepteur tempor exercitation velit commodo dolore id dolore adipisicing exercitation aliquip reprehenderit ullamco fugiat id aliqua ipsum qui sit veniam"
+  }, {
+    "id": 5,
+    "name": "Lloyd",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "laravel",
+      "js",
+      "jquery",
+      "html",
+      "html"
+    ],
+    "about": "elit labore exercitation commodo incididunt aute reprehenderit Lorem in pariatur nulla anim cillum est eiusmod magna velit commodo duis fugiat"
+  }, {
+    "id": 6,
+    "name": "Hodges",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "html",
+      "cordova",
+      "react",
+      "cordova",
+      "node"
+    ],
+    "about": "voluptate nostrud commodo dolor exercitation aliquip ipsum in do Lorem non aute ut voluptate id incididunt excepteur quis ut irure"
+  }, {
+    "id": 1,
+    "name": "Fisher",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "html",
+      "js",
+      "angular",
+      "ionic",
+      "wp"
+    ],
+    "about": "non laborum quis ad ipsum reprehenderit esse laboris non proident fugiat do commodo pariatur duis ullamco labore laborum aliqua labore"
+  }]
+}

@@ -1,0 +1,66 @@
+{
+  "_id": 3,
+  "index": "57daf70bbea169fc63e51222",
+  "image": "public/img/6.jpg",
+  "background": "full-height_image",
+  "name": "Lessie Potter",
+  "position": "Full-Stack Web Developer",
+  "about": "In esse laborum laborum nostrud irure est elit esse. Esse enim consequat esse culpa ullamco in proident excepteur labore. Et anim sit incididunt ad est proident. Adipisicing ad pariatur do sit consequat. Excepteur consectetur duis ullamco dolore ipsum et sint laborum esse. Occaecat eiusmod aute officia ullamco pariatur fugiat nostrud tempor duis. Incididunt qui irure sunt duis mollit esse nisi exercitation.\r\nExercitation aliqua adipisicing eu Lorem nostrud dolor officia quis amet consequat veniam anim. Nostrud aliqua Lorem laboris minim id sunt velit minim Lorem enim fugiat sit aute. Dolor consequat proident incididunt ipsum esse occaecat excepteur cillum magna. Laborum consequat et aliquip et ea enim minim culpa non dolore veniam non pariatur. Exercitation magna esse irure reprehenderit eiusmod ipsum sunt incididunt cupidatat est ipsum elit ad. Occaecat excepteur amet in pariatur consequat est eu enim reprehenderit sunt ex quis sint.\r\n",
+  "skills": {
+    "PHP": 5,
+    "JS": 2,
+    "Analys": 5,
+    "GulpJs": 5,
+    "SCSS": 5,
+    "React": 5
+  },
+  "projects": [{
+    "id": 9,
+    "name": "Luella",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "html",
+      "node",
+      "js",
+      "cordova",
+      "html"
+    ],
+    "about": "adipisicing id occaecat adipisicing ut aute sit labore do cupidatat cillum ad exercitation dolore proident sunt magna Lorem ad ea"
+  }, {
+    "id": 8,
+    "name": "Fuller",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "wp",
+      "jquery",
+      "react",
+      "yii",
+      "wp"
+    ],
+    "about": "aliquip ex ad ad ullamco magna sint nulla laborum enim est ea ex anim aute do est proident consectetur proident"
+  }, {
+    "id": 10,
+    "name": "Bolton",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "cordova",
+      "yii",
+      "html",
+      "wp",
+      "html"
+    ],
+    "about": "fugiat labore dolore proident esse est est dolor incididunt eu ipsum occaecat laborum culpa eiusmod magna dolore consequat tempor id"
+  }, {
+    "id": 4,
+    "name": "Liza",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "sql",
+      "jquery",
+      "jquery",
+      "node",
+      "laravel"
+    ],
+    "about": "eu anim incididunt enim enim aute mollit sit pariatur id reprehenderit est velit eiusmod Lorem ex dolore ut laboris culpa"
+  }]
+}

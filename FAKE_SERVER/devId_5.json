@@ -1,0 +1,66 @@
+{
+  "_id": 11,
+  "index": "57daf70b3ebad4a9e2ec0df1",
+  "image": "public/img/1.jpg",
+  "background": "full-height_image",
+  "name": "Rodriguez Weaver",
+  "position": "Back-end Developer",
+  "about": "Do voluptate nulla magna eiusmod qui adipisicing non labore ad in culpa. Incididunt in aliqua pariatur ipsum amet exercitation esse occaecat. Id aliqua incididunt fugiat sunt veniam culpa excepteur consequat tempor voluptate. Consequat nulla do in Lorem.\r\nId ex sint pariatur in ex ipsum proident voluptate ea adipisicing. Ex sunt ex sunt irure. Ex ipsum pariatur minim esse. Veniam proident ullamco do aliquip non sit Lorem cillum tempor aliqua aliquip culpa laboris.\r\n",
+  "skills": {
+    "PHP": 5,
+    "JS": 5,
+    "Analys": 5,
+    "GulpJs": 3,
+    "SCSS": 4,
+    "React": 3
+  },
+  "projects": [{
+    "id": 2,
+    "name": "Conner",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "angular",
+      "sql",
+      "jquery",
+      "html",
+      "laravel"
+    ],
+    "about": "ad incididunt consequat aliqua ea enim aute sit elit magna in dolore excepteur id ipsum fugiat incididunt non incididunt reprehenderit"
+  }, {
+    "id": 7,
+    "name": "Lacy",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "yii",
+      "ionic",
+      "cordova",
+      "yii",
+      "yii"
+    ],
+    "about": "voluptate in commodo qui anim qui in duis aute laborum elit nulla est in nulla enim ea officia aute nostrud"
+  }, {
+    "id": 1,
+    "name": "Nina",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "react",
+      "node",
+      "react",
+      "jquery",
+      "react"
+    ],
+    "about": "fugiat eu dolor veniam commodo in non sunt eu officia proident sit nulla aute amet elit aliqua aute tempor aute"
+  }, {
+    "id": 9,
+    "name": "Felicia",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "cordova",
+      "jquery",
+      "cordova",
+      "wp",
+      "angular"
+    ],
+    "about": "aliquip irure sunt do ullamco ipsum excepteur et id eu id exercitation cillum aliquip reprehenderit reprehenderit elit commodo consectetur fugiat"
+  }]
+}

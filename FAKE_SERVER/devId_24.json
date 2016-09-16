@@ -1,0 +1,66 @@
+{
+  "_id": 24,
+  "index": "57daf70b5b3dc37fc44f9449",
+  "image": "public/img/8.jpg",
+  "background": "full-height_image",
+  "name": "Cantrell Morales",
+  "position": "CMS Web Developer",
+  "about": "Est est laborum qui do consequat laborum voluptate qui ex eu sunt eiusmod Lorem labore. Labore officia aliqua in tempor aliquip exercitation ex veniam eiusmod est ullamco. Anim consequat fugiat do nulla aliqua veniam nulla occaecat dolor consequat. Voluptate duis reprehenderit aliquip exercitation ea in. Excepteur aute veniam adipisicing quis sunt excepteur commodo commodo eiusmod nostrud ex. Mollit excepteur minim elit pariatur pariatur Lorem veniam ea. Do ea occaecat occaecat excepteur incididunt ex minim est proident exercitation adipisicing.\r\nReprehenderit nisi elit sit aute ullamco aute aute anim excepteur quis exercitation quis pariatur ipsum. Incididunt dolore est nisi eiusmod veniam. Incididunt duis Lorem cupidatat magna enim proident exercitation amet pariatur est occaecat officia magna nostrud. Occaecat minim cillum aliqua elit occaecat consequat. Et minim eiusmod sint magna duis eu minim id aliqua qui duis officia ad. Nisi mollit voluptate anim eiusmod do dolore excepteur nisi qui voluptate sunt aliqua. Esse id amet excepteur aliquip cupidatat excepteur eu Lorem sit excepteur laborum qui enim nisi.\r\n",
+  "skills": {
+    "PHP": 5,
+    "JS": 2,
+    "Analys": 3,
+    "GulpJs": 5,
+    "SCSS": 3,
+    "React": 3
+  },
+  "projects": [{
+    "id": 8,
+    "name": "Lora",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "node",
+      "wp",
+      "cordova",
+      "sql",
+      "laravel"
+    ],
+    "about": "sit reprehenderit labore do ullamco commodo nostrud voluptate proident adipisicing ut culpa ut est velit occaecat cillum sit dolor reprehenderit"
+  }, {
+    "id": 9,
+    "name": "Susie",
+    "image": "public/img/proj-exemp2.png",
+    "technologies": [
+      "node",
+      "html",
+      "js",
+      "node",
+      "ionic"
+    ],
+    "about": "aliqua magna dolor proident excepteur cupidatat incididunt nisi consequat consectetur do cillum minim amet proident fugiat pariatur mollit ut excepteur"
+  }, {
+    "id": 8,
+    "name": "Susanne",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "yii",
+      "js",
+      "laravel",
+      "ionic",
+      "jquery"
+    ],
+    "about": "veniam anim sint fugiat cillum eiusmod magna minim sunt duis et consequat sit ea cupidatat qui dolor ad esse ea"
+  }, {
+    "id": 4,
+    "name": "Pitts",
+    "image": "public/img/proj-exemp1.png",
+    "technologies": [
+      "html",
+      "html",
+      "ionic",
+      "ionic",
+      "wp"
+    ],
+    "about": "duis excepteur non enim excepteur labore reprehenderit cillum nulla labore qui aliquip sunt est mollit dolore ad dolore ipsum quis"
+  }]
+}

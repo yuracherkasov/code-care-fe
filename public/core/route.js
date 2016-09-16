@@ -2,7 +2,8 @@ angular
   .module('ccApp', [
     'ui.router',
     'ngAnimate',
-    'duScroll'
+    'duScroll',
+    'ngResource'
   ])
 
 .config(function($stateProvider, $urlRouterProvider) {
@@ -29,7 +30,7 @@ angular
   })
 
   .state('devs', {
-    url: '/our-devs/',
+    url: '/developers/',
     templateUrl: 'public/templates/devs.html',
     controller: 'DevsPageController',
     controllerAs: 'devs'

@@ -1,0 +1,66 @@
+{
+  "_id": 20,
+  "index": "57daf70baa47ca80c0ac848d",
+  "image": "public/img/5.jpg",
+  "background": "full-height_image",
+  "name": "Saunders Parrish",
+  "position": "Full-Stack Web Developer",
+  "about": "Excepteur mollit non do duis consequat cupidatat enim dolore id adipisicing irure pariatur. Dolore ex aute enim et ea deserunt cillum commodo laborum dolore excepteur. Sit deserunt sint enim velit ad reprehenderit in est eu fugiat laborum excepteur consequat ea.\r\nEt commodo sit nisi tempor. Adipisicing aute elit Lorem nisi quis in ut. Amet cupidatat nulla nostrud deserunt et.\r\n",
+  "skills": {
+    "PHP": 3,
+    "JS": 5,
+    "Analys": 4,
+    "GulpJs": 2,
+    "SCSS": 5,
+    "React": 3
+  },
+  "projects": [{
+    "id": 5,
+    "name": "Savannah",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "html",
+      "js",
+      "laravel",
+      "jquery",
+      "js"
+    ],
+    "about": "proident incididunt consequat laboris incididunt labore in laborum laborum deserunt aliqua laborum sunt laborum aliquip aliqua esse et in commodo"
+  }, {
+    "id": 2,
+    "name": "Yvette",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "ionic",
+      "react",
+      "ionic",
+      "laravel",
+      "js"
+    ],
+    "about": "nisi occaecat dolore velit fugiat sint eu sunt nostrud sit anim sit Lorem tempor nulla est aliqua elit ea Lorem"
+  }, {
+    "id": 3,
+    "name": "Arlene",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "yii",
+      "wp",
+      "jquery",
+      "node",
+      "sql"
+    ],
+    "about": "aliquip reprehenderit occaecat est excepteur aliqua elit eu nostrud reprehenderit cupidatat consectetur et qui nulla cillum laborum laboris ea est"
+  }, {
+    "id": 4,
+    "name": "Hardy",
+    "image": "public/img/proj-exemp3.png",
+    "technologies": [
+      "html",
+      "laravel",
+      "yii",
+      "react",
+      "node"
+    ],
+    "about": "laborum minim aliquip non magna adipisicing dolor qui incididunt proident est ex pariatur officia nostrud non tempor ipsum ad ea"
+  }]
+}
