@@ -19,6 +19,25 @@ function APIService($http, $resource, config) {
     });
     return projectsPromise;
   };
+//test inquiry:
+  this.putTest = function() {
+    var testPromise = $http({
+      method: 'GET',
+      url: 'http://site.code-care.pro/api/developers.json',
+      data: {name: "firshman"}
+
+    });
+    return testPromise;
+  };
+
+  this.getTest = function() {
+    var testPromise = $http({
+      method: 'GET',
+      url: 'http://site.code-care.pro/api/developers.json'
+
+    });
+    return testPromise;
+  };
 
   // this.getProfileDev = function(){
   //       var profile = 'FAKE_SERVER/dev.json'; 

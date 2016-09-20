@@ -779,7 +779,10 @@ footer {
     padding-bottom: 10px;
     padding-left: 6%;
     word-break: break-all;
-    width: 58%;
+    width: 65%;
+    position: absolute;
+    right: -16px;
+    margin-top: 8px;
 }
 .dev-card-name p {
     font-size: 30px;

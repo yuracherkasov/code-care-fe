@@ -1,306 +1,268 @@
-[
-  {
-    "id": 1,
-    "firstname": "Igor",
-    "lastname": "firshman",
-    "image": "public/img/1.jpg",
-    "skills": {
-      "PHP": 5,
-      "JS": 3,
-      "Analys": 3,
-      "GulpJs": 3,
-      "SCSS": 5,
-      "React": 3
-    }
-  },
-  {
-    "id": 2,
-    "firstname": "Sergey",
-    "lastname": "Ivanov",
-    "image": "public/img/2.jpg",
-    "skills": {
-      "PHP": 3,
-      "JS": 5,
-      "Analys": 3,
-      "GulpJs": 4,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 3,
-    "firstname": "Ivan",
-    "lastname": "Petrov",
-    "image": "public/img/3.jpg",
-    "skills": {
-      "PHP": 5,
-      "Laravel": 2,
-      "Angularjs": 3,
-      "GulpJs": 3,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 4,
-    "firstname": "Ivan",
-    "lastname": "Petrov",
-    "image": "public/img/4.jpg",
-    "skills": {
-      "jQuery": 5,
-      "Yii": 2,
-      "Angularjs": 3,
-      "React": 3,
-      "Nodejs": 5
-    }
-  },
-  {
-    "id": 5,
-    "firstname": "Yuriy",
-    "lastname": "Cherkasov",
-    "image": "public/img/5.jpg",
-    "skills": {
-      "MySQL": 5,
-      "Wordpress": 2,
-      "JS": 3,
-      "Cordova": 3,
-      "Ionic": 5
-    }
-  },
-  {
-    "id": 6,
-    "firstname": "Artem",
-    "lastname": "Sidorov",
-    "image": "public/img/6.jpg",
-    "skills": {
-      "MySQL": 5,
-      "Wordpress": 2,
-      "JS": 3,
-      "Cordova": 3,
-      "Ionic": 5,
-      "GulpJs": 4,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 7,
-    "firstname": "Ivan",
-    "lastname": "Petrov",
-    "image": "public/img/7.jpg",
-    "skills": {
-      "jQuery": 5,
-      "Yii": 2,
-      "Angularjs": 3,
-      "React": 3,
-      "Nodejs": 5
-    }
-  },
-  {
-    "id": 8,
-    "firstname": "Igor",
-    "lastname": "firshman",
-    "image": "public/img/8.jpg",
-    "skills": {
-      "PHP": 5,
-      "JS": 3,
-      "Analys": 3,
-      "GulpJs": 3,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 9,
-    "firstname": "Sergey",
-    "lastname": "Ivanov",
-    "image": "public/img/9.jpg",
-    "skills": {
-      "PHP": 3,
-      "JS": 5,
-      "Analys": 3,
-      "GulpJs": 4,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 10,
-    "firstname": "Ivan",
-    "lastname": "Petrov",
-    "image": "public/img/1.jpg",
-    "skills": {
-      "PHP": 5,
-      "Laravel": 2,
-      "Angularjs": 3,
-      "GulpJs": 3,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 11,
-    "firstname": "Ivan",
-    "lastname": "Petrov",
-    "image": "public/img/2.jpg",
-    "skills": {
-      "jQuery": 5,
-      "Yii": 2,
-      "Angularjs": 3,
-      "React": 3,
-      "Nodejs": 5
-    }
-  },
-  {
-    "id": 12,
-    "firstname": "Igor",
-    "lastname": "firshman",
-    "image": "public/img/1.jpg",
-    "skills": {
-      "PHP": 5,
-      "JS": 3,
-      "HTML": 3,
-      "GulpJs": 3,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 13,
-    "firstname": "Sergey",
-    "lastname": "Ivanov",
-    "image": "public/img/2.jpg",
-    "skills": {
-      "PHP": 3,
-      "JS": 5,
-      "Analys": 3,
-      "GulpJs": 4,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 14,
-    "firstname": "Ivan",
-    "lastname": "Petrov",
-    "image": "public/img/3.jpg",
-    "skills": {
-      "PHP": 5,
-      "Laravel": 2,
-      "Angularjs": 3,
-      "GulpJs": 3,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 15,
-    "firstname": "Ivan",
-    "lastname": "Petrov",
-    "image": "public/img/4.jpg",
-    "skills": {
-      "jQuery": 5,
-      "Yii": 2,
-      "Angularjs": 3,
-      "React": 3,
-      "Nodejs": 5
-    }
-  },
-  {
-    "id": 16,
-    "firstname": "Yuriy",
-    "lastname": "Cherkasov",
-    "image": "public/img/5.jpg",
-    "skills": {
-      "MySQL": 5,
-      "Wordpress": 2,
-      "JS": 3,
-      "Cordova": 3,
-      "Ionic": 5
-    }
-  },
-  {
-    "id": 17,
-    "firstname": "Artem",
-    "lastname": "Sidorov",
-    "image": "public/img/6.jpg",
-    "skills": {
-      "MySQL": 5,
-      "Wordpress": 2,
-      "JS": 3,
-      "Cordova": 3,
-      "Ionic": 5
-    }
-  },
-  {
-    "id": 18,
-    "firstname": "Ivan",
-    "lastname": "Petrov",
-    "image": "public/img/7.jpg",
-    "skills": {
-      "jQuery": 5,
-      "Yii": 2,
-      "Angularjs": 3,
-      "React": 3,
-      "Nodejs": 5
-    }
-  },
-  {
-    "id": 19,
-    "firstname": "Igor",
-    "lastname": "firshman",
-    "image": "public/img/8.jpg",
-    "skills": {
-      "PHP": 5,
-      "JS": 3,
-      "Analys": 3,
-      "GulpJs": 3,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 20,
-    "firstname": "Sergey",
-    "lastname": "Ivanov",
-    "image": "public/img/9.jpg",
-    "skills": {
-      "PHP": 3,
-      "JS": 5,
-      "Analys": 3,
-      "GulpJs": 4,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 21,
-    "firstname": "Ivan",
-    "lastname": "Petrov",
-    "image": "public/img/3.jpg",
-    "skills": {
-      "PHP": 5,
-      "Laravel": 2,
-      "Angularjs": 3,
-      "GulpJs": 3,
-      "SCSS": 5
-    }
-  },
-  {
-    "id": 22,
-    "firstname": "Ivan",
-    "lastname": "Petrov",
-    "image": "public/img/4.jpg",
-    "skills": {
-      "jQuery": 5,
-      "Yii": 2,
-      "Angularjs": 3,
-      "React": 3,
-      "Nodejs": 5
-    }
-  },
-  {
-    "id": 23,
-    "firstname": "Yuriy",
-    "lastname": "Cherkasov",
-    "image": "public/img/5.jpg",
-    "skills": {
-      "MySQL": 5,
-      "Wordpress": 2,
-      "JS": 3,
-      "Cordova": 3,
-      "Angularjs": 3,
-      "React": 3,
-      "Ionic": 5
-    }
+[{
+  "id": 1,
+  "firstname": "Andrew",
+  "lastname": "Gromenko",
+  "image": "public/img/devs/gromenko_a.jpg",
+  "skills": {
+    "PHP": 5,
+    "JS": 3,
+    "Analys": 3,
+    "GulpJs": 3,
+    "SCSS": 5,
+    "React": 3
   }
-]
+}, {
+  "id": 2,
+  "firstname": "Semen",
+  "lastname": "Shestakov",
+  "image": "public/img/devs/shestakov_s.jpg",
+  "skills": {
+    "PHP": 5,
+    "JS": 5,
+    "Angularjs": 5,
+    "GulpJs": 5,
+    "SCSS": 4
+  }
+}, {
+  "id": 3,
+  "firstname": "Kateryna",
+  "lastname": "Feoktistova",
+  "image": "public/img/devs/feoktistova_k.jpg",
+  "skills": {
+    "PHP": 5,
+    "Laravel": 2,
+    "Angularjs": 3,
+    "GulpJs": 3,
+    "SCSS": 5
+  }
+}, {
+  "id": 4,
+  "firstname": "Artyom",
+  "lastname": "Suprun",
+  "image": "public/img/devs/suprun_a.jpg",
+  "skills": {
+    "jQuery": 5,
+    "Yii": 2,
+    "Angularjs": 3,
+    "React": 3,
+    "Nodejs": 5
+  }
+}, {
+  "id": 5,
+  "firstname": "Markas",
+  "lastname": "Kvitka",
+  "image": "public/img/devs/kvitka_m.jpg",
+  "skills": {
+    "MySQL": 5,
+    "Wordpress": 2,
+    "JS": 3,
+    "Cordova": 3,
+    "Ionic": 5
+  }
+}, {
+  "id": 6,
+  "firstname": "Anastasiia",
+  "lastname": "Aliabieva",
+  "image": "public/img/devs/aliabieva_a.jpg",
+  "skills": {
+    "MySQL": 5,
+    "Wordpress": 2,
+    "JS": 3,
+    "Cordova": 3,
+    "Ionic": 5,
+    "GulpJs": 4,
+    "SCSS": 5
+  }
+}, {
+  "id": 7,
+  "firstname": "Alexandr",
+  "lastname": "Poliakov",
+  "image": "public/img/devs/poliakov_a.jpg",
+  "skills": {
+    "jQuery": 5,
+    "Yii": 2,
+    "Angularjs": 3,
+    "React": 3,
+    "Nodejs": 5
+  }
+}, {
+  "id": 8,
+  "firstname": "Vitaliy",
+  "lastname": "Dotsenko",
+  "image": "public/img/devs/dotsenko_v.jpg",
+  "skills": {
+    "PHP": 5,
+    "JS": 3,
+    "Analys": 3,
+    "GulpJs": 3,
+    "SCSS": 5
+  }
+}, {
+  "id": 9,
+  "firstname": "Anjela",
+  "lastname": "Pavlushenko",
+  "image": "public/img/devs/pavlushenko_a.jpg",
+  "skills": {
+    "PHP": 3,
+    "JS": 5,
+    "Analys": 3,
+    "GulpJs": 4,
+    "SCSS": 5
+  }
+}, {
+  "id": 10,
+  "firstname": "Viktor",
+  "lastname": "Iskra",
+  "image": "public/img/devs/iskra_v.jpg",
+  "skills": {
+    "PHP": 5,
+    "Laravel": 2,
+    "Angularjs": 3,
+    "GulpJs": 3,
+    "SCSS": 5
+  }
+}, {
+  "id": 11,
+  "firstname": "Yuriy",
+  "lastname": "Cherkasov",
+  "image": "public/img/devs/cherkasov_y.jpg",
+  "skills": {
+    "jQuery": 5,
+    "Yii": 2,
+    "Angularjs": 3,
+    "React": 3,
+    "Nodejs": 5
+  }
+}, {
+  "id": 12,
+  "firstname": "Liza",
+  "lastname": "Melikyan",
+  "image": "public/img/devs/melikyan_l.jpg",
+  "skills": {
+    "PHP": 5,
+    "JS": 3,
+    "HTML": 3,
+    "GulpJs": 3,
+    "SCSS": 5
+  }
+}, {
+  "id": 13,
+  "firstname": "Roman",
+  "lastname": "Dolgikh",
+  "image": "public/img/devs/dolgikh_r.jpg",
+  "skills": {
+    "PHP": 3,
+    "JS": 5,
+    "Analys": 3,
+    "GulpJs": 4,
+    "SCSS": 5
+  }
+}, {
+  "id": 14,
+  "firstname": "Denis",
+  "lastname": "Zlatopolsiy",
+  "image": "public/img/devs/zlatopolskiy_d.jpg",
+  "skills": {
+    "PHP": 5,
+    "Laravel": 2,
+    "Angularjs": 3,
+    "GulpJs": 3,
+    "SCSS": 5
+  }
+}, {
+  "id": 15,
+  "firstname": "Artyom",
+  "lastname": "Mogilenko",
+  "image": "public/img/devs/mogilenko_a.jpg",
+  "skills": {
+    "jQuery": 5,
+    "Yii": 2,
+    "Angularjs": 3,
+    "React": 3,
+    "Nodejs": 5
+  }
+}, {
+  "id": 16,
+  "firstname": "Julia",
+  "lastname": "Baybak",
+  "image": "public/img/devs/baibak_j.jpg",
+  "skills": {
+    "MySQL": 5,
+    "Wordpress": 2,
+    "JS": 3,
+    "Cordova": 3,
+    "Ionic": 5
+  }
+}, {
+  "id": 17,
+  "firstname": "Kostya",
+  "lastname": "Kisil",
+  "image": "public/img/devs/kisil_k.jpg",
+  "skills": {
+    "MySQL": 5,
+    "Wordpress": 2,
+    "JS": 3,
+    "Cordova": 3,
+    "Ionic": 5
+  }
+}, {
+  "id": 18,
+  "firstname": "Helen",
+  "lastname": "Lobanova",
+  "image": "public/img/devs/lobanova_h.jpg",
+  "skills": {
+    "jQuery": 5,
+    "Yii": 2,
+    "Angularjs": 3,
+    "React": 3,
+    "Nodejs": 5
+  }
+}, {
+  "id": 19,
+  "firstname": "Andrew",
+  "lastname": "Vorontsov",
+  "image": "public/img/devs/vorontsov_a.jpg",
+  "skills": {
+    "PHP": 5,
+    "JS": 3,
+    "Analys": 3,
+    "GulpJs": 3,
+    "SCSS": 5
+  }
+}, {
+  "id": 20,
+  "firstname": "Salim",
+  "lastname": "Salim",
+  "image": "public/img/devs/salim.jpg",
+  "skills": {
+    "PHP": 3,
+    "JS": 5,
+    "Analys": 3,
+    "GulpJs": 4,
+    "SCSS": 5
+  }
+}, {
+  "id": 21,
+  "firstname": "Andrew",
+  "lastname": "Teterin",
+  "image": "public/img/devs/teterin_a.jpg",
+  "skills": {
+    "PHP": 5,
+    "Laravel": 2,
+    "Angularjs": 3,
+    "GulpJs": 3,
+    "SCSS": 5
+  }
+}, {
+  "id": 22,
+  "firstname": "Roman",
+  "lastname": "Lunin",
+  "image": "public/img/devs/lunin_r.jpg",
+  "skills": {
+    "jQuery": 5,
+    "Yii": 2,
+    "Angularjs": 3,
+    "React": 3,
+    "Nodejs": 5
+  }
+}]
