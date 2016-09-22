@@ -53,7 +53,8 @@ angular
 
   .state('social', {
     url: '/social/',
-    templateUrl: 'public/templates/social.html'
+    templateUrl: 'public/templates/social.html',
+    controller: 'SocialController'
   })
 
   .state('developer', {

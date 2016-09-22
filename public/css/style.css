@@ -2439,7 +2439,8 @@ footer {
 .social-list > li img{
     width: 60px;
     height: auto;
-    transition: all .5s cubic-bezier(.62,-1.03,0,1.47) .1s;
+   /* transition: all .5s cubic-bezier(.62,-1.03,0,1.47) .1s;*/
+   transition: all .5s linear .1s;
 }
 .social-list > li.active img,
 .social-list > li:hover img{

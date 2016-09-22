@@ -3,11 +3,11 @@
     
 <div class="content-social">
     <ul class="social-list">
-        <li><a href="#"><img src="public/img/social/soc1.png" alt="img"></a></li>
-        <li><a href="#"><img src="public/img/social/soc2.png" alt="img"></a></li>
-        <li><a href="#"><img src="public/img/social/soc3.png" alt="img"></a></li>
-        <li><a href="#"><img src="public/img/social/soc4.png" alt="img"></a></li>
-        <li class="active"><a href="#"><img src="public/img/social/soc5.png" alt="img"></a></li>
+        <li class="{{(social=='upwork')?'active':''}}" ng-mouseenter = "loadLastPost('upwork')"><a href="javascript:;"><img src="public/img/social/upwork.png" alt="logo upwork"></a></li>
+        <li class="{{(social=='facebook')?'active':''}}" ng-mouseenter = "loadLastPost('facebook')"><a href="javascript:;"><img src="public/img/social/facebook.png" alt="logo facebook"></a></li>
+        <li class="{{(social=='instagram')?'active':''}}" ng-mouseenter = "loadLastPost('instagram')"><a href="javascript:;"><img src="public/img/social/instagram.png" alt="logo instagram"></a></li>
+        <li class="{{(social=='linkedin')?'active':''}}" ng-mouseenter = "loadLastPost('linkedin')"><a href="javascript:;"><img src="public/img/social/linkedin.png" alt="logo linkedin"></a></li>
+        <li class="{{(social=='twitter')?'active':''}}" ng-mouseenter = "loadLastPost('twitter')"><a href="javascript:;"><img src="public/img/social/twitter.png" alt="logo twitter"></a></li>
     </ul>
     <p>
        Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
