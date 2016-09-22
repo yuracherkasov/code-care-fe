@@ -70,7 +70,8 @@ angular
 
   .state('project', {
     url: '/project/:id',
-    templateUrl: 'public/templates/project.html'
+    templateUrl: 'public/templates/project.html',
+    controller: 'ProjProfileController'
   })
 
 })

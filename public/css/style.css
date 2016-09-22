@@ -2061,9 +2061,6 @@ footer {
     font-family: 'HelveticaNeueCyrMedium';
     padding: 34px 0 46px 15px;
 }
-.pp-right img{
-    max-width: 90%;
-}
 .involved-devs{
     padding-bottom: 60px;
     width: 410px;
@@ -2417,6 +2414,35 @@ footer {
     line-height: 1.15;
     padding: 8px 15px 12px;
     font-family: 'HelveticaNeueCyrLight';
+}
+#pp-slider{
+    width: 80%;
+    height: auto;
+    perspective: 2000px; 
+    position: relative;
+}
+#pp-slider > img{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    transform-origin: center;
+    /*transition: all 2s linear;*/
+}
+#pp-slider > .step1{
+    transition: transform .6s ease-out, left .2s ease-in, margin-left .4s ease-out .15s, opacity .3s ease-out .3s, z-index .2s step-end;
+    transform: rotateY(-180deg) scale(.9);
+    left: -30%;
+    margin-left: 50%;
+    z-index: 0;
+    opacity: .2;
+}
+#pp-slider > .step2{
+    transition: all .6s ease-out,  opacity .2s linear, z-index .2s step-end;
+    left: 0%;
+    margin-left: 0%;
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+    z-index: 1;
 }
 
 /*Profile page end*/
@@ -3008,10 +3034,6 @@ footer {
     }
     .pp1 .pp-right{
         padding-left: 6%;
-    }
-    .pp1 .pp-right img{
-        max-width: 900px;
-        width: 512px;
     }
     .pp-counter-list{
         width: 90%;

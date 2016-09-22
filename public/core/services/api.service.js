@@ -23,7 +23,7 @@ function APIService($http, $resource, config) {
   this.putTest = function() {
     var testPromise = $http({
       method: 'GET',
-      url: 'http://site.code-care.pro/api/developers.json',
+      url: '/api/developers.json',
       data: {name: "firshman"}
 
     });
@@ -33,7 +33,7 @@ function APIService($http, $resource, config) {
   this.getTest = function() {
     var testPromise = $http({
       method: 'GET',
-      url: 'http://site.code-care.pro/api/developers.json'
+      url: '/api/developers.json'
 
     });
     return testPromise;
