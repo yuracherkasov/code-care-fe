@@ -2021,16 +2021,25 @@ footer {
 .pp-content{
     padding: 32px 5% 25px 21%;
     overflow: hidden;
+    position: relative;
 }
 .pp-left{
     width: 40%;
     float: left;
 }
-.pp-right{
-    overflow: hidden;
+.ppslider-wrap{
     text-align: left;
-    padding-left: 4%;
-    padding-top: 10px;
+    padding-top: 15px;
+    float: left;
+    width: 41%;
+    position: absolute;
+    left: 54%;
+}
+.pp-right{
+    text-align: left;
+    margin-left: 4%;
+    padding-top: 15px;
+    overflow: hidden;
 }
 .pp-head,
 .pp-left h2{
@@ -2420,9 +2429,10 @@ footer {
     height: auto;
     perspective: 2000px; 
     position: relative;
+    margin-left: 5px;
 }
 #pp-slider > img{
-    width: 60%;
+    width: 67%;
     height: auto;
     position: absolute;
     transform-origin: center;
@@ -2432,7 +2442,7 @@ footer {
     transition: transform .6s ease-out, left .2s ease-in, margin-left .4s ease-out .15s, opacity .3s ease-out .3s, z-index .2s step-end;
     transform: rotateY(-180deg) scale(.9);
     left: -30%;
-    margin-left: 50%;
+    margin-left: 65%;
     z-index: 0;
     opacity: .2;
 }
@@ -2574,6 +2584,10 @@ footer {
         width: 70%;
         padding-left: 19%;
         margin: 0;
+    }
+    .ppslider-wrap{
+        width: 50%;
+        left: 50%;
     }
     .pp-header-text{
         margin-left: 17%;
@@ -3049,6 +3063,10 @@ footer {
     .pp2 .pp-right{
         padding-left: 0;
     }
+    .ppslider-wrap{
+        width: 70%;
+        left: 67%;
+    }
     .involved-devs{
         margin-left: 0;
         float: left;
@@ -3254,6 +3272,9 @@ footer {
         height: 122px;
         line-height: 125px;
         font-size: 38px;
+    }
+    .ppslider-wrap{
+        width: 85%;
     }
     .name-count{
         font-size: 26px;
