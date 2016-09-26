@@ -1,9 +1,10 @@
 angular
   .module("ccApp")
-  .service('API', APIService);
+  .service('API', APIService)
 
 function APIService($http, $resource, config) {
 
+  //GET DEVELOPERS LIST
   this.getDevs = function() {
     var devsPromise = $http({
       method: 'GET',
@@ -12,6 +13,7 @@ function APIService($http, $resource, config) {
     return devsPromise;
   };
 
+  //GET PROJECTS LIST
   this.getProjects = function() {
     var projectsPromise = $http({
       method: 'GET',
@@ -44,13 +46,27 @@ function APIService($http, $resource, config) {
   //       return $resource(profile).query().$promise;
   //     };
 
+  //GET PROJECT PROFILE
+  this.getProfileProject = function(id) {
+    var profilePromise = $http({
+      method: 'GET',
+      //url: 'FAKE_SERVER/project.json'
+      url: 'FAKE_SERVER/projectId_'+id+'.json',
+      transformResponse: function (response){
+        if(response){
+          return response;
+        }
+      }    
+    })
+      return profilePromise;
+    };
+
+  //GET DEVELOPER PROFILE
   this.getProfileDev = function(id) {
     var profilePromise = $http({
       method: 'GET',
       url: 'FAKE_SERVER/devId_'+id+'.json'
     });
     return profilePromise;
-  };
-
-  
+  };  
 };

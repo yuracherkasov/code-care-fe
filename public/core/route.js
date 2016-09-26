@@ -6,7 +6,7 @@ angular
     'ngResource'
   ])
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, $httpProvider) {
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
@@ -72,6 +72,7 @@ angular
     url: '/project/:id',
     templateUrl: 'public/templates/project.html',
     controller: 'ProjProfileController'
-  })
+  });
+
 
 })

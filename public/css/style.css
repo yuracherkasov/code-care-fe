@@ -1998,7 +1998,9 @@ footer {
     position: relative;
     color: #fff;
     text-align: center;
-    background: url("../img/pp1.jpg") no-repeat center;    
+    /*background: url("../img/pp1.jpg") no-repeat center; */
+    background-repeat: no-repeat;   
+    background-position: center;
     background-size: cover;
    /* padding: 4% 17% 2%;*/
    margin-bottom: -20px;
@@ -2436,23 +2438,36 @@ footer {
     height: auto;
     position: absolute;
     transform-origin: center;
+    z-index: 1;
     /*transition: all 2s linear;*/
+    /*transform: translateZ(-500px)*/
 }
-#pp-slider > .step1{
+/*#pp-slider > .step1{
     transition: transform .6s ease-out, left .2s ease-in, margin-left .4s ease-out .15s, opacity .3s ease-out .3s, z-index .2s step-end;
     transform: rotateY(-180deg) scale(.9);
     left: -30%;
     margin-left: 65%;
     z-index: 0;
     opacity: .2;
+}*/
+#pp-slider > .step1{
+    transition: transform .9s ease-out, left .3s ease-in, margin-left .6s ease-out .22s, opacity .2s ease-out .2s, z-index .2s step-end;
+    transform: rotateY(-180deg) scale(.9);
+    -moz-transition: -moz-transform .9s ease-out, left .3s ease-in, margin-left .6s ease-out .22s, opacity .2s ease-out .2s, z-index .2s step-end;
+    -moz-transform: rotateY(-180deg) translateZ(50px) scale(.91);
+    left: -30%;
+    margin-left: 65%;
+    opacity: .2;
 }
 #pp-slider > .step2{
-    transition: all .6s ease-out,  opacity .2s linear, z-index .2s step-end;
+    transition: all .9s ease-out,  opacity .2s linear, z-index .2s step-end;
+    -moz-transition: all .9s ease-out,  opacity .2s linear, z-index .2s step-end;
     left: 0%;
     margin-left: 0%;
     transform: rotateY(0deg) scale(1);
+    -moz-transform: rotateY(0deg) translateZ(0px) scale(1);
     opacity: 1;
-    z-index: 1;
+    z-index: 99;
 }
 
 /*Profile page end*/

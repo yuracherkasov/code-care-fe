@@ -3,7 +3,7 @@ angular
 
 controller('DevPageController', DevPageController);
 
-function DevPageController($scope, $stateParams, API) {
+function DevPageController($scope, $stateParams, API, transformResults) {
 
 	$scope.stateAnimateClassName = "with-left";
 
@@ -11,22 +11,8 @@ function DevPageController($scope, $stateParams, API) {
 
 	API.getProfileDev(id).then(function(resolve) {
 		$scope.profile = resolve.data;
-		parseText()
+		var str = resolve.data.about;
+		$scope.aboutDev = transformResults.parseText(str);
 	})
 
-	function parseText() {
-		var str = $scope.profile.about;
-		var target = "\r\n";
-		var pos = 0;
-
-		$scope.aboutDev = [];
-		
-		while (true) {
-			var foundPos = str.indexOf(target, pos);
-			var subStr = str.slice(pos, foundPos);
-			$scope.aboutDev.push(subStr);
-			pos = foundPos + 1;
-			if (foundPos == -1) break;
-		}
-	}
 }
