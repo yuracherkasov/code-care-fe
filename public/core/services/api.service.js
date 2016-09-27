@@ -50,13 +50,7 @@ function APIService($http, $resource, config) {
   this.getProfileProject = function(id) {
     var profilePromise = $http({
       method: 'GET',
-      //url: 'FAKE_SERVER/project.json'
-      url: 'FAKE_SERVER/projectId_'+id+'.json',
-      transformResponse: function (response){
-        if(response){
-          return response;
-        }
-      }    
+      url: 'FAKE_SERVER/projectId_'+id+'.json'
     })
       return profilePromise;
     };

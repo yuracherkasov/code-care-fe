@@ -12,7 +12,13 @@ function DevPageController($scope, $stateParams, API, transformResults) {
 	API.getProfileDev(id).then(function(resolve) {
 		$scope.profile = resolve.data;
 		var str = resolve.data.about;
-		$scope.aboutDev = transformResults.parseText(str);
+		$scope.aboutDev = transformResults.parseTextOnParagraf(str);
+	});
+
+	API.getTest().then(function(resolve){
+		console.log(resolve.data)
+	}, function(err){
+		console.log("err")
 	})
 
 }
