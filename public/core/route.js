@@ -6,7 +6,10 @@ angular
     'ngResource'
   ])
 
-.config(function($stateProvider, $urlRouterProvider, $httpProvider) {
+.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
+
+  // $locationProvider.html5Mode(true);
+
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
@@ -72,6 +75,11 @@ angular
     url: '/project/:id',
     templateUrl: 'public/templates/project.html',
     controller: 'ProjProfileController'
+  })
+
+  .state('contact', {
+    url: '/contact/',
+    templateUrl: 'public/templates/contact.html'
   });
 
 

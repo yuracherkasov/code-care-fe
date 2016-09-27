@@ -97,7 +97,7 @@ body {
     position: relative;
     width: 100%;
     overflow: hidden;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 /******state animation************/
 .with-bottom.ng-enter{
@@ -1809,6 +1809,29 @@ footer {
     transition: all .2s linear;
     z-index: 9;
 }
+.contact-form-wrapper{
+    position: fixed;
+    top: -30px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+    display: table;
+    
+}
+.contact-form-wrapper>div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.contact-form-wrapper .pop-up-contacts{
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    -webkit-box-shadow: 6px 10px 25px 8px rgba(0,0,0,0.32);
+    -moz-box-shadow: 6px 10px 25px 8px rgba(0,0,0,0.32);
+    box-shadow: 6px 10px 25px 8px rgba(0,0,0,0.32);
+}
 .pop-up-contacts.ng-enter-active,
 .pop-up-contacts.ng-leave{
     opacity: 1;
@@ -1824,13 +1847,16 @@ footer {
     color: #fff;
     font-size: 24px;
     font-family: 'HelveticaNeueCyrThin';
-    margin: 40px auto 30px;
+    padding: 40px 0 30px;
     text-align: center;
+}
+.pop-up-contacts form{
+    overflow: hidden;
 }
 #home-page-form > div{
     width: 49.5%;
     float: left;
-    overflow: hidden;
+    padding-bottom: 10px;
 }
 .pop-up-contacts label,
 .pop-up-contacts input,
@@ -1862,23 +1888,31 @@ footer {
     line-height: 22px;
 }
 #send-btn{
-    width: 100px;
+    width: 50%;
     height: 30px;
     font-size: 18px;
     font-family: 'HelveticaNeueCyrMedium';
     outline: none;
-    border: none;
+    border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 3px;
     float: right;
     margin-top: 25px;
     margin-right: 14px;
     overflow: hidden;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(255,255,255,1);
+    box-shadow: 1px 1px 5px 0px rgba(255,255,255,1);
+    transition: all .2s linear;
 }
 #send-btn:before{
-    background: #7aba00;
+    background: #494949;
 }
 #send-btn:hover{
-   color: #fff;
+    color: #fff;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(255,255,255,1);
+    box-shadow: 1px 1px 1px 0px rgba(255,255,255,1);
 }
 .pop-up-contacts label{
      color: #a8a8a8;

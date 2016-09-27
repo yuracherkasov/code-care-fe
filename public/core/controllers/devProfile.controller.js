@@ -15,10 +15,4 @@ function DevPageController($scope, $stateParams, API, transformResults) {
 		$scope.aboutDev = transformResults.parseTextOnParagraf(str);
 	});
 
-	API.getTest().then(function(resolve){
-		console.log(resolve.data)
-	}, function(err){
-		console.log("err")
-	})
-
 }
