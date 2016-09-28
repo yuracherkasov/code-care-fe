@@ -198,6 +198,16 @@ body {
     display: block;
     z-index: 9;
 }
+.error{
+    color: #d14836;
+    margin-left: 10px;
+    font-size: 14px;
+    opacity: 1;
+    transition: opacity .2s linear;
+}
+.error.ng-hide{
+    opacity: 0;
+}
 header {
     height: 60px;
     background: url("../img/header1.jpg");
@@ -1821,6 +1831,7 @@ footer {
 .contact-form-wrapper>div{
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
 }
 .contact-form-wrapper .pop-up-contacts{
     position: relative;
@@ -1831,12 +1842,45 @@ footer {
     -webkit-box-shadow: 6px 10px 25px 8px rgba(0,0,0,0.32);
     -moz-box-shadow: 6px 10px 25px 8px rgba(0,0,0,0.32);
     box-shadow: 6px 10px 25px 8px rgba(0,0,0,0.32);
+    transition: opacity .5s linear;
+    opacity: 1;
 }
 .pop-up-contacts.ng-enter-active,
 .pop-up-contacts.ng-leave{
     opacity: 1;
     display: block;
     z-index: 9;
+}
+.thank-message{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    color: #86ff00;
+    font-size: 35px;
+    font-family: 'HelveticaNeueCyrBold';
+    line-height: 1.2;
+    opacity: 1;
+    position: relative;
+    transition: opacity .6s linear;
+}
+
+.thank-message .mes,
+.thank-message  strong{
+    font-size: 46px;
+    font-family: 'HelveticaNeueCyrLight';
+    color: #017eff;
+    display: block;
+}
+.thank-message .mes,
+.thank-message  span{
+    color: #86ff00;
+}
+.thank-message.ng-enter{
+    opacity: 0;
+    position: absolute;
+}
+.contact-form-wrapper .pop-up-contacts.ng-leave-active{
+    opacity: 0;
 }
 .pop-up-contacts.ng-enter,
 .pop-up-contacts.ng-leave-active{
@@ -1852,8 +1896,9 @@ footer {
 }
 .pop-up-contacts form{
     overflow: hidden;
+    text-align: left;
 }
-#home-page-form > div{
+.pop-up-contacts form > div{
     width: 49.5%;
     float: left;
     padding-bottom: 10px;
@@ -1874,6 +1919,7 @@ footer {
     padding: 3px 0;
     margin: 8px 0px 11px;
 }
+.pop-up-contacts #phone,
 .pop-up-contacts #phone1{
     margin-bottom: 20px;
 }
@@ -1900,9 +1946,9 @@ footer {
     margin-right: 14px;
     overflow: hidden;
     background: #fff;
-    -webkit-box-shadow: 1px 1px 5px 0px rgba(255,255,255,1);
-    -moz-box-shadow: 1px 1px 5px 0px rgba(255,255,255,1);
-    box-shadow: 1px 1px 5px 0px rgba(255,255,255,1);
+    -webkit-box-shadow: 4px 4px 6px 0px rgba(73,73,73,1);
+    -moz-box-shadow: 4px 4px 6px 0px rgba(73,73,73,1);
+    box-shadow: 4px 4px 6px 0px rgba(73,73,73,1);
     transition: all .2s linear;
 }
 #send-btn:before{
@@ -1910,13 +1956,19 @@ footer {
 }
 #send-btn:hover{
     color: #fff;
-    -webkit-box-shadow: 1px 1px 1px 0px rgba(255,255,255,1);
-    -moz-box-shadow: 1px 1px 1px 0px rgba(255,255,255,1);
-    box-shadow: 1px 1px 1px 0px rgba(255,255,255,1);
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(73,73,73,1);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(73,73,73,1);
+    box-shadow: 1px 1px 1px 0px rgba(73,73,73,1);
 }
 .pop-up-contacts label{
      color: #a8a8a8;
      margin-bottom: 10px;
+}
+.pop-up-contacts label:after{
+    content:"*";
+}
+.pop-up-contacts label[for="phone"]:after{
+    content:"";
 }
 .right-part,
 .left-part{
@@ -2670,6 +2722,7 @@ footer {
     }
     .main{
         margin-top: 0;
+        padding-top: 0;
     }
     header{
         background-size: 1140px auto;
@@ -2839,6 +2892,9 @@ footer {
     }
     .content-social{
         width: 80%;
+    }
+    .contact-form-wrapper .pop-up-contacts{
+        width: 96%;
     }
 }    
 @media (max-width: 960px){
