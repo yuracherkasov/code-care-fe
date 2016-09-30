@@ -1,0 +1,44 @@
+
+<div class="contact-form-wrapper">
+    <div id="form-cell">
+        <p class="thank-message" ng-if="showContactForm"><span class="mes">Your email was successfully sent.</span> Thank you for your interest in the company
+         <strong>&#60;/<span>code</span>&#38;<span>care</span>&#62;</strong>We will contact you!
+        </p>
+        <div class="pop-up-contacts" ng-if="!showContactForm">
+        <h3>Contact us</h3>
+            <form name="cc_form" novalidate ng-submit="sendMessage(newClient, cc_form.$valid)">
+                <div>
+                    <div class="left-part">
+                        <label for="name">name</label>
+                        <span class="error" ng-show="showError">
+                            {{getError(cc_form.clientName.$error)}}
+                        </span>
+                        <input id="name" name="clientName" type="text" ng-model="newClient.name" required>
+                        <label for="phone">phone</label>
+                        <input id="phone" name="clientPhone" type="tel" ng-model="newClient.phone">
+                        <label for="email">email</label>
+                         <span class="error" ng-show="showError">
+                            {{getError(cc_form.clientEmail.$error)}}
+                        </span>
+                        <input id="email" type="email" name="clientEmail" ng-model="newClient.email" required>
+                    </div>
+                </div>
+                <div>
+                    <div class="right-part">
+                        <label for="city">city</label>
+                        <span class="error" ng-show="showError">
+                            {{getError(cc_form.clientCity.$error)}}
+                        </span>
+                        <input id="city" type="text" name="clientCity" ng-model="newClient.city" required ng-minlength="3">
+                        <label for="message">your message here</label>
+                        <span class="error" ng-show="showError">
+                            {{getErrorMessage(cc_form.clientMessage.$error)}}
+                        </span>
+                        <textarea id="message" name="clientMessage" ng-model="newClient.message" required></textarea>
+                        <button id="send-btn" type="submit" class="see_more-animation"><span>Submit</span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

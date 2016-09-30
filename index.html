@@ -15,10 +15,11 @@
   <script type="text/javascript" src="public/core/constants.js"></script>
 
   <script type="text/javascript" src="public/core/services/api.service.js"></script>
-  <script type="text/javascript" src="public/core/services/transformResults.service.js"></script>
+  <script type="text/javascript" src="public/core/services/api-results.service.js"></script>
+  <script type="text/javascript" src="public/core/services/contacts.service.js"></script>
 
   <script type="text/javascript" src="public/core/directives/filter.directive.js"></script>
-  <script type="text/javascript" src="public/core/directives/contacts.directive.js"></script>
+  <script type="text/javascript" src="public/core/directives/contacts.footer.directive.js"></script>
   <script type="text/javascript" src="public/core/directives/ppslider.directive.js"></script>
 
   <script type="text/javascript" src="public/core/controllers/main.controller.js"></script>
@@ -27,8 +28,8 @@
   <script type="text/javascript" src="public/core/controllers/case.controller.js"></script>
   <script type="text/javascript" src="public/core/controllers/story.controller.js"></script>
   <script type="text/javascript" src="public/core/controllers/social.controller.js"></script>
-  <script type="text/javascript" src="public/core/controllers/devProfile.controller.js"></script>
-  <script type="text/javascript" src="public/core/controllers/projProfile.controller.js"></script>
+  <script type="text/javascript" src="public/core/controllers/dev-profile.controller.js"></script>
+  <script type="text/javascript" src="public/core/controllers/proj-profile.controller.js"></script>
 </head>
 
 <body ng-controller="MainController">
@@ -46,16 +47,18 @@
     </div>
   </header>
 
+  <ng-include class="myform-area" src="formTemplate"></ng-include> 
+
   <div class="main">
-    <div ui-view class={{stateAnimateClassName||"with-bottom"}}>
-      
-    </div>
+
+    <div ui-view class={{stateAnimateClassName||"with-bottom"}}></div>
+          
   </div>
   <footer>
     <ul id="footer-nav">
         <li ui-sref-active="active"><a ui-sref="career">Career</a></li>
         <li ui-sref-active="active"><a ui-sref="social">Social</a></li>
-        <li ui-sref-active="active"><a ui-sref="contact">Contact us</a></li>
+        <li ui-sref-active="active" ng-click="showPopUpForm()"><a ui-sref="contact">Contact us</a></li>
     </ul>
   </footer>
 </body>

@@ -1,36 +1,54 @@
 
 <div id="contact-us">
-    <div id="contact-us-text">
-        <h3>{{header}}</h3>
-        <div id="contact-us-btn" ng-click="showpopup = true">
-        <span>
-            Let's start working together
-        </span>
+    <div class="cell-wrap">
+        <div class="contact-us-text" ng-show="!showThanksText">
+            <h3>We are here for you!</h3>
+            <div id="contact-us-btn" ng-click="showFooterForm()">
+            <span>
+                Let's start working together
+            </span>
+            </div>
         </div>
-    </div>
 
-    <div class="pop-up-contacts" ng-if="showpopup">
-        <h3>Contact us</h3>
-        <form action="javascript:;" id="home-page-form" ng-submit="sendMessage()">
-            <div>
-                <div class="left-part">
-                    <label for="name1">name</label>
-                    <input id="name1" type="text">
-                     <label for="phone1">phone</label>
-                    <input id="phone1" type="text">
-                     <label for="email1">email</label>
-                    <input id="email1" type="text">
+        <div class="contact-us-text" ng-show="showThanksText">
+             <h3 class="thank">Thank you that you are with us!</h3>
+        </div>
+
+        <div class="pop-up-contacts" ng-if="showForm">
+            <h3>Contact us</h3>
+            <form name="footer_form" novalidate ng-submit="sendMessage(newClient, footer_form.$valid)">
+                <div>
+                    <div class="left-part">
+                        <label for="name1">name</label>
+                        <span class="error" ng-show="showError">
+                            {{getError(footer_form.clientName.$error)}}
+                        </span>
+                        <input id="name1" name="clientName" type="text" ng-model="newClient.name" required>
+                        <label for="phone1">phone</label>
+                        <input id="phone1" name="clientPhone" type="tel" ng-model="newClient.phone">
+                        <label for="email1">email</label>
+                         <span class="error" ng-show="showError">
+                            {{getError(footer_form.clientEmail.$error)}}
+                        </span>
+                        <input id="email1" type="email" name="clientEmail" ng-model="newClient.email" required>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div class="right-part">
-                    <label for="city1">city</label>
-                    <input id="city1" type="text">
-                    <label for="message1">your message here</label>
-                    <textarea id="message1"></textarea>
-                    <button id="send-btn" type="submit" class="see_more-animation"><span>Submit</span></button>
+                <div>
+                    <div class="right-part">
+                        <label for="city1">city</label>
+                        <span class="error" ng-show="showError">
+                            {{getError(footer_form.clientCity.$error)}}
+                        </span>
+                        <input id="city1" type="text" name="clientCity" ng-model="newClient.city" required ng-minlength="3">
+                        <label for="message1">your message here</label>
+                        <span class="error" ng-show="showError">
+                            {{getErrorMessage(footer_form.clientMessage.$error)}}
+                        </span>
+                        <textarea id="message1" name="clientMessage" ng-model="newClient.message" required></textarea>
+                        <button id="send-btn" type="submit" class="see_more-animation"><span>Submit</span></button>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
 </div>

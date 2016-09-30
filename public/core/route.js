@@ -78,10 +78,7 @@ angular
   })
 
   .state('contact', {
-    url: '/contact/',
-    templateUrl: 'public/templates/contact.html',
-    controller: 'MainController'
+     url: '/contact/'
   });
-
 
 })
