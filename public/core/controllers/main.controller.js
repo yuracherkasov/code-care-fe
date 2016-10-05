@@ -45,8 +45,8 @@ function MainController($scope, $timeout, $http, $document, contactService) {
   function listenerClickOnHideForm(e) {
     var myel = doc.getElementById("form-cell");
     if (myel && myel === e.target) {
-        $scope.hidePopUpForm();
-        $scope.$apply();
+      $scope.hidePopUpForm();
+      $scope.$apply();
     }
   };
 
@@ -60,7 +60,7 @@ function MainController($scope, $timeout, $http, $document, contactService) {
     body.style.cssText = "";
   };
 
-  $scope.showFooterForm = function(){
+  $scope.showFooterForm = function() {
     $scope.showForm = true;
   }
 

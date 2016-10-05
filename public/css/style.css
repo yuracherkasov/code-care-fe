@@ -2424,8 +2424,8 @@ footer {
     line-height: 1.1;
     font-family: 'HelveticaNeueCyrLight';
 }
-#projects {
-    direction: rtl;
+#projects-scroll {
+   /* direction: rtl;*/
     margin-top: 20px;
     max-height: 1060px;
     overflow-x: hidden;
@@ -2694,7 +2694,7 @@ footer {
     #project-h2{
         width: 100%;
     }
-    #projects{
+    #projects-scroll{
         max-height: 725px;
         width: 100%;
     }
@@ -2845,12 +2845,12 @@ footer {
         padding-right: 14%;
     }
     #lets-start-btn,
-    #projects,
+    #projects-scroll,
     #project-h2{
         width: 100%;
     }
-     #projects {
-        max-height: 100%;
+    #projects-scroll {
+        max-height: 10000px;
     }
     .career-img-parent{
         margin-top: 0;
@@ -3084,7 +3084,7 @@ footer {
         line-height: 1.2;
         padding-right: 15px;
     }
-    #projects {
+    #projects-scroll {
         width: 104%;
         margin: 50px 0 80px -5%;
     }

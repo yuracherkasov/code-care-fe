@@ -26,41 +26,5 @@
       "node"
     ],
     "about": "qui adipisicing cillum veniam ullamco exercitation laborum veniam aliqua ipsum ad consectetur aliqua labore sint sint dolore qui ut consectetur"
-  }, {
-    "id": 4,
-    "name": "Peggy",
-    "image": "public/img/proj-exemp3.png",
-    "technologies": [
-      "jquery",
-      "wp",
-      "js",
-      "yii",
-      "angular"
-    ],
-    "about": "aliquip eiusmod est velit nulla nulla Lorem minim do irure excepteur reprehenderit labore voluptate elit dolore duis eiusmod ex elit"
-  }, {
-    "id": 8,
-    "name": "Glenda",
-    "image": "public/img/proj-exemp2.png",
-    "technologies": [
-      "wp",
-      "sql",
-      "yii",
-      "node",
-      "wp"
-    ],
-    "about": "anim consequat eu occaecat proident fugiat sunt occaecat incididunt deserunt anim commodo ullamco esse aliquip anim excepteur cillum et eiusmod"
-  }, {
-    "id": 2,
-    "name": "Head",
-    "image": "public/img/proj-exemp2.png",
-    "technologies": [
-      "wp",
-      "node",
-      "sql",
-      "yii",
-      "react"
-    ],
-    "about": "consectetur sint duis cillum ullamco et commodo ex eiusmod esse reprehenderit consectetur anim anim quis ad quis ut sint minim"
   }]
 }

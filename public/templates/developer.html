@@ -40,30 +40,33 @@
             </div>
         </div>
         <h2 id="project-h2">Projects</h2>
-        <ul id="projects">
 
-            <li class="project-container" 
-                ng-repeat="project in profile.projects">
-                <figure class="project-screenshot">
-                    <img ng-src={{project.image}} alt="img">
-                    <figcaption>{{project.name}}</figcaption>
-                </figure>
-                <ul class="project-technology">
+        <div id="projects-scroll">
+            <div class="ss-wrap-js">
+                <div class="project-container" 
+                    ng-repeat="project in profile.projects" ng-init="$last && setElHeight()">
+                    <figure class="project-screenshot">
+                        <img ng-src={{project.image}} alt="img">
+                        <figcaption>{{project.name}}</figcaption>
+                    </figure>
+                    <ul class="project-technology">
 
-                    <li ng-repeat="technologie in project.technologies track by $index"><img ng-src="public/img/icons-min/{{technologie}}.png" alt="{{technologie}}" /></li>
-                </ul>
+                        <li ng-repeat="technologie in project.technologies track by $index"><img ng-src="public/img/icons-min/{{technologie}}.png" alt="{{technologie}}" /></li>
+                    </ul>
 
-                <div class="project-info">
-                    <div>
-                        <h3>Basic information</h3>
-                        <p>{{project.about}}</p>
-                        <a ui-sref="post({id: project.id})" class="see_more-animation s_m-proj" >
-                            <span>See more</span>
-                        </a>
+                    <div class="project-info">
+                        <div>
+                            <h3>Basic information</h3>
+                            <p>{{project.about}}</p>
+                            <a ui-sref="post({id: project.id})" class="see_more-animation s_m-proj" >
+                                <span>See more</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </li>
-        </ul>
+            </div>
+        </div>
+
         <a href="javascript:;" id="lets-start-btn">Let's start working together!</a>
     </div>
 </div>
