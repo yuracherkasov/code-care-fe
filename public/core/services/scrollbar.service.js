@@ -37,8 +37,7 @@ angular
         this.target.insertAdjacentHTML('beforeend', this.bar);
         this.bar = this.target.lastChild;
 
-        this.moveBar();
-
+        //this.moveBar();
 
         this.el.addEventListener('scroll', this.moveBar.bind(this));
         this.el.addEventListener('mouseenter', this.moveBar.bind(this));

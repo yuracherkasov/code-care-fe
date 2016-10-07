@@ -2,7 +2,7 @@
 <h1 class="page-header">Our products</h1>
 <div class="hexagon-block products">
   <ul class="products-list">
-    <li>
+    <li ng-mouseenter="exampleProj = 'proj1'">
       <div class="hexagon-transform">
         <a href="post.html" target="_blank" class="link-block"></a>
         <div>
@@ -11,7 +11,7 @@
         </div>
       </div>    
     </li>
-    <li>
+    <li ng-mouseenter="exampleProj = 'proj2'">
       <div class="hexagon-transform">
         <a href="post.html" target="_blank" class="link-block"></a>
         <div>
@@ -20,7 +20,7 @@
         </div>
       </div>    
     </li>
-    <li>
+    <li  ng-mouseenter="exampleProj = 'proj3'">
       <div class="hexagon-transform">
         <a href="post.html" target="_blank" class="link-block"></a>
         <div>
@@ -29,7 +29,7 @@
         </div>
       </div>    
     </li>
-    <li>
+    <li  ng-mouseenter="exampleProj = 'proj4'">
       <div class="hexagon-transform">
         <a href="post.html" target="_blank" class="link-block"></a>
         <div>
@@ -38,7 +38,7 @@
         </div>
       </div>    
     </li>
-    <li>
+    <li  ng-mouseenter="exampleProj = 'proj5'">
       <div class="hexagon-transform">
         <a href="post.html" target="_blank" class="link-block"></a>
         <div>
@@ -47,7 +47,7 @@
         </div>
       </div>    
     </li>
-    <li>
+    <li  ng-mouseenter="exampleProj = 'proj6'">
       <div class="hexagon-transform">
         <a href="post.html" target="_blank" class="link-block"></a>
         <div>
@@ -56,7 +56,7 @@
         </div>
       </div>    
     </li>
-    <li>
+    <li  ng-mouseenter="exampleProj = 'proj7'">
       <div class="hexagon-transform">
         <a href="post.html" target="_blank" class="link-block"></a>
         <div>
@@ -70,16 +70,74 @@
 <div class="product-article">
   <div class="product-image">
     <div class="desctop">     
-      <img class="display-image" src="public/img/portfolio1.jpg" alt="img">
-      <img src="public/img/products/desctop.png" alt="img">
+      <img src="public/img/portfolio1.jpg" alt="img" ng-class="(exampleProj == 'proj1')?'display-image active':'display-image'">
+      <img src="public/img/portfolio2.jpg" alt="img" ng-class="(exampleProj == 'proj2')?'display-image active':'display-image'">
+      <img src="public/img/portfolio3.jpg" alt="img" ng-class="(exampleProj == 'proj3')?'display-image active':'display-image'">
+      <img src="public/img/screenshot-fp.jpg" alt="img" ng-class="(exampleProj == 'proj4')?'display-image active':'display-image'">
+      <img src="public/img/screenshot-mh.jpg" alt="img" ng-class="(exampleProj == 'proj5')?'display-image active':'display-image'">
+      <img src="public/img/screenshot-apple.png" alt="img" ng-class="(exampleProj == 'proj6')?'display-image active':'display-image'">
+      <img src="public/img/portfolio1.jpg" alt="img" ng-class="(exampleProj == 'proj7')?'display-image active':'display-image'">
+      <img src="public/img/screen.png" alt="img">
     </div>    
   </div>
   <div class="product-description">
-    <div>
+    <div ng-if="exampleProj == 'proj1'">
       <h3>Men's Health , published by Rodale Inc. in Emmaus, Pennsylvania</h3>
       <p>Although originally started as a men's health magazine, 
       it currently covers various men's lifestyle topics such as 
       fitness, nutrition, fashion, and sexuality.</p>
+    </div>
+
+    <div ng-if="exampleProj == 'proj2'">
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+      <p>Although originally started as a men's health magazine, 
+      it currently covers dolor sit amet, various men's lifestyle topics such as 
+      fitness, nutrition, fashion, dolor sit amet, and sexuality.</p>
+    </div>
+
+
+    <div ng-if="exampleProj == 'proj3'">    
+      <h3>
+          MacBook. Light. Years ahead.
+      </h3>
+      <p>
+          Our goal with MacBook was to do the impossible: engineer a full‑size experience into the lightest and most compact Mac notebook ever. That meant reimagining every element to make it not only lighter and thinner but also better. The result is more than just a new notebook.
+      </p>
+    </div>
+
+    <div ng-if="exampleProj == 'proj4'">    
+        <h3>
+            Let’s change the way we think about materials.
+        </h3>
+        <p>
+            Leather is a material like no other. Since we first clothed ourselves in animal skins, leather has been prized for its beauty, its functionality, its enduring status. Today leather is a co-product of the meat industry, subject to fluctuations in availability, quality, price, and ever-increasing demand.
+        </p>
+    </div>
+
+    <div ng-if="exampleProj == 'proj5'">    
+      <h3>
+          Delicious food is just one click away!
+      </h3>
+      <p>
+          Welcome to foodpanda Singapore!If you're looking for a home delivery service in Singapore offering you nonstop indulgence whenever you want it, you’re just at the right spot. Founded in 2012, we thus made it our goal to simplify your life by making foodpanda delivery as convenient and as affordable as possible whilst taking you with us on a culinary journey around the world.
+      </p>
+    </div>
+    <div ng-if="exampleProj == 'proj6'">    
+        <h3>
+            Let’s  beauty, its functionality, think about materials.
+        </h3>
+        <p>
+            Leather is a material  beauty, its functionality, its beauty, its functionality, its enduring status. Today leather is a co-product of the meat industry, subject to fluctuations in availability, quality, price, and ever-increasing demand.
+        </p>
+    </div>
+
+    <div ng-if="exampleProj == 'proj7'">    
+      <h3>
+          Delicious food  beauty, its functionality, one click away!
+      </h3>
+      <p>
+          Welcome to foodpanda Singapore!If you're looking for a home delivery service in Singapore offering you nonstop indulgence whenever  beauty, its functionality, you want it, you’re just at the right spot. Founded in 2012, we thus made it our goal to simplify your life by making foodpanda delivery as convenient and as affordable as possible whilst taking you with us on a culinary journey around the world.
+      </p>
     </div>
   </div>  
 </div>

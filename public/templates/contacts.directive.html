@@ -23,14 +23,14 @@
                         <span class="error" ng-show="showError">
                             {{getError(footer_form.clientName.$error)}}
                         </span>
-                        <input id="name1" name="clientName" type="text" ng-model="newClient.name" required>
+                        <input id="name1" name="clientName" type="text" ng-model="newClient.name" required maxlength="20">
                         <label for="phone1">phone</label>
-                        <input id="phone1" name="clientPhone" type="tel" ng-model="newClient.phone">
+                        <input id="phone1" name="clientPhone" type="tel" ng-model="newClient.phone" maxlength="20">
                         <label for="email1">email</label>
                          <span class="error" ng-show="showError">
                             {{getError(footer_form.clientEmail.$error)}}
                         </span>
-                        <input id="email1" type="email" name="clientEmail" ng-model="newClient.email" required>
+                        <input id="email1" type="email" name="clientEmail" ng-model="newClient.email" required maxlength="30">
                     </div>
                 </div>
                 <div>
@@ -39,7 +39,7 @@
                         <span class="error" ng-show="showError">
                             {{getError(footer_form.clientCity.$error)}}
                         </span>
-                        <input id="city1" type="text" name="clientCity" ng-model="newClient.city" required ng-minlength="3">
+                        <input id="city1" type="text" name="clientCity" ng-model="newClient.city" required ng-minlength="3" maxlength="20">
                         <label for="message1">your message here</label>
                         <span class="error" ng-show="showError">
                             {{getErrorMessage(footer_form.clientMessage.$error)}}

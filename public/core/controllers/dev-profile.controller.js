@@ -26,4 +26,5 @@ function DevPageController($scope, $stateParams, $document, $window, API, transf
 		fakeScroll.setHeight(el);
 	}
 	w.addEventListener("resize", $scope.setElHeight);
+
 }

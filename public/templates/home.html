@@ -1,5 +1,5 @@
 <div class="header-big-container">
-    <img src="public/img/header-big.jpg" alt="header">
+    <img src="public/img/header-big2.jpg" alt="header">
     <div class="header-text-wrap">
         <div class="header-table">
             <div class="header-cell">   
@@ -17,84 +17,86 @@
     </div> 
 </div>
 <span id="black-arrow" du-smooth-scroll="black-arrow"></span>
-<ul id="company-list" class="company-list">
-        <li ng-click="changeExample($event)">
+<div class="example-wrapper">
+    <ul id="company-list" class="company-list">
+        <li ng-mouseenter="changeExample($event)">
             <img src="public/img/apple.png" alt="apple">
         </li>
-        <li ng-click="changeExample($event)">
+        <li ng-mouseenter="changeExample($event)">
             <img src="public/img/modern.png" alt="modern">
         </li>
-        <li ng-click="changeExample($event)">
+        <li ng-mouseenter="changeExample($event)">
             <img src="public/img/foodpanda.png" alt="foodpanda">
         </li>
-        <li ng-click="changeExample($event)">
+        <li ng-mouseenter="changeExample($event)">
             <img src="public/img/menhealth.png" alt="menhealth">
         </li>
     </ul>
-<div class="work-example">
-    <div>
-        <div class="work-example-left" ng-show="viewExample == 'apple'">    
-            <h3>
-                MacBook. Light. Years ahead.
-            </h3>
-            <p>
-                Our goal with MacBook was to do the impossible: engineer a full‑size experience into the lightest and most compact Mac notebook ever. That meant reimagining every element to make it not only lighter and thinner but also better. The result is more than just a new notebook.
-            </p>
-            <a href="#" class="see_more-animation see-more-home">
-            <span>See more</span>                
-            </a>
+    <div class="work-example">
+        <div>
+            <div class="work-example-left" ng-if="viewExample == 'apple'">    
+                <h3>
+                    MacBook. Light. Years ahead.
+                </h3>
+                <p>
+                    Our goal with MacBook was to do the impossible: engineer a full‑size experience into the lightest and most compact Mac notebook ever. That meant reimagining every element to make it not only lighter and thinner but also better. The result is more than just a new notebook.
+                </p>
+                <a href="#" class="see_more-animation see-more-home">
+                <span>See more</span>                
+                </a>
+            </div>
+
+            <div class="work-example-left" ng-if="viewExample == 'modern'">    
+                <h3>
+                    Let’s change the way we think about materials.
+                </h3>
+                <p>
+                    Leather is a material like no other. Since we first clothed ourselves in animal skins, leather has been prized for its beauty, its functionality, its enduring status. Today leather is a co-product of the meat industry, subject to fluctuations in availability, quality, price, and ever-increasing demand.
+                </p>
+                <a href="#" class="see_more-animation see-more-home">
+                <span>See more</span>                
+                </a>
+            </div>
+
+            <div class="work-example-left" ng-if="viewExample == 'foodpanda'">    
+                <h3>
+                    Delicious food is just one click away!
+                </h3>
+                <p>
+                    Welcome to foodpanda Singapore!If you're looking for a home delivery service in Singapore offering you nonstop indulgence whenever you want it, you’re just at the right spot. Founded in 2012, we thus made it our goal to simplify your life by making foodpanda delivery as convenient and as affordable as possible whilst taking you with us on a culinary journey around the world.
+                </p>
+                <a href="#" class="see_more-animation see-more-home">
+                <span>See more</span>                
+                </a>
+            </div>
+
+            <div class="work-example-left" ng-if="viewExample == 'menhealth'">    
+                <h3>
+                    Men's Health, published by Rodale inc. in Emmaus, Pennsylvania
+                </h3>
+                <p>
+                    Although originally started as a men's health magazine, it currently covers various men's lifestyle topics
+                    such as men's lifestyle topics such as fitness, nutrition, fashion, and sexuality.
+                </p>
+                <a href="#" class="see_more-animation see-more-home">
+                <span>See more</span>                
+                </a>
+            </div>
         </div>
+    
+        <div>
+            <div class="work-example-right">
+                <img src="public/img/screenshot-apple.png" 
+                ng-class="(viewExample == 'apple')?'exemple-img active':'exemple-img'" alt="{{viewExample}}">
+                <img src="public/img/portfolio1.jpg"
+                 ng-class="(viewExample == 'modern')?'exemple-img active':'exemple-img'" alt="{{viewExample}}">
+                <img src="public/img/screenshot-fp.jpg" 
+                ng-class="(viewExample == 'foodpanda')?'exemple-img active':'exemple-img'" alt="{{viewExample}}">
+                <img src="public/img/screenshot-mh.jpg"
+                 ng-class="(viewExample == 'menhealth')?'exemple-img active':'exemple-img'" alt="{{viewExample}}">
 
-        <div class="work-example-left" ng-show="viewExample == 'modern'">    
-            <h3>
-                Let’s change the way we think about materials.
-            </h3>
-            <p>
-                Leather is a material like no other. Since we first clothed ourselves in animal skins, leather has been prized for its beauty, its functionality, its enduring status. Today leather is a co-product of the meat industry, subject to fluctuations in availability, quality, price, and ever-increasing demand.
-            </p>
-            <a href="#" class="see_more-animation see-more-home">
-            <span>See more</span>                
-            </a>
-        </div>
-
-        <div class="work-example-left" ng-show="viewExample == 'foodpanda'">    
-            <h3>
-                Delicious food is just one click away!
-            </h3>
-            <p>
-                Welcome to foodpanda Singapore!If you're looking for a home delivery service in Singapore offering you nonstop indulgence whenever you want it, you’re just at the right spot. Founded in 2012, we thus made it our goal to simplify your life by making foodpanda delivery as convenient and as affordable as possible whilst taking you with us on a culinary journey around the world.
-            </p>
-            <a href="#" class="see_more-animation see-more-home">
-            <span>See more</span>                
-            </a>
-        </div>
-
-        <div class="work-example-left" ng-show="viewExample == 'menhealth'">    
-            <h3>
-                Men's Health, published by Rodale inc. in Emmaus, Pennsylvania
-            </h3>
-            <p>
-                Although originally started as a men's health magazine, it currently covers various men's lifestyle topics
-                such as men's lifestyle topics such as fitness, nutrition, fashion, and sexuality.
-            </p>
-            <a href="#" class="see_more-animation see-more-home">
-            <span>See more</span>                
-            </a>
-        </div>
-
-    </div>
-    <div>
-        <div class="work-example-right">
-            <img src="public/img/screenshot-apple.png" 
-            ng-class="(viewExample == 'apple')?'exemple-img active1':'exemple-img'" alt="{{viewExample}}">
-            <img src="public/img/portfolio1.jpg"
-             ng-class="(viewExample == 'modern')?'exemple-img active2':'exemple-img'" alt="{{viewExample}}">
-            <img src="public/img/screenshot-fp.jpg" 
-            ng-class="(viewExample == 'foodpanda')?'exemple-img active1':'exemple-img'" alt="{{viewExample}}">
-            <img src="public/img/screenshot-mh.jpg"
-             ng-class="(viewExample == 'menhealth')?'exemple-img active3':'exemple-img'" alt="{{viewExample}}">
-
-            <img src="public/img/screen.png">
+                <img src="public/img/screen.png">
+            </div>
         </div>
     </div>
 </div>

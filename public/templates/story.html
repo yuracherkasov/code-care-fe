@@ -1,13 +1,11 @@
 
-<div class="career-img-parent">
-    <div class="story-header">
-    </div>
-    <div class="career-footer-img-black">
-    </div>
+<div class="career-img-parent" ng-mouseenter="stopInterval()" ng-mouseleave="runInterval()">
+    
+    <input type="radio" name="point" id="slide1" ng-checked="(slideIndex==0)?true:false">
+    <input type="radio" name="point" id="slide2" ng-checked="(slideIndex==1)?true:false">
+    <input type="radio" name="point" id="slide3" ng-checked="(slideIndex==2)?true:false">
+    
     <div class="wrapper">
-        <input type="radio" name="point" id="slide1" checked>
-        <input type="radio" name="point" id="slide2">
-        <input type="radio" name="point" id="slide3">
         <div class="slider">
             <div class="slides slide1">
                 <h2>How we started</h2>
@@ -68,10 +66,16 @@
             </div>
         </div>
         <div class="controls">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
+            <label for="slide1" ng-click="selectedIndex(0)"></label>
+            <label for="slide2" ng-click="selectedIndex(1)"></label>
+            <label for="slide3" ng-click="selectedIndex(2)"></label>
         </div>
+    </div>
+
+    <div class="career-footer-img-black">
+        <img src="public/img/story-img1.jpg" alt="img">
+        <img src="public/img/story-img3.jpg" alt="img">
+        <img src="public/img/story-img2.jpg" alt="img">
     </div>
 </div>
 <span id="black-arrow" du-smooth-scroll="black-arrow"></span>

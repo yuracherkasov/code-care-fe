@@ -7,6 +7,8 @@ angular
 .controller('MainController', MainController);
 
 function MainController($scope, $timeout, $http, $document, contactService) {
+  //for OUR PRODUCTS page
+  $scope.exampleProj="proj1"
 
   //burger mobile menu control
   var doc = $document[0];
@@ -63,6 +65,13 @@ function MainController($scope, $timeout, $http, $document, contactService) {
   $scope.showFooterForm = function() {
     $scope.showForm = true;
   }
+
+  $scope.newClient = {};
+  // $scope.$watch("newClient.message", function(newValue) {
+  //   $scope.newClient.message = $sanitize(newValue);
+  // });
+
+
 
   $scope.sendMessage = function(clientData, isvalid) {
     if (isvalid) {
