@@ -32,9 +32,9 @@
         <h3>Basic information</h3>
         <p><span>{{card.name}}</span> - {{card.description}}
         </p>
-        <button class="study-btn see_more-animation">
+        <a class="study-btn see_more-animation" ui-sref="project({id: card.id})">
           <span>See more</span>
-        </button>
+        </a>
       </div>        
     </div>
     <ul class="study-technology-list">

@@ -19,6 +19,7 @@
   <script type="text/javascript" src="public/core/services/api-results.service.js"></script>
   <script type="text/javascript" src="public/core/services/contacts.service.js"></script>
   <script type="text/javascript" src="public/core/services/scrollbar.service.js"></script>
+  <script type="text/javascript" src="public/core/services/facebook.service.js"></script>
 
   <script type="text/javascript" src="public/core/directives/filter.directive.js"></script>
   <script type="text/javascript" src="public/core/directives/contacts.footer.directive.js"></script>
@@ -32,10 +33,11 @@
   <script type="text/javascript" src="public/core/controllers/social.controller.js"></script>
   <script type="text/javascript" src="public/core/controllers/dev-profile.controller.js"></script>
   <script type="text/javascript" src="public/core/controllers/proj-profile.controller.js"></script>
+
 </head>
 
 <body ng-controller="MainController">
-  <header class="images-mask">
+  <header>
     <strong id="menu-btn">Code and Care</strong>
     <a ui-sref="home"><img src="public/img/logWh.png" alt="logo"></a>
     <div class="nav-content" id="js-menu">
@@ -43,7 +45,7 @@
         <li ui-sref-active="active"><a ui-sref="story" href="">Our story</a></li>
         <li ui-sref-active="active"><a ui-sref="case">Case study</a></li>
         <li ui-sref-active="active"><a ui-sref="devs">Pick your developer</a></li>
-        <li ui-sref-active="active"><a ui-sref="products"> Our products</a></li>
+       <!--  <li ui-sref-active="active"><a ui-sref="products"> Our products</a></li> -->
         <li ui-sref-active="active"><a ui-sref="blog">Blog</a></li>
       </ul>
     </div>

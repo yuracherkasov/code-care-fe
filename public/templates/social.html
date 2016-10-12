@@ -1,28 +1,45 @@
 
 <h1 class="page-header">Lets get connected !</h1>
-    
+
+<!-- <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div> -->
+
+<ul class="social-list">
+    <li class="{{(social=='upwork')?'active':''}}" ng-mouseenter = "loadUpwork('upwork')"><a href="javascript:;"><img src="public/img/social/upwork.png" alt="logo upwork"></a></li>
+    <li class="{{(social=='facebook')?'active':''}}" ng-mouseenter = "loadFacebookPost('facebook')"><a href="javascript:;"><img src="public/img/social/facebook.png" alt="logo facebook"></a></li>
+    <li class="{{(social=='instagram')?'active':''}}" ng-mouseenter = "loadLastPost('instagram')"><a href="javascript:;"><img src="public/img/social/instagram.png" alt="logo instagram"></a></li>
+    <li class="{{(social=='linkedin')?'active':''}}" ng-mouseenter = "loadLastPost('linkedin')"><a href="javascript:;"><img src="public/img/social/linkedin.png" alt="logo linkedin"></a></li>
+    <li class="{{(social=='twitter')?'active':''}}" ng-mouseenter = "loadLastPost('twitter')"><a href="javascript:;"><img src="public/img/social/twitter.png" alt="logo twitter"></a></li>
+</ul>
 <div class="content-social">
-    <ul class="social-list">
-        <li class="{{(social=='upwork')?'active':''}}" ng-mouseenter = "loadLastPost('upwork')"><a href="javascript:;"><img src="public/img/social/upwork.png" alt="logo upwork"></a></li>
-        <li class="{{(social=='facebook')?'active':''}}" ng-mouseenter = "loadLastPost('facebook')"><a href="javascript:;"><img src="public/img/social/facebook.png" alt="logo facebook"></a></li>
-        <li class="{{(social=='instagram')?'active':''}}" ng-mouseenter = "loadLastPost('instagram')"><a href="javascript:;"><img src="public/img/social/instagram.png" alt="logo instagram"></a></li>
-        <li class="{{(social=='linkedin')?'active':''}}" ng-mouseenter = "loadLastPost('linkedin')"><a href="javascript:;"><img src="public/img/social/linkedin.png" alt="logo linkedin"></a></li>
-        <li class="{{(social=='twitter')?'active':''}}" ng-mouseenter = "loadLastPost('twitter')"><a href="javascript:;"><img src="public/img/social/twitter.png" alt="logo twitter"></a></li>
-    </ul>
-    <p>
-       Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
-    </p>
-    <a href="#">Lorem ipsum dolor</a>
-    <br>
-    <br>
-    <p>
-       Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla
-    </p>
-    <a href="#">Lorem ipsum dolor</a>
-    <br>
-    <br>
-    <p>
-       Lorem ipsum dolor sit amet, lectus eget elit aliquet elit ultricies, feugiat phasellus sed volutpat porttitor sem enim, quam dui quam, mauris sunt fringilla quam dui quam, mauris sunt fringilla
-    </p>
-    <a href="#">Lorem ipsum dolor</a>
+    <div class="network-wrapper">
+        <figure id="network-social" ng-if="social==='facebook'">
+            <figcaption>
+                <a class="link-block" href="https://www.facebook.com/profile.php?id=100008849378469" target="_blank"></a>
+                {{network.from.name}}               
+            </figcaption>
+            <time>{{network.created_time |  date:'MM/dd/yyyy'}}</time>
+            
+            <p class="network-post-story">{{network.story}}</p>
+          
+            <p class="network-post-image">
+            <a ng-href="{{network.permalink_url}}" target="_blank"></a> 
+            <img ng-src="{{network.picture}}" alt="post-image" />
+            </p> 
+            <p class="network-post-descr">{{network.description | limitTo:60}}</p>
+           <!--  <a ng-href="{{network.permalink_url}}">View full</a>  -->
+            <p class="network-profile">
+                <a href="https://www.facebook.com/profile.php?id=100008849378469" target="_blank">https://www.facebook.com/profile</a>
+            </p>
+        </figure>
+        <figure id="network-social" ng-if="social==='upwork'"> 
+            <p class="network-profile">
+                <a href="//www.upwork.com/fl/andreygromenko" target="_blank">https://www.upwork.com</a>
+            </p>
+        </figure>
+    </div>
 </div>
