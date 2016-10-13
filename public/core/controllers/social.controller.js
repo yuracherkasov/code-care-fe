@@ -16,8 +16,8 @@ function SocialController($scope, $timeout, $http, facebookService) {
 
 	window.fbAsyncInit = function() {
 		FB.init({
-			appId: '1000008076787760',
-			//appId: '174816672967950',
+			//appId: '1000008076787760',
+			appId: '174816672967950',
 			status: true,
 			cookie: true,
 			xfbml: false,
@@ -39,46 +39,46 @@ function SocialController($scope, $timeout, $http, facebookService) {
 		// 		console.log('Logged in');
 		// 	} else {
 		// 		//FB.login();
-		
 
-		// FB.api('/100008849378469/name', {
-		// 	//fields: 'posts.limit(1)'
-		// }, function(response) {
-		// 	console.log(response)
-		// 	var setting = response.posts.data[0].id
-		// 	FB.api('/' + setting, {
-		// 		//metadata: 1,
-		// 		// fields: 'full_picture,created_time,description,from,name,permalink_url,link,story,target,picture'
-		// 		fields: 'created_time,description,from,permalink_url,story,picture'
-		// 	}, function(result) {
-		// 		$scope.network = result;
-		// 		$scope.social = name;
-		// 		$scope.$apply();
-		// 	})
-		// })
+
+		FB.api("/100008849378469", {
+			fields: 'posts.limit(1)'
+		}, function(response) {
+			console.log(response)
+			var setting = response.posts.data[0].id
+			FB.api('/' + setting, {
+				//metadata: 1,
+				// fields: 'full_picture,created_time,description,from,name,permalink_url,link,story,target,picture'
+				fields: 'created_time,description,from,permalink_url,story,picture'
+			}, function(result) {
+				$scope.network = result;
+				$scope.social = name;
+				$scope.$apply();
+			})
+		})
 
 
 		// 	}
 		// });
 
-			$http({
-				method: 'GET',
-				//url: 'https://graph.facebook.com/oauth/access_token?client_id=174816672967950&client_secret=884f52b0cce3257eb6b66e4af6748b36&grant_type=client_credentials'
-				url: 'https://graph.facebook.com/100008849378469?fields=posts&access_token=174816672967950|i_uRl0u2Qg1tgXdUPqX-RrrNk50'
-					//url: 'https://graph.facebook.com/v2.8/100008849378469/accounts?access_token=174816672967950|i_uRl0u2Qg1tgXdUPqX-RrrNk50'
-			}).then(function(response) {
-				console.log(response)
-			});
-		}
+		// $http({
+		// 	method: 'GET',
+		// 	//url: 'https://graph.facebook.com/oauth/access_token?client_id=174816672967950&client_secret=884f52b0cce3257eb6b66e4af6748b36&grant_type=client_credentials'
+		// 	url: 'https://graph.facebook.com/100008849378469?fields=posts&access_token=174816672967950|i_uRl0u2Qg1tgXdUPqX-RrrNk50'
+		// 		//url: 'https://graph.facebook.com/v2.8/100008849378469/accounts?access_token=174816672967950|i_uRl0u2Qg1tgXdUPqX-RrrNk50'
+		// }).then(function(response) {
+		// 	console.log(response)
+		// });
+	}
 
-		// facebookService.getMyLastName()
-		// 	.then(function(response) {
-		// 		$scope.last_name = response.last_name;
-		// 		console.log($scope.last_name)
-		// 	}, function(err){
-		// 		console.log(err)
-		// 	});
+	// facebookService.getMyLastName()
+	// 	.then(function(response) {
+	// 		$scope.last_name = response.last_name;
+	// 		console.log($scope.last_name)
+	// 	}, function(err){
+	// 		console.log(err)
+	// 	});
 
 
-	
+
 }
