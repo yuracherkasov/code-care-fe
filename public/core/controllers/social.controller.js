@@ -16,8 +16,8 @@ function SocialController($scope, $timeout, $http, facebookService) {
 
 	window.fbAsyncInit = function() {
 		FB.init({
-			//appId: '1000008076787760',
-			appId: '174816672967950',
+			appId: '1000008076787760',
+			//appId: '174816672967950',
 			status: true,
 			cookie: true,
 			xfbml: false,
