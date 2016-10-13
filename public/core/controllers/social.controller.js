@@ -31,12 +31,11 @@ function SocialController($scope, $timeout, $http, facebookService) {
 	$scope.loadFacebookPost = function(name) {
 			$http({
 				method: 'GET',
-					url: 'https://graph.facebook.com/oauth/access_token?client_id=1000008076787760&client_secret=6a97c760972cf6abb9ef5b8c53bfccae&grant_type=client_credentials'
-				//url: 'https://graph.facebook.com/1604750703163227/feed?fields=permalink_url&access_token=174816672967950|i_uRl0u2Qg1tgXdUPqX-RrrNk50'
+				url: 'https://graph.facebook.com/1604750703163227/feed?fields=permalink_url&access_token=1000008076787760|IfGh42j1MgroV7xX-89Z9I8eoAk'
 			}).then(function(response) {
-				console.log(response)
-				// $scope.postUrl = response.data.data[0].permalink_url;
-				// facebookService.baseSettingFacebook(document, 'script', 'facebook-jssdk');
+				//console.log(response)
+				$scope.postUrl = response.data.data[0].permalink_url;
+				facebookService.baseSettingFacebook(document, 'script', 'facebook-jssdk');
 			});
 		}
 	}
