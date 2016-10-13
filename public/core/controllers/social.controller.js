@@ -31,7 +31,7 @@ function SocialController($scope, $timeout, $http, facebookService) {
 	$scope.loadFacebookPost = function(name) {
 			$http({
 				method: 'GET',
-				url: 'https://graph.facebook.com/1604750703163227/feed?fields=permalink_url&access_token=1000008076787760|IfGh42j1MgroV7xX-89Z9I8eoAk'
+				url: 'https://graph.facebook.com/1605650713073226/feed?fields=permalink_url&access_token=1000008076787760|IfGh42j1MgroV7xX-89Z9I8eoAk'
 			}).then(function(response) {
 				//console.log(response)
 				$scope.postUrl = response.data.data[0].permalink_url;
