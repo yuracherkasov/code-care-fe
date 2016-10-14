@@ -72,10 +72,14 @@ function MainController($scope, $timeout, $http, $document, contactService) {
   // });
 
 
-
+  var messObj = {};
   $scope.sendMessage = function(clientData, isvalid) {
     if (isvalid) {
-      $http.post('api/adress', clientData)
+      messObj["from"] = clientData.email;
+      messObj["body"] = "Name: "+clientData.name+"; City: "+clientData.city+"; Phone: "+clientData.phone+"; Message: "+clientData.message;
+      var json = angular.toJson(messObj);
+      //console.log(json)
+      $http.post('/api/email', json)
         .success(function(response) {
           console.log(response);
           $scope.showContactForm = true;
@@ -85,9 +89,9 @@ function MainController($scope, $timeout, $http, $document, contactService) {
           console.log(err);
         });
       //после того как api будет готово удалить следующие строки
-      $scope.showContactForm = true;
-      $scope.showThanksText = true;
-      $scope.showForm = false;
+      // $scope.showContactForm = true;
+      // $scope.showThanksText = true;
+      // $scope.showForm = false;
     } else {
       $scope.showError = true;
     }
