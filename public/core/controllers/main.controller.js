@@ -88,10 +88,6 @@ function MainController($scope, $timeout, $http, $document, contactService) {
         }).error(function(err) {
           console.log(err);
         });
-      //после того как api будет готово удалить следующие строки
-      // $scope.showContactForm = true;
-      // $scope.showThanksText = true;
-      // $scope.showForm = false;
     } else {
       $scope.showError = true;
     }

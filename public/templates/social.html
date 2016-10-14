@@ -1,14 +1,4 @@
-
 <h1 class="page-header">Lets get connected !</h1>
-<div id="fb-root"></div>
-<div class="fb-post" data-href="{{postUrl}}" data-width="500" data-show-text="true"></div>
-<!-- <div
-  class="fb-like"
-  data-share="true"
-  data-width="450"
-  data-show-faces="true">
-</div> -->
-
 <ul class="social-list">
     <li class="{{(social=='upwork')?'active':''}}" ng-mouseenter = "loadUpwork('upwork')"><a href="javascript:;"><img src="public/img/social/upwork.png" alt="logo upwork"></a></li>
     <li class="{{(social=='facebook')?'active':''}}" ng-mouseenter = "loadFacebookPost('facebook')"><a href="javascript:;"><img src="public/img/social/facebook.png" alt="logo facebook"></a></li>
@@ -18,29 +8,14 @@
 </ul>
 <div class="content-social">
     <div class="network-wrapper">
-        <figure id="network-social" ng-if="social==='facebook'">
-            <figcaption>
-                <a class="link-block" href="https://www.facebook.com/profile.php?id=100008849378469" target="_blank"></a>
-                {{network.from.name}}               
-            </figcaption>
-            <time>{{network.created_time |  date:'MM/dd/yyyy'}}</time>
-            
-            <p class="network-post-story">{{network.story}}</p>
-          
-            <p class="network-post-image">
-            <a ng-href="{{network.permalink_url}}" target="_blank"></a> 
-            <img ng-src="{{network.picture}}" alt="post-image" />
-            </p> 
-            <p class="network-post-descr">{{network.description | limitTo:60}}</p>
-           <!--  <a ng-href="{{network.permalink_url}}">View full</a>  -->
-            <p class="network-profile">
-                <a href="https://www.facebook.com/profile.php?id=100008849378469" target="_blank">https://www.facebook.com/profile</a>
-            </p>
-        </figure>
-        <figure id="network-social" ng-if="social==='upwork'"> 
+        <div class="network-social" ng-show="social==='facebook'">
+            <div id="fb-root"></div>
+            <div class="fb-post" data-href="{{postUrl}}" data-width="500" data-show-text="true"></div>
+        </div>
+        <div class="network-social" ng-show="social==='upwork'"> 
             <p class="network-profile">
                 <a href="//www.upwork.com/fl/andreygromenko" target="_blank">https://www.upwork.com</a>
             </p>
-        </figure>
+        </div>
     </div>
 </div>
