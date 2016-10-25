@@ -49,4 +49,8 @@ function DevsPageController($scope, API) {
     //   return b;
     // }
 
+    // API.getTest().then(function(response){
+    //   console.log(response)
+    // })
+
 }

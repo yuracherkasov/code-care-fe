@@ -35,7 +35,7 @@ function APIService($http, $resource, config) {
   this.getTest = function() {
     var testPromise = $http({
       method: 'GET',
-      url: '/api/developers.json'
+      url: '//site.code-care.pro/api/developer'
 
     });
     return testPromise;
