@@ -8,7 +8,7 @@ function APIService($http, $resource, config) {
   this.getDevs = function() {
     var devsPromise = $http({
       method: 'GET',
-      url: config.devs_API
+      url: config.API + 'developer'
     });
     return devsPromise;
   };
@@ -21,30 +21,6 @@ function APIService($http, $resource, config) {
     });
     return projectsPromise;
   };
-//test inquiry:
-  this.putTest = function() {
-    var testPromise = $http({
-      method: 'GET',
-      url: '/api/developers.json',
-      data: {name: "firshman"}
-
-    });
-    return testPromise;
-  };
-
-  this.getTest = function() {
-    var testPromise = $http({
-      method: 'GET',
-      url: '//site.code-care.pro/api/developer'
-
-    });
-    return testPromise;
-  };
-
-  // this.getProfileDev = function(){
-  //       var profile = 'FAKE_SERVER/dev.json'; 
-  //       return $resource(profile).query().$promise;
-  //     };
 
   //GET PROJECT PROFILE
   this.getProfileProject = function(id) {
@@ -59,7 +35,7 @@ function APIService($http, $resource, config) {
   this.getProfileDev = function(id) {
     var profilePromise = $http({
       method: 'GET',
-      url: 'FAKE_SERVER/devId_'+id+'.json'
+      url: config.API + 'developer/' + id
     });
     return profilePromise;
   };  
