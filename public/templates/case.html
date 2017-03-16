@@ -11,7 +11,7 @@
         ng-mouseenter = "showDetailsOnCard(item)">
         <div>
           <p class="dev-image-wrap">
-            <img ng-src="{{item.image}}" alt="{{item.firstname}}" />
+            <img ng-src="{{item.avatar}}" alt="{{item.name}}" />
           </p>
           <p class="go-to"><a ui-sref="project({id: item.id})" class="see_more-animation hexagon-btn"><span> Go to <br /> profile</span></a></p>
       </div>
@@ -24,7 +24,7 @@
     <div id="study-card">
       <figure class="study-block">
         <div>
-          <p><img ng-src="{{card.image}}" alt="{{card.name}}" /></p>
+          <p><img ng-src="{{card.avatar}}" alt="{{card.name}}" /></p>
           <figcaption>{{card.name}}</figcaption>
         </div>
       </figure>
@@ -39,7 +39,7 @@
     </div>
     <ul class="study-technology-list">
       <li ng-repeat="technologie in card.technologies track by $index">
-        <img ng-src="{{technologie}}" alt="icon" />
+        <img ng-src="{{technologie.image}}" alt="icon" />
       </li>
     </ul>
   </div>

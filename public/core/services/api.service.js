@@ -17,7 +17,7 @@ function APIService($http, $resource, config) {
   this.getProjects = function() {
     var projectsPromise = $http({
       method: 'GET',
-      url: config.projects_API
+      url: config.API + 'project'
     });
     return projectsPromise;
   };

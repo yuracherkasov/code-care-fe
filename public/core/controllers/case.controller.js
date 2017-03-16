@@ -21,7 +21,7 @@ function CaseStudyController($scope, API) {
 
   $scope.showDetailsOnCard = function(item) {
     $scope.card = item;
-  }
+  };
 
   $scope.fixFilterParams = function(position, flag) {
     filterParams = position;
@@ -31,7 +31,13 @@ function CaseStudyController($scope, API) {
   $scope.setClass = function(item) {
     var className;
     if (flage) {
-      className = "black-mask";
+      if (item.technologies.some(function (item) {
+          return item.name == filterParams
+        })) {
+        className = "";
+      } else {
+        className = "black-mask";
+      }
     }
     if (item.technologies.hasOwnProperty(filterParams)) {
       className = "green-mask";
