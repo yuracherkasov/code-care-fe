@@ -31,15 +31,15 @@
     </h3>
   </div>
   <ul class="dev-card-skills">
-    <li ng-repeat="(skill, val) in card.skills">
+    <li ng-repeat="skill in card.skills">
       <!-- <p>{{getSkill(skill)}}</p> -->
-      <p>{{skill}}</p>
+      <p>{{skill.technology.name}}</p>
       <p class="skill">
         <span class="active"></span>
-        <span class="{{(val>=2)?'active':''}}"></span>
-        <span class="{{(val>=3)?'active':''}}"></span>
-        <span class="{{(val>=4)?'active':''}}"></span>
-        <span class="{{(val==5)?'active':''}}"></span>
+        <span class="{{(skill.level>=2)?'active':''}}"></span>
+        <span class="{{(skill.level>=3)?'active':''}}"></span>
+        <span class="{{(skill.level>=4)?'active':''}}"></span>
+        <span class="{{(skill.level==5)?'active':''}}"></span>
       </p>
     </li>
   </ul>

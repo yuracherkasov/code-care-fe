@@ -1,12 +1,23 @@
 angular
 	.module("ccApp").
 
-directive('technologiesList', ['$timeout', '$window', function($timeout, $window) {
+directive('technologiesList', ['$timeout', '$window', 'API', function($timeout, $window, API) {
 	return {
 		restrict: 'E',
 		templateUrl: 'public/templates/filter.directive.html',
 		replace: true,
 		link: function(scope, element, attrs) {
+            scope.technologies = [];
+            scope.categories = [];
+			API.getTechnologies().then(function (response) {
+				scope.technologies = response.data;
+				response.data.map(function (item) {
+					if(scope.categories.indexOf(item.category) == -1) {
+                        scope.categories.push(item.category)
+                    }
+                });
+            });
+
 			var w = $window;
 			var desktopWidth,
 				position,

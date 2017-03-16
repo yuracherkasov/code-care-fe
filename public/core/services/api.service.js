@@ -38,5 +38,13 @@ function APIService($http, $resource, config) {
       url: config.API + 'developer/' + id
     });
     return profilePromise;
-  };  
+  };
+
+    this.getTechnologies  = function() {
+        var technologies = $http({
+            method: 'GET',
+            url: config.API + 'technology'
+        });
+        return technologies;
+    };
 };
