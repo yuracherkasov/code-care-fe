@@ -1,7 +1,7 @@
 
 <div id="profile-page" style=" 
     background: url('public/img/profile-bg2.png') no-repeat 87% center,
-                url('{{profile.background}}') no-repeat right center;
+                url('{{profile.avatar_large}}') no-repeat right center;
     background-size: contain;">
 
     <h1 class="page-header">Profile</h1>
@@ -9,7 +9,7 @@
         <div class="developer-profile-header">
             <div class="developer-profile-photo">
                 <div>
-                    <img ng-src="{{profile.image}}" alt="developer">
+                    <img ng-src="{{profile.avatar}}" alt="developer">
                 </div>
             </div>
             <div id="developer-name">
@@ -20,14 +20,14 @@
         <div id="developer-info">
             <div id="developer-skills">
                 <ul class="dev-skills">
-                    <li ng-repeat="(skill, val) in profile.skills">
-                      <p>{{skill}}</p>
+                    <li ng-repeat="skill in profile.skills">
+                      <p>{{skill.technology.name}}</p>
                       <p class="skill">
                         <span class="active"></span>
                         <span class="active"></span>
-                        <span class="{{(val>=3)?'active':''}}"></span>
-                        <span class="{{(val>=4)?'active':''}}"></span>
-                        <span class="{{(val==5)?'active':''}}"></span>
+                        <span class="{{(skill.level>=3)?'active':''}}"></span>
+                        <span class="{{(skill.level>=4)?'active':''}}"></span>
+                        <span class="{{(skill.level==5)?'active':''}}"></span>
                       </p>
                     </li>
                 </ul>
@@ -39,25 +39,25 @@
                 </p>
             </div>
         </div>
-        <h2 id="project-h2">Projects</h2>
+        <h2 ng-if="profile.projects.length" id="project-h2">Projects</h2>
 
         <div id="projects-scroll">
             <div class="ss-wrap-js">
                 <div class="project-container" 
                     ng-repeat="project in profile.projects" ng-init="$last && setElHeight()">
                     <figure class="project-screenshot">
-                        <img ng-src={{project.image}} alt="img">
+                        <img ng-src={{project.avatar}} alt="img">
                         <figcaption>{{project.name}}</figcaption>
                     </figure>
                     <ul class="project-technology">
 
-                        <li ng-repeat="technologie in project.technologies track by $index"><img ng-src="public/img/icons-min/{{technologie}}.png" alt="{{technologie}}" /></li>
+                        <li ng-repeat="technology in project.technologies track by $index"><img ng-src="{{ technology.image }}" alt="{{ technology.name }}" /></li>
                     </ul>
 
                     <div class="project-info">
                         <div>
                             <h3>Basic information</h3>
-                            <p>{{project.about}}</p>
+                            <p>{{project.description_developer}}</p>
                             <a ui-sref="post({id: project.id})" class="see_more-animation s_m-proj" >
                                 <span>See more</span>
                             </a>

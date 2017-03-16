@@ -16,7 +16,7 @@ function DevPageController($scope, $stateParams, $document, $window, API, transf
 
 	API.getProfileDev(id).then(function(resolve) {
 		$scope.profile = resolve.data;
-		var str = resolve.data.about;
+		var str = resolve.data.description;
 		$scope.aboutDev = transformResults.parseTextOnParagraf(str);
 		fakeScroll.initEl(el);
 
