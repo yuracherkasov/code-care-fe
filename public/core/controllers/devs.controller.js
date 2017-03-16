@@ -5,13 +5,6 @@ controller('DevsPageController', DevsPageController);
 
 function DevsPageController($scope, API) {
 
-  // API.getTest().then(function(response){
-  //   console.log(response)
-  // },
-  // function(err) {
-  //   console.log(err)
-  // })
-
   var filterParams,
       flage;
 
@@ -20,7 +13,9 @@ function DevsPageController($scope, API) {
   (function getDevs() {
     API.getDevs().then(function(response) {
       $scope.devsModel = response.data;
-      $scope.card = response.data[0]
+      $scope.card = response.data[0];
+      $scope.card.firstName = $scope.card.name.split(' ')[0];
+      $scope.card.lastName = $scope.card.name.split(' ')[1] || '';
     })
   })();
 
@@ -42,15 +37,7 @@ function DevsPageController($scope, API) {
 
   $scope.showDetailsOnCard = function(item) {
       $scope.card = item;
-    }
-    // $scope.getSkill = function(skill){
-    //   var b = Object.keys(skill)[0];
-    //   vm.skillMark = skill[b];     
-    //   return b;
-    // }
-
-    // API.getTest().then(function(response){
-    //   console.log(response)
-    // })
-
+      $scope.card.firstName = $scope.card.name.split(' ')[0];
+      $scope.card.lastName = $scope.card.name.split(' ')[1] || '';
+  };
 }
