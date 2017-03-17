@@ -26,8 +26,8 @@ function APIService($http, $resource, config) {
   this.getProfileProject = function(id) {
     var profilePromise = $http({
       method: 'GET',
-      url: 'FAKE_SERVER/projectId_'+id+'.json'
-    })
+      url: config.API + 'project/' + id
+    });
       return profilePromise;
     };
 

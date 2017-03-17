@@ -1,12 +1,12 @@
  
 <div class="pp-header">
-    <img ng-src={{content.image}} alt="img">
+    <img ng-src={{content.avatar}} alt="img">
     <div class="img-parent">
         <div class="pp-header-table">
             <div class="pp-header-cell">
                 <div class="pp-header-text">
                     <h1 ng-bind-html="sce.trustAsHtml(header)"></h1>
-                    <p ng-bind="content.h2"></p>
+                    <p ng-bind="content.description_short"></p>
                 </div>
             </div>
         </div>
@@ -22,8 +22,8 @@
 
         <div class="ppslider-wrap">
             <div id="pp-slider" project-slider>  
-                  <img class="step1" ng-src="{{content.screenshot1}}" alt="image">
-                  <img class="step2" ng-src="{{content.screenshot2}}" alt="image">  
+                  <img class="step1" ng-src="{{content.product_image}}" alt="image">
+                  <img class="step2" ng-src="{{content.product_image}}" alt="image">
             </div>
         </div>    
     </div>
@@ -31,10 +31,10 @@
     <h2 class="pp-head">TECHNOLOGIES USED</h2>
 
 
-    <div class="pp-technologies" style="background-image: url('{{content.background}}');">
+    <div class="pp-technologies" style="background-image: url('{{content.background_image}}');">
         <ul class="pp-icons-list">
-            <li ng-repeat="technologie in technologies">
-                <img ng-src="public/img/icons-min/{{technologie}}.png" alt="{{technologie}}">
+            <li ng-repeat="technologie in content.technologies">
+                <img ng-src="{{technologie.image}}" alt="{{technologie.name}}">
             </li>
         </ul>
         <div class="pp-counter-block">
@@ -45,11 +45,11 @@
                 </li>
                 <li>
                     <span class="name-count">Hours spend</span>
-                    <p class="pp-count">{{content.hours_spend}}h</p>
+                    <p class="pp-count">{{content.hours_spent}}h</p>
                 </li>
                 <li>
                     <span class="name-count">Coffe drinked</span>
-                    <p class="pp-count">{{content.coffe_drinked}}</p>
+                    <p class="pp-count">{{content.coffee_drinked}}</p>
                 </li>
             </ul>
         </div>
@@ -65,10 +65,16 @@
         <div class="pp-right">
             <h3>Developers that were involved</h3>
             <ul class="involved-devs">
-                <li ng-repeat="(num, img) in involvedDevs" class="hexagon">
+                <li class="hexagon">
                     <div>
-                        <img ng-src={{img}} alt="image"/>
-                        <a ui-sref="developer({id: num})" class="link-block"></a>
+                        <img ng-src="{{ content.lead_developer.avatar }}" alt="">
+                        <a ui-sref="developer({id: content.lead_developer.id})" class="link-block"></a>
+                    </div>
+                </li>
+                <li ng-repeat="dev in content.developers" class="hexagon">
+                    <div>
+                        <img ng-src={{dev.avatar}} alt="image"/>
+                        <a ui-sref="developer({id: dev.id})" class="link-block"></a>
                     </div>                    
                 </li>
             </ul>
