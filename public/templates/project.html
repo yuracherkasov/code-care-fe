@@ -79,14 +79,14 @@
                 </li>
             </ul>
 
-            <div class="involve-dev-info">
+            <div class="involve-dev-info" ng-if="content.customer_avatar">
                 <div class="hexagon">
                     <div>
-                        <img ng-src={{content.recall.image}} alt="image"/>
+                        <img ng-src={{content.customer_avatar}} alt="image"/>
                     </div>
                 </div>
-                <h4>{{content.recall.name}}</h4>
-                <p>{{content.recall.text}}</p>
+                <h4>{{content.customer_name}}</h4>
+                <p>{{content.customer_review}}</p>
             </div>
         </div>    
     </div>
