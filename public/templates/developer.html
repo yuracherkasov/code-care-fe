@@ -1,7 +1,7 @@
 
 <div id="profile-page" style=" 
     background: url('public/img/profile-bg2.png') no-repeat 87% center,
-                url('uploads/{{profile.avatar_large.path}}/{{ profile.avatar_large.filename }}') no-repeat right center;
+                url('{{profile.avatar_large.path}}') no-repeat right center;
     background-size: contain;">
 
     <h1 class="page-header">Profile</h1>
@@ -9,7 +9,7 @@
         <div class="developer-profile-header">
             <div class="developer-profile-photo">
                 <div>
-                    <img ng-src="uploads/{{profile.avatar.path}}/{{ profile.avatar.filename }}" alt="developer">
+                    <img ng-src="{{profile.avatar.path}}" alt="developer">
                 </div>
             </div>
             <div id="developer-name">
