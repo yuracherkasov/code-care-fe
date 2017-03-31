@@ -8,7 +8,8 @@
     </div>
 
     <ul ng-repeat="category in categories" class="categories-list web" ng-show = "showList === category">
-      <li ng-repeat="tech in technologies" ng-if="tech.category == category"><img ng-src="{{ tech.image }}" height="30" alt="{{ tech.name }}"></li>
+      <li ng-repeat="tech in technologies" ng-if="tech.category == category"><img ng-src="{{ tech.full_image.path }}" height="30" alt="{{ tech.name }}"></li>
+      <div id="reset-filter">Reset filter</div>
     </ul>
   </div>
 </div>

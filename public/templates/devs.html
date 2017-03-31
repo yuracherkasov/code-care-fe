@@ -9,7 +9,7 @@
         ng-mouseenter = "showDetailsOnCard(item)">
       <div>
         <p class="dev-image-wrap">
-          <img ng-src="{{item.avatar}}" alt="{{item.name}}" />
+          <img ng-src="uploads/{{item.avatar.path}}/{{ item.avatar.filename }}" alt="{{item.name}}" />
         </p>
         <p class="go-to"><a ui-sref="developer({id: item.id})" class="see_more-animation hexagon-btn"><span> Go to <br /> profile</span></a></p>
         <!-- <p class="go-to"><span> Go to <br /> profile</span></p> -->
@@ -22,7 +22,7 @@
   <div class="dev-card-header">
     <div class="dev-card-image">
       <div>
-        <img ng-src="{{card.avatar}}" alt=""/>
+        <img ng-src="uploads/{{card.avatar.path}}/{{ card.avatar.filename }}" alt=""/>
       </div>
     </div>
     <h3 class="dev-card-name">

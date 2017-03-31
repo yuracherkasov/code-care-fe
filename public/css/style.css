@@ -2758,6 +2758,14 @@ footer {
 .network-social.ng-hide{
     left: 200%;
 }
+
+#reset-filter {
+    cursor: pointer;
+}
+
+#reset-filter:hover {
+    color: blue;
+}
 /*------------------------------------------------------------------------------------------------------------------ media */
 @media (max-width: 1600px){
     .products-list li{

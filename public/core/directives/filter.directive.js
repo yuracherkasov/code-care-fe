@@ -85,7 +85,7 @@ directive('technologiesList', ['$timeout', '$window', 'API', function($timeout, 
 					scope.fixFilterParams(position, flag);
 					target.classList.add("active");
 					activeIcon = target;
-				} else if (target.tagName == 'DIV') {
+				} else if (target.getAttribute('id') == 'reset-filter') {
 					scope.fixFilterParams(false, false);
 					scope.header = "Filters";
 					if (activeIcon) {

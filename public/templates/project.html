@@ -1,6 +1,6 @@
  
 <div class="pp-header">
-    <img ng-src={{content.avatar}} alt="img">
+    <img ng-src={{content.avatar.path}} alt="img">
     <div class="img-parent">
         <div class="pp-header-table">
             <div class="pp-header-cell">
@@ -22,8 +22,7 @@
 
         <div class="ppslider-wrap">
             <div id="pp-slider" project-slider>  
-                  <img class="step1" ng-src="{{content.product_image}}" alt="image">
-                  <img class="step2" ng-src="{{content.product_image}}" alt="image">
+                  <img ng-repeat="project_image in content.project_images" class="step1" ng-src="{{project_image.path}}" alt="image">
             </div>
         </div>    
     </div>
@@ -31,10 +30,10 @@
     <h2 class="pp-head">TECHNOLOGIES USED</h2>
 
 
-    <div class="pp-technologies" style="background-image: url('{{content.background_image}}');">
+    <div class="pp-technologies" style="background-image: url('{{content.background_image.path}}');">
         <ul class="pp-icons-list">
             <li ng-repeat="technologie in content.technologies">
-                <img ng-src="{{technologie.image}}" alt="{{technologie.name}}">
+                <img ng-src="{{technologie.image.path}}" alt="{{technologie.name}}">
             </li>
         </ul>
         <div class="pp-counter-block">
@@ -73,7 +72,7 @@
                 </li>
                 <li ng-repeat="dev in content.developers" class="hexagon">
                     <div>
-                        <img ng-src={{dev.avatar}} alt="image"/>
+                        <img ng-src={{dev.avatar.path}} alt="image"/>
                         <a ui-sref="developer({id: dev.id})" class="link-block"></a>
                     </div>                    
                 </li>
@@ -82,7 +81,7 @@
             <div class="involve-dev-info" ng-if="content.customer_avatar">
                 <div class="hexagon">
                     <div>
-                        <img ng-src={{content.customer_avatar}} alt="image"/>
+                        <img ng-src={{content.customer_avatar.path}} alt="image"/>
                     </div>
                 </div>
                 <h4>{{content.customer_name}}</h4>
