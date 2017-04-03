@@ -46,7 +46,7 @@
                 <div class="project-container" 
                     ng-repeat="project in profile.projects" ng-init="$last && setElHeight()">
                     <figure class="project-screenshot">
-                        <img ng-src={{project.avatar}} alt="img">
+                        <img ng-src={{project.avatar.path}} alt="img">
                         <figcaption>{{project.name}}</figcaption>
                     </figure>
                     <ul class="project-technology">

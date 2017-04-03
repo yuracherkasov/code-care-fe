@@ -2485,6 +2485,7 @@ footer {
     float: left;
     display: inline-block;
     padding-right: 15%;
+    box-sizing: content-box !important;
 }
 #developer-about {
     overflow: hidden;
@@ -2786,6 +2787,7 @@ footer {
     }
     #developer-skills{
         padding-right: 10%;
+        box-sizing: content-box !important;
     }
 }
 @media (max-width: 1400px){
@@ -2865,6 +2867,7 @@ footer {
     }
     #developer-skills{
         padding-right: 7%;
+        box-sizing: content-box !important;
     }
     .post-content{
         min-width: 200px;
@@ -3028,6 +3031,7 @@ footer {
     }
     #developer-skills{
         padding-right: 14%;
+        box-sizing: content-box !important;
     }
     #lets-start-btn,
     #projects-scroll,
@@ -3360,7 +3364,7 @@ footer {
         padding: 45px 1% 5px;
     }
     .pp1 .pp-left{
-        width: 65%;
+        width: 100%;
     }
     .pp1 .pp-right{
         padding-left: 6%;
@@ -3380,8 +3384,7 @@ footer {
         padding-left: 0;
     }
     .ppslider-wrap{
-        width: 70%;
-        float: right;
+        width: 100%;
         padding-left: 0;
         margin-right: -40%;
     }
@@ -3486,6 +3489,7 @@ footer {
     }
     #developer-skills {
         padding-right: 7%;
+        box-sizing: content-box !important;
     }
     .project-info{
         padding-left: 1%;
@@ -3594,10 +3598,6 @@ footer {
         height: 122px;
         line-height: 125px;
         font-size: 38px;
-    }
-    .ppslider-wrap{
-        width: 85%;
-        margin-right: -55%;
     }
     .name-count{
         font-size: 26px;
