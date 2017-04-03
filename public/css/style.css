@@ -2215,7 +2215,7 @@ footer {
 }
 .ppslider-wrap{
     text-align: left;
-    padding-top: 15px;
+    padding-top: 100px;
     overflow: hidden;
     padding-left: 5%;
     /*float: left;
@@ -2900,6 +2900,15 @@ footer {
     .career-footer-img-black > img{
         height: 100%;
         width: auto;
+    }
+
+    .pp-left {
+        float: none;
+        width: 100%;
+    }
+
+    .ppslider-wrap {
+        padding: 0;
     }
 }
 @media (max-width: 1150px){

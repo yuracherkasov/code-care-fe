@@ -1,0 +1,7 @@
+<div class="carousel slide" data-ride="carousel" data-interval="{{interval}}">
+    <div class="carousel-inner" role="listbox">
+        <div class="item" ng-repeat="project_image in images" ng-class="{active: $index === 0}">
+            <img ng-src="{{project_image.path}}" alt="image">
+        </div>
+    </div>
+</div>

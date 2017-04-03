@@ -1,36 +1,26 @@
 angular
 	.module("ccApp").
 
-directive('projectSlider', ['$interval', function($interval) {
-	return function(scope, element, attrs) {
+directive('projectSlider', function () {
+		return {
+			restrict: 'E',
+			scope: {
+				images: '=',
+				interval: '='
+			},
+			templateUrl: '/public/templates/slider.directive.html',
+			link: function (scope, element) {
+					scope.element = element;
+			},
+			controller: function ($scope, $timeout) {
+          $scope.$watch('element', function (element) {
+							if (!element)
+									return;
 
-		var imgs = element.find('img');
-		var image = imgs[0];
-		var image2 = imgs[1];
-
-		var animationInterval;
-
-		scope.runInterval = function(){
-
-			animationInterval = $interval(function(){
-			image2.classList.toggle("step1");
-			image2.classList.toggle("step2");
-			image.classList.toggle("step2");
-			image.classList.toggle("step1");
-			}, 7000)
+							$timeout(function () {
+								$($scope.element).children().eq(0).carousel();
+							});
+          });
+      }
 		}
-		scope.runInterval()
-
-		scope.stopInterval = function(){
-			$interval.cancel(animationInterval);
-		};
-
-		element.on("mouseenter", function(e){
-			e.preventDefault();
-			scope.stopInterval();
-		});
-		element.on("mouseleave", function(){
-			scope.runInterval();
-		});		
-	}
-}]);
+});

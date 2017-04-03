@@ -16,13 +16,11 @@ function ProjProfileController($scope, $stateParams, $sce, API, transformResults
 		var header = content.title;
 		var mainIdea = content.description;
 		var solution = content.description_solution;
-		var technologies = content.technologies;
 
 		$scope.content = content;
 		$scope.header = transformResults.parseTextOnNewLine(header);
 		$scope.mainIdea = transformResults.parseTextOnParagraf(mainIdea);
 		$scope.solution = transformResults.parseTextOnParagraf(solution);
-		$scope.technologies = transformResults.lowercaseWithArray(technologies);
 	})
 
 }

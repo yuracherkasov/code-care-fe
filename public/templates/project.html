@@ -21,9 +21,7 @@
         </div>
 
         <div class="ppslider-wrap">
-            <div id="pp-slider" project-slider>  
-                  <img ng-repeat="project_image in content.project_images" class="step1" ng-src="{{project_image.path}}" alt="image">
-            </div>
+            <project-slider images="content.project_images" interval="3000"></project-slider>
         </div>    
     </div>
 
