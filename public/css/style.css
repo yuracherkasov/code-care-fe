@@ -2760,11 +2760,14 @@ footer {
 }
 
 #reset-filter {
+    font-family: HelveticaNeueCyrMedium;
     cursor: pointer;
+    display: block;
+    padding: 20px 4px 4px 4px;
 }
 
 #reset-filter:hover {
-    color: blue;
+    color: #669cf2;
 }
 /*------------------------------------------------------------------------------------------------------------------ media */
 @media (max-width: 1600px){
