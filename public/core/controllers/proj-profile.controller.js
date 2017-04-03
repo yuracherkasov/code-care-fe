@@ -5,7 +5,7 @@ controller('ProjProfileController', ProjProfileController);
 
 function ProjProfileController($scope, $stateParams, $sce, API, transformResults) {
 
-	$scope.stateAnimateClassName = "with-right";
+	$scope.stateAnimateClassName = "page-animation__slide-right";
 
 	var id = $stateParams.id;
 

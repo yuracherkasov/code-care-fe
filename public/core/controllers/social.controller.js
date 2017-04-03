@@ -5,7 +5,7 @@ controller('SocialController', SocialController);
 
 function SocialController($scope, $timeout, $http, networkService) {
 
-	$scope.stateAnimateClassName = "with-left";
+	$scope.stateAnimateClassName = "page-animation__slide-left";
 
 	$scope.loadUpwork = function(name) {
 		$scope.social = name;

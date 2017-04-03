@@ -4,7 +4,7 @@ angular
   controller('HomeController', HomeController);
   function HomeController($scope, $interval){
 
-    $scope.stateAnimateClassName = "fade";
+    $scope.stateAnimateClassName = "page-animation__fade";
 
     $scope.slideIndex = 0;
     

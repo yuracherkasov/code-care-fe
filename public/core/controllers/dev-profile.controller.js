@@ -5,7 +5,7 @@ controller('DevPageController', DevPageController);
 
 function DevPageController($scope, $stateParams, $document, $window, API, transformResults, fakeScroll) {
 
-	$scope.stateAnimateClassName = "with-left";
+	$scope.stateAnimateClassName = "page-animation__slide-left";
 
 	var id = $stateParams.id;
 	var doc = $document[0];

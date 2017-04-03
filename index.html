@@ -3,12 +3,11 @@
 <head>
   <title>Code & care</title>
 
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="public/css/simple-scrollbar.css">
   <link rel="stylesheet" href="public/css/style.css">
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 
-  <script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="bower_components/angular/angular.js"></script>
   <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
@@ -60,7 +59,7 @@
 
   <div class="main">
 
-    <div ui-view class={{stateAnimateClassName||"with-bottom"}}></div>
+    <div ui-view class={{stateAnimateClassName||"page-animation__slide-bottom"}}></div>
           
   </div>
   <footer>

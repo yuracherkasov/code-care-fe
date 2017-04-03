@@ -111,22 +111,22 @@ body {
     left: 0;
 }
 /******state animation************/
-.with-bottom.ng-enter{
+.page-animation__slide-bottom{
   position: relative;
   animation: upfrombottom .4s ease-out both;
   -webkit-animation: frombottom .4s ease-out both;
 }
-.with-right.ng-enter{
+.page-animation__slide-right{
   position: relative;
   animation: fromright .4s ease-out both;
   -webkit-animation: fromright .4s ease-out both;
 }
-.with-left.ng-enter{
+.page-animation__slide-left{
   position: relative;
   animation: fromleft .4s ease-out both;
   -webkit-animation: fromleft .4s ease-out both;
 }
-.fade.ng-enter{
+.page-animation__fade{
   position: relative;
   animation: fadeout .5s ease-out both;
   -webkit-animation: fadeout .5s ease-out both;
@@ -1002,7 +1002,7 @@ footer {
 .hexagon-block.products{
     padding-top: 10px;
 }
-.page-header{
+.page-header-custom{
     text-align: center;
     font-size: 30px;
     padding: 46px;
@@ -2789,7 +2789,7 @@ footer {
     }
 }
 @media (max-width: 1400px){
-    .page-header.strait{
+    .page-header-custom.strait{
         box-sizing: border-box;
         width: 72%;
     }
@@ -2921,7 +2921,7 @@ footer {
     .main{
         padding-top: 60px;
     }
-    .page-header.strait{
+    .page-header-custom.strait{
         width: 66%;
     }
     .main{
@@ -2953,7 +2953,7 @@ footer {
     .work-example-left{
         min-width: 400px;
     }
-    .page-header{
+    .page-header-custom {
         margin: 0;
     }
     #menu-btn{
@@ -3109,7 +3109,7 @@ footer {
     }
 }    
 @media (max-width: 960px){
-    .page-header.strait{
+    .page-header-custom.strait{
         width: 100%;
     }
     .products-list{

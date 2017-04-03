@@ -9,7 +9,7 @@ function CaseStudyController($scope, API) {
   var flage = false;
 
   $scope.caseModel = [];
-  $scope.stateAnimateClassName = "with-right";
+  $scope.stateAnimateClassName = "page-animation__slide-right";
 
   
   (function getCase() {
