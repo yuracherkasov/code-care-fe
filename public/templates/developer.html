@@ -34,7 +34,7 @@
             </div>
             <div id="developer-about">
                 <h3>About</h3>
-                <p ng-repeat="paragraf in aboutDev">
+                <p ng-repeat="paragraf in aboutDev track by $index">
                     {{paragraf}}
                 </p>
             </div>
