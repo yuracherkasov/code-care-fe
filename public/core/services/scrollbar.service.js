@@ -92,7 +92,7 @@ angular
         var css = getComputedStyle(el);
         var contentHeight = el.getElementsByClassName("ss-wrap-js")[0].clientHeight;
         var cssMaxHeight = parseInt(css['max-height']);
-        if (contentHeight > cssMaxHeight) {
+        if (contentHeight > cssMaxHeight + 30) {
           el.style.height = css['max-height'];
           stopScroll(el);
         } else {

@@ -25,7 +25,7 @@ directive('technologiesList', ['$timeout', '$window', 'API', function($timeout, 
 				flag;
 			var responsiveWidth = 1400;
 			var startHeight = 77;
-			var normalHeight = 236;
+			var normalHeight = 276;
 			var changeEl = element.children();
 
 			scope.header = "Filters";
