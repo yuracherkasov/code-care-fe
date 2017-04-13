@@ -817,7 +817,7 @@ footer {
     width: 65%;
     position: absolute;
     right: -16px;
-    margin-top: 28px;
+    margin-top: 10px;
 }
 .dev-card-name p {
     font-size: 30px;
@@ -2247,7 +2247,7 @@ footer {
     margin-left: 3px;
 }
 .involved-devs .hexagon:nth-child(5n){
-     margin-left: 66px;
+     margin-left: 68px;
 }
 .involved-devs .hexagon:first-child{
     display: block;
@@ -2560,6 +2560,7 @@ footer {
     line-height: 1.15;
     padding: 15px;
     font-family: 'HelveticaNeueCyrLight';
+    box-sizing: border-box;
 }
 .project-screenshot img{
     width: 100%;
