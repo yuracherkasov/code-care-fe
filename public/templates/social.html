@@ -10,7 +10,8 @@
     <div class="network-wrapper">
         <div class="network-social" ng-show="social==='facebook'">
             <div id="fb-root"></div>
-            <div class="fb-post" data-href="{{FbPostUrl}}" data-width="500" data-show-text="true"></div>
+            <div class="fb-post" data-href="{{FbPostUrl}}" data-width="500" data-show-text="true">
+            </div>
         </div>
         <div class="network-social" ng-show="social==='upwork'"> 
             <p class="network-profile">
@@ -18,7 +19,7 @@
             </p>
         </div>
         <div class="network-social" ng-show="social==='twitter'">
-            <div id="tw-post"></div>
+            <div id="tw-post" style="width: 500px"></div>
         </div>
     </div>
 </div>
