@@ -7,9 +7,21 @@ angular
           delete $window.FB
         };
         var js, fjs = d.getElementsByTagName(s)[0];
-        js = d.createElement(s); js.id = id;
+        js = d.createElement(s); 
+        js.id = id;
         js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
         fjs.parentNode.insertBefore(js, fjs);
+      },
+
+      InstgrmInit: function(d, s) {
+        if($window.instgrm){
+          $window.instgrm.Embeds.process();
+        } else {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          js = d.createElement(s);
+          js.src = "//platform.instagram.com/en_US/embeds.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }        
       },
 
       TwInit: function(d, s, id){

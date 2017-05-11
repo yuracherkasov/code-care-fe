@@ -3,7 +3,7 @@ angular
 
 controller('SocialController', SocialController);
 
-function SocialController($scope, $timeout, $http, networkService) {
+function SocialController($scope, $document, networkService) {
 
 	$scope.stateAnimateClassName = "page-animation__slide-left";
 
@@ -13,13 +13,15 @@ function SocialController($scope, $timeout, $http, networkService) {
 	$scope.TwPostUrl = "842446743568506880";
 
 	$scope.initSocial = function() {
-		networkService.FbInit(document, 'script', 'facebook-jssdk');
-		networkService.TwInit(document, 'script', 'twitter-jssdk')
+		var d = $document[0];
+		networkService.FbInit(d, 'script', 'facebook-jssdk');
+		networkService.InstgrmInit(d, 'script');
+		networkService.TwInit(d, 'script', 'twitter-jssdk')
 		.then( 
 			function(){
 				twttr.widgets.createTweet(
 				  $scope.TwPostUrl,
-				  document.getElementById('tw-post'),
+				  d.getElementById('tw-post'),
 				  {
 				    width: 500
 				  }
